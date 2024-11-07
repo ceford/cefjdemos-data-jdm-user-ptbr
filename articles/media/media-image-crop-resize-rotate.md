@@ -1,79 +1,38 @@
-<!-- Filename: J4.x:Media:_Image_Crop_Resize_Rotate / Display title: Media: Image Crop Resize Rotate/pt-br -->
+<!-- Filename: J4.x:Media:_Image_Crop_Resize_Rotate / Display title: Cortar Redimensionar e Girar Imagem   -->
 
-## Problema com imagens
+## Introdução
 
-Após o upload, você pode ter percebido que há um problema com uma imagem
-enviada. Problemas comuns incluem:
+Após o upload, você pode ter percebido que há um problema com uma imagem carregada. Problemas comuns incluem:
 
-- A imagem é muito grande;
-- a parte interessante de uma imagem está em uma pequena área;
-- a imagem é girada em 90 graus.
+- A imagem é muito grande.
+- A parte interessante da imagem está em uma área pequena.
+- A imagem está rotacionada em 90 graus.
 
-Esses são os problemas que o componente de mídia foi projetado para
-lidar.
+Esses são os problemas que o componente de Mídia pode resolver.
 
-Como exemplo, a imagem a seguir de um suporte de bolo é muito grande em
-1200 por 1600 pixels e 268 kilobytes, é muito alta para o artigo e foi
-girada 90 graus no upload. Ela foi girada de volta ao normal e agora
-precisa ser cortada e redimensionada.
+Como exemplo, a imagem a seguir mostra um grupo de animais que está um pouco grande demais para o seu propósito pretendido. A imagem pode ser cortada ou redimensionada.
 
-<img
-src="https://docs.joomla.org/images/0/06/J4.x-media-crop-resize-rotate-en.jpg"
-decoding="async" data-file-width="800" data-file-height="908"
-width="800" height="908" alt="J4.x-media-crop-resize-rotate-en.jpg" />
+![Imagem de animais](../../../en/images/media/media-crop-serengeti.png)
 
-## Cortar
+## Recortar
 
-A ferramenta de corte permite arrastar para definir uma área de corte.
-Isso é um pouco complicado: clique e arraste para iniciar, depois pegue
-e arraste os cantos ou superior ou inferior ou ambos os lados. Você pode
-definir uma, ou nenhuma, proporção como achar melhor. Você pode arrastar
-o interior da caixa que definiu para movê-la para centralizar o assunto.
-Você também pode ajustar manualmente os deslocamentos dos eixos x e y e
-a largura e a altura.
+A ferramenta de recorte permite que você arraste para definir uma área de recorte. Isso é um pouco complicado. Primeiro, defina uma proporção de aspecto ou Nenhuma conforme achar adequado. Em seguida, clique e arraste os cantos, a parte superior ou inferior ou qualquer um dos lados da caixa de seleção que está delineada em azul. Você pode arrastar o interior da caixa de seleção para movê-la e centralizar seu assunto. Você também pode ajustar manualmente os deslocamentos dos eixos X e Y, assim como a largura e altura.
 
-O seletor de qualidade indica quanta compactação deve ser aplicada. Se
-for muito, o tamanho da imagem em bytes será muito grande. Se for muito
-pouco, a qualidade de exibição da imagem será ruim.
+Observe atentamente a captura de tela e você verá um contorno da caixa de seleção da área a ser incluída no recorte proposto.
 
-Aviso de falha!
+O seletor de qualidade indica quanta compressão deve ser aplicada. Se for muita, o tamanho da imagem em bytes será muito grande. Se for pouca, a qualidade de exibição da imagem será pobre. **Aviso de Bug:** No momento, o controle de Qualidade não está funcionando. Isso resulta em uma imagem modificada sendo maior do que precisa ser, às vezes muito maior do que a original!
 
-No momento o controle de qualidade não está funcionando. Isso resulta em
-uma imagem modificada maior do que precisa ser, às vezes muito maior que
-a original!
+Quando estiver satisfeito, selecione o botão *Salvar* na barra de ferramentas.
 
-Quando estiver satisfeito, selecione o botão salvar na barra de
-ferramentas.
-
-A imagem recém-cortada será salva. **Não há como desfazer!** Na
-visualização de corte, a caixa de corte e os valores nos campos de corte
-estarão errados (uma falha?) mas o corte estará feito, então siga em
-frente.
+A imagem recém-recortada será salva. **Não há opção de Desfazer!** Na visualização de Recorte, a caixa de recorte e os valores nos campos de recorte estarão errados (outro bug?), mas o recorte está feito, então siga em frente.
 
 ## Redimensionar
 
-A imagem neste exemplo ainda é muito grande em 1070 pixels quadrados.
-Também é grande em 453 kilobytes. 800 pixels devem ser suficientes para
-o uso pretendido.
-
-Definir a largura para 800 pixels também define a altura para 800 pixels
-para manter a proporção. Isso dá um tamanho de arquivo de 292 kilobytes,
-que ainda é grande. Reduzir a largura para 640 reduz o tamanho do
-arquivo para 213 kilobytes.
+Para redimensionar uma imagem, selecione uma largura adequada. A altura será ajustada para manter a proporção da imagem original.
 
 ## Girar
 
-Selecione a guia de rotação e o ângulo apropriado.
+Se uma imagem for girada em 90 graus, selecione a guia Girar e o ângulo apropriado.
 
-## Outras informações
+*Traduzido por openai.com*
 
-Nesta série de tutoriais:
-
--  Gerenciando
-  mídia
--  Mídia: Carregar, excluir,
-  renomear
--  Mídia: corte de imagem, redimensionamento,
-  rotação
--  Mídia:
-  Opções

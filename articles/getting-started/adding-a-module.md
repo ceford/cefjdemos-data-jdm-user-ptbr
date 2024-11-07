@@ -1,68 +1,46 @@
-<!-- Filename: J4.x:Getting_Started:_Adding_a_Module / Display title: Introdução: Adicionando um módulo -->
+<!-- Filename: J4.x:Getting_Started:_Adding_a_Module / Display title: Adicionando um Módulo -->
 
 ## Introdução
 
-Módulos são pequenas extensões usadas para propósitos especiais. Às
-vezes, eles estão relacionados a outros itens de conteúdo. Por exemplo,
-um módulo de menu é necessário para exibir os itens de menu usados para
-navegar no site. Às vezes, eles não estão relacionados a nenhum outro
-conteúdo. O conteúdo do módulo geralmente é exibido em caixas acima, ao
-lado ou abaixo do conteúdo da página principal. Além disso, os módulos
-podem ser exibidos em algumas páginas, mas não em outras, e para algumas
-pessoas, mas não para outras.
+Módulos são pequenas extensões usadas para fins específicos. Às vezes, eles estão relacionados a outros itens de conteúdo. Por exemplo, é necessário um módulo de Menu para exibir Itens de Menu usados para navegar pelo Site. Às vezes, eles não estão relacionados a nenhum outro conteúdo. O conteúdo do módulo geralmente é exibido em caixas acima, ao lado ou abaixo do conteúdo principal da página. Além disso, os módulos podem ser exibidos em algumas páginas, mas não em outras, e para algumas pessoas, mas não para outras.
 
-## A lista de módulos do site
+## A Lista de Módulos do Site
 
 Vale a pena dar uma olhada na lista de Módulos (Site). Selecione
-**Conteúdo **→** Módulos do site** no menu do Administrador. Você verá
-os módulos Breadcrumbs, Menu principal e Formulário de início de sessão
-listados. Os títulos das colunas são:
+**Conteúdo → Módulos do Site** no menu do Administrador. Você verá os
+módulos *Breadcrumbs* (Caminho de Navegação), *Menu Principal* e *Formulário de Login* listados. As colunas são:
 
-- **Caixa de seleção.** Selecione ou desmarque todos os itens visíveis
-  na lista.
-- **Símbolo de ordem.** Após a seleção, usado para arrastar os módulos
-  para cima ou para baixo para alterar sua ordem em suas posições
-  atribuídas.
-- **Status.** Publicado ou Não publicado, controla se um módulo será
-  visto.
-- **Título.** Selecione um link de título para editar o módulo.
-- **Posição.** Esta é a posição definida no modelo. As posições óbvias
-  são as breadcrumbs e a barra lateral direita. Existem muitas outras.
-- **Tipo.** O tipo de módulo é fornecido porque pode não ser óbvio no
-  Título.
-- **Páginas.** **Em todas as páginas** é óbvio. Pode ser *Nas páginas
-  selecionadas* ou *Não nas páginas selecionadas*.
-- **Acesso.** Público significa todos. Mas isso pode ser restrito por
-  grupo de usuários, por exemplo, superusuário.
-- **ID.** Um número de identificação atribuído pelo Joomla.
+- **Caixa de Seleção** Seleciona ou desmarca todos os itens visíveis na lista.
+- **Símbolo de Ordem** Após a seleção, é usado para arrastar módulos para cima ou para baixo a fim de
+  alterar sua ordem nas posições atribuídas.
+- **Status** Publicado ou Não Publicado controla se um módulo será
+  visto ou não.
+- **Título** Selecione um link de Título para editar o módulo.
+- **Posição** Esta é a posição definida no template. As
+  posições óbvias são breadcrumbs e barra lateral direita. Existem muitas
+  outras.
+- **Tipo** O tipo de módulo é exibido porque pode não ser óbvio
+  a partir do Título.
+- **Páginas** Um indicador das páginas nas quais um módulo será exibido. Pode ser *Todas*, *Em Páginas Selecionadas*, *Todas exceto Páginas Selecionadas* ou *Nenhuma Página*.
+- **Acesso** Público significa para todos. Mas isso pode ser restringido por Grupo de Usuário,
+  por exemplo, Super Usuário.
+- **ID** Um número de identificação atribuído pelo Joomla.
 
-## Adicionar um novo módulo
+## Adicionar um Novo Módulo
 
-Um bom módulo para praticar é o módulo personalizado. Ele é usado para
-exibir conteúdo arbitrário, como uma mensagem ou anúncio.
+Um bom módulo para praticar é o módulo Personalizado. Ele é usado para exibir conteúdo arbitrário, como uma mensagem ou anúncio.
 
-- Selecione o botão **Novo** na barra de ferramentas. Isso abre uma
-  lista de módulos de(o) site disponíveis.
-- Selecione o módulo **Personalizado**. Isso abre o módulo no formulário
-  de edição.
-- Digite um **título**, por exemplo, *Anúncio*.
-- Digite o texto do **módulo**, por exemplo *Este site está fechando
-  para uma atualização de software às 20:00 de sexta-feira*.
-- Selecione uma **posição** na lista suspensa. Neste caso será a *barra
-  lateral direita* junto com os outros módulos.
-- Defina uma data de **terminar publicação**. Isso é opcional, mas uma
-  coisa óbvia a fazer para que o módulo desapareça após o evento
-  anunciado ter passado.
-- Salvar e fechar. Recarregue o site e veja o resultado. Está na ordem
-  que você quer? Se não:
-  - Na lista de módulos selecione o símbolo de ordem nos títulos das
-    colunas.
-  - Passe o mouse sobre o símbolo da alça para o novo módulo e, em
-    seguida, selecione e arraste-o para cima ou para baixo até a posição
-    desejada. Observe que selecionar um símbolo de cabeçalho de coluna
-    alterna a ordem, portanto, selecione conforme necessário e arraste
-    conforme necessário.
+- Selecione o botão **Novo** na Barra de ferramentas. Isso abrirá uma lista de módulos do Site disponíveis.
+- Selecione o módulo **Personalizado**. Isso abrirá o módulo no formulário de Edição.
+- Insira um **Título**, por exemplo, *Anúncio*.
+- Insira o texto do **Módulo**, por exemplo, *Este site será fechado para uma atualização de software às 20:00 na sexta-feira*.
+- Selecione uma **Posição** na lista suspensa. Neste caso, poderia ser *sidebar-right* junto com os outros módulos.
+- Defina uma data de **Término da Publicação**. Isso é opcional, mas é algo óbvio a se fazer para que o módulo desapareça após o evento anunciado ter passado.
+- **Salvar & Fechar** Recarregue o Site e veja o resultado. Está na ordem que você deseja? Se não:
+  - Na lista de Módulos, selecione o Símbolo de Ordem nos cabeçalhos das colunas.
+  - Passe o cursor sobre o símbolo de alça de arrasto para o novo módulo e, em seguida, selecione e arraste para cima ou para baixo até a posição desejada. Observe que selecionar um símbolo de cabeçalho de coluna alterna a ordem, então selecione conforme necessário e arraste conforme necessário.
 
-Se você quiser outro módulo personalizado com outra mensagem, vá em
-frente e crie um novo módulo personalizado. Você pode ter quantos quiser
-com títulos diferentes.
+Se você deseja outro módulo Personalizado com outra mensagem, vá em frente e crie um Novo módulo Personalizado. Você pode ter quantos quiser com títulos diferentes.
+
+*Traduzido por openai.com*
+

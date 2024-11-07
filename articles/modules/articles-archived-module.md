@@ -1,147 +1,58 @@
-<!-- Filename: J4.x:How_to_Show_a_Calendar_Month_List_of_Archived_Articles_Using_a_Module / Display title: How to Show a Calendar Month List of Archived Articles Using a Module/pt-br -->
+<!-- Filename: J4.x:How_to_Show_a_Calendar_Month_List_of_Archived_Articles_Using_a_Module / Display title: Artigos Arquivados  -->
 
-Joomla!  4.x **<span class="mw-content-ltr" lang="en" dir="ltr">How To
-Show a Calendar Month List of Archived Articles Using a Module</span>**
+## Introdução
 
-## Introduction
+Arquivar artigos é uma das maneiras que o Joomla! ajuda a gerenciar os artigos de um site, pois contribui para reduzir a desorganização no backend. Mas quais visitantes do site devem poder acessar os artigos arquivados?
 
-Archiving articles is one of the ways Joomla! helps you to manage your
-website’s articles.
+Uma maneira de fazer isso é mostrar uma lista de meses de um calendário com os artigos arquivados usando um dos Módulos principais do Joomla. Neste exemplo, um **Módulo de Artigos Arquivados** será configurado para ser exibido na barra lateral do site.
 
-Sometimes you may archive articles as a measure of housekeeping in the
-backend.
+## Criar o Módulo *Artigos - Arquivados*
 
-But what if you want your website visitors to be able to access your
-archived articles?
+Use um dos seguintes métodos:
+* Selecione o item **Módulos** no Painel Inicial. Ou...
+* Selecione **Conteúdo / Módulos do Site** no menu do Administrador.
+* Selecione o item **Artigos Arquivados** na lista de Módulos (Site).
 
-One of the options to do this is to show a calendar month list of your
-archived articles by using one of Joomla’s out of the box Modules.
+Isso irá criar o novo módulo e abrir o módulo para configuração.
 
-In this example we will add an **Articles Archived Module** and set it
-to be displayed in the sidebar of the website.
+## Configurando o Módulo
 
-## Creating the Articles Archived Module
+Para o uso padrão do módulo, há apenas algumas configurações:
 
-<img
-src="https://docs.joomla.org/images/thumb/2/22/J4.x_access_new_module_dashboard-en.png/800px-J4.x_access_new_module_dashboard-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/2/22/J4.x_access_new_module_dashboard-en.png 1.5x"
-data-file-width="1000" data-file-height="607" width="800" height="486"
-alt="J4.x access new module dashboard-en.png" />
+- **Título** Insira um nome para o módulo.
+- **\# de Meses** Defina o número de meses que você deseja exibir. Eles aparecerão como links no front-end. Defina usando as setas para cima/para baixo ou insira um número diretamente no campo.
+- **Exibir/Ocultar Título** Escolha se deseja ou não mostrar o título alternando para *Exibir* ou *Ocultar*.
+- **Posição** Defina uma posição onde você deseja exibir o módulo no front-end. As posições são ditadas pelo seu template. Este exemplo usa a posição *Sidebar Direita* do template Cassiopeia do Joomla.
+- **Status** Por padrão, o status do módulo é **Publicado**. Outras opções são **Não Publicado** e **Lixeira**.
+- **Início da Publicação** Você pode agendar o início da publicação do módulo.
+- **Final da Publicação** Você pode agendar quando parar a publicação do módulo.
+- **Acesso** Se você deseja controlar quem pode ver o módulo no front-end, pode escolher um nível de acesso.
+- **Ordenação** Usado para controlar onde o módulo é exibido dentro da posição que você selecionou. Por exemplo, você pode ter vários módulos na barra lateral e querer que este esteja no topo ou na parte inferior – ou em algum lugar entre outros na barra lateral. Pode ser um pouco confuso no início, pois o campo mostra uma posição numerada e um nome de módulo. O nome pode ser de um módulo que não está publicado. O que lembrar é que o número mais baixo estará no topo e o número mais alto na parte inferior.
+- **Nota** Pode ser útil usar o campo de nota se, por exemplo, você estiver usando o mesmo tipo de módulo em vários lugares.
 
-From the Home Dashboard click the **Modules** + symbol or from the
-Sidebar Menu click the **Content’’ dropdown then the + symbol for** Site
-Modules.
+### Aba de Atribuição de Menu
 
-This will take you to the **Select a Module Type** dashboard.
+Por padrão, o módulo será publicado **Em todas as páginas**.
 
-<img
-src="https://docs.joomla.org/images/thumb/2/2b/J4.x_add_archived_articles_module_btn-en.png/800px-J4.x_add_archived_articles_module_btn-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/2/2b/J4.x_add_archived_articles_module_btn-en.png 1.5x"
-data-file-width="1000" data-file-height="252" width="800" height="202"
-alt="J4.x add archived articles module btn-en.png" />
+Alternativamente, você pode escolher através de uma lista suspensa **Nenhuma página**, **Apenas nas páginas selecionadas** ou **Em todas as páginas, exceto as selecionadas**. As duas últimas opções fornecem uma árvore de menus dos menus usados no site onde você pode selecionar/deselecionar páginas.
 
-Click the + symbol for **Articles – Archived**.
+### Outras Configurações
 
-This will create the new module and open the module for you to configure
-it.
+A aba **Avançado** tem configurações relacionadas ao layout do módulo quando ele é exibido.
 
-## Configuring the Module
+A aba **Permissões** permite controlar o que os grupos de usuários podem fazer com o módulo.
 
-### Module Tab
+## Publicando o Módulo
 
-<img
-src="https://docs.joomla.org/images/thumb/a/ab/J4.x_archived_articles_module_parameters-en.png/800px-J4.x_archived_articles_module_parameters-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/a/ab/J4.x_archived_articles_module_parameters-en.png 1.5x"
-data-file-width="1000" data-file-height="385" width="800" height="308"
-alt="J4.x archived articles module parameters-en.png" />
+Quando estiver pronto, selecione o botão **Salvar & Fechar**.
 
-You control where and how the module will be displayed via the module
-settings panel. When you create the module it will open on the Module
-tab.
+O módulo será publicado na barra lateral do site e exibirá uma lista de links ditada pelo número de meses para exibição configurado no módulo.
 
-**For standard usage of the module there are just a few settings:**
+![Exemplo de Módulo de Artigos Arquivados](../../../en/images/modules/modules-archived-articles.png "Exemplo de Módulo de Artigos Arquivados")
 
-**Title**: Enter a name for the module. You can also choose whether or
-not to show the title by toggling on and off. If you are going to show
-the title, name it as you want it to appear.
+## Dicas
 
-**\# of Months**: Set the number of Months you want to display. These
-will appear as links on the frontend. Set by using the up/down arrows or
-directly enter a number into the field.
+Quanto mais artigos arquivados você tiver, maior será o número de links exibidos pelo módulo. Pode ser mais apropriado limitar o número de links usando categorias ou você pode usar múltiplos Módulos de Artigos Arquivados nomeados de acordo.
 
-**Position**: Set a position where you want to display the module on the
-front end. Positions are dictated by your template. In this example we
-are using Joomla’s Cassiopeia template and have selected the Sidebar
-Right position.
+*Traduzido por openai.com*  
 
-**Status**: By default, the module status is **Published**. Other
-options are **Unpublished** and **Trash**.
-
-**Other settings not shown in screenshot are:**
-
-**Start Publishing**: You can schedule the start of publishing of the
-module.
-
-**Finish Publishing**: You can schedule when to stop publishing the
-module.
-
-**Access**: If you want to control who can see the module on the
-frontend you can choose an access level.
-
-**Ordering**: Used to control where the module displays within the
-position you have selected. For example, you may have a number of
-modules in the sidebar and want this one to be at the top or bottom – or
-somewhere between others in the sidebar. It can be a little confusing at
-first as the field shows a numbered position and a module name. The name
-can be a module that is unpublished. The thing to remember is that the
-lowest number will be at the top and highest number is at the bottom.
-
-**Note**: Can be helpful to use the note field if for example you are
-using the same module type in several places.
-
-### Menu Assignment Tab
-
-By default the module will be published **On all pages**.
-
-Alternatively you can choose via a drop down list **No pages**, **Only
-on the pages selected** or **On all pages except those selected**. The
-last two options provide you with a menu tree of the menus used on the
-website where you can select/deselect pages.
-
-### Other Settings
-
-**Advanced** tab has settings related to layout of the module when it is
-output.
-
-**Permissions** tab allows you to control what user groups can do with
-the module.
-
-You can find out more detailed information here: <a
-href="https://docs.joomla.org/Help4.x:Menu_Item:_Article_Archived/pt-br"
-class="external text" target="_blank" rel="noreferrer noopener">Menu
-Item: Article Archived</a>
-
-## Publishing the Module
-
-When you are ready, click the **Save & Close** button.
-
-The module will be published in the sidebar of the website and display a
-list of links dictated by the number of months you set the module to
-display.
-
-<img
-src="https://docs.joomla.org/images/thumb/0/05/J4.x_archived_articles_module_published-en.png/800px-J4.x_archived_articles_module_published-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/0/05/J4.x_archived_articles_module_published-en.png 1.5x"
-data-file-width="1000" data-file-height="322" width="800" height="258"
-alt="J4.x archived articles module published-en.png" />
-
-## Tips
-
-The more archived articles you have the greater the number of the links
-displayed by the module. It may be more appropriate to limit the number
-of links by using categories or you can use multiple Archived Articles
-Modules named accordingly.

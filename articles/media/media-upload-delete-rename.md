@@ -1,70 +1,31 @@
-<!-- Filename: J4.x:Media:_Upload_Delete_Rename / Display title: Media: Upload Delete Rename/pt-br -->
+<!-- Filename: J4.x:Media:_Upload_Delete_Rename / Display title: Enviar Excluir Renomear  -->
 
-## Funções de mídia simples
+## Funções Simples de Mídia
 
-O tutorial anterior desta série abordou o  gerenciamento de
-mídias
-com sugestões sobre como gerenciar pastas e um resumo de como usar a
-página do componente de mídia. Agora você está pronto para os recursos
-simples de manipulação de mídia. Nesta fase, não importa se você está
-trabalhando com imagens ou arquivos.
+Os recursos simples de manipulação de mídia incluem Upload, Excluir e Renomear. Neste estágio, não importa se você está trabalhando com imagens ou arquivos.
 
-## Carregar
+## Upload
 
-Na tela de mídias, navegue até a pasta onde deseja que o item esteja
-localizado. Observe que o componente de mídias não tem a opção de mover
-um arquivo para outra pasta após o carregamento, mas você pode fazer
-isso com um gerenciador de arquivos do sistema ou com o cPanel.
+Na tela de Mídia, navegue até a pasta onde você deseja que o item esteja localizado. Observe que o componente de mídia não tem uma opção para mover um arquivo para outra pasta após o upload, mas você pode fazer isso com um gerenciador de arquivos do sistema ou do cPanel.
 
-Selecione o botão **carregar** na barra de ferramentas de mídias para
-abrir a caixa de diálogo do navegador de arquivos do sistema. Navegue em
-seu sistema de arquivos local para selecionar a imagem ou o arquivo que
-deseja carregar. Selecione o botão **abrir** da caixa de diálogo. Após
-um pequeno atraso, dependendo do tamanho, o arquivo aparecerá na lista
-de mídias.
+Selecione o botão **Upload** na barra de ferramentas de Mídia para abrir a caixa de diálogo do seu navegador de arquivos do sistema. Navegue pelo seu sistema de arquivos local para selecionar a imagem ou arquivo que você deseja enviar. Selecione o botão **Abrir** da caixa de diálogo. Após um curto atraso, dependendo do tamanho, o arquivo aparecerá na lista de mídia.
 
-**Dicas**
+### Dicas
 
-- As câmeras digitais modernas podem tirar fotos enormes. Você pode
-  querer pré-processar as imagens para cortar e/ou redimensionar antes
-  do carregamento. O componente de mídias pode fazer isso até certo
-  ponto, mas os sites que usam hospedagem compartilhada barata podem ter
-  problemas de memória. Defina tamanhos de imagem finais para atender o
-  propósito. Em caso de dúvida, não exceda 800 pixels de largura.
-- Se já existir uma imagem com o mesmo nome na pasta, ela não poderá ser
-  carregada novamente. Exclua a imagem primeiro ou renomeie a imagem
-  antes de fazer o carregamento.
-- Você só pode carregar tipos de arquivo que foram configurados nas
-  opções de mídias. Tome cuidado! Existem implicações de segurança
-  envolvidas em carregamentos de arquivos
-- Acesse as opções para alterar os tamanhos dos carregamentos e os
-  requisitos das imagens.
+- Câmeras digitais modernas podem tirar fotografias enormes. Você pode querer pré-processar imagens para recortar e/ou redimensionar antes do upload. O componente de Mídia pode fazer isso até certo ponto, mas sites que usam hospedagem compartilhada barata podem enfrentar problemas de memória. Mire em tamanhos de imagem finais que se adequem ao propósito. Em caso de dúvida, não mais que 1200 pixels de largura.
+- Se uma imagem com o mesmo nome já existir na pasta, ela não poderá ser enviada novamente. Exclua a imagem primeiro ou renomeie a imagem antes de enviá-la.
+- Você só pode fazer upload de tipos de arquivo que foram configurados nas Opções de Mídia. Tenha cuidado! Há implicações de segurança envolvidas no upload de arquivos.
+- Vá para Opções para alterar tamanhos de upload e requisitos de imagem.
 
 ## Excluir
 
-Selecione o item que deseja excluir. Clique no botão excluir na barra de
-ferramentas de mídias.
+Selecione o item que você deseja excluir. Clique no botão **Excluir** na Barra de Ferramentas de Mídia ou no menu suspenso do item a ser excluído. Uma caixa de diálogo irá pedir para você confirmar que deseja excluir o item selecionado.
 
 ## Renomear
 
-Coloque o cursor sobre o item que deseja renomear e selecione o símbolo
-de reticências horizontais para abrir o menu de manipulação do item.
-Selecione o botão renomear item - parece uma letra T com uma seta
-esquerda-direita embaixo.
+Coloque o cursor sobre o item que você deseja renomear e selecione o símbolo de reticências horizontais para abrir o menu de manipulação do item. Selecione o item **Renomear**.
 
-Na caixa de diálogo renomear, insira um novo nome sem o sufixo do tipo
-de arquivo. Isso é cuidado para você. Selecione salvar para concluir a
-renomeação.
+No diálogo de renomeação, digite um novo nome sem o sufixo de tipo de arquivo. Isso é feito automaticamente para você. Selecione **Salvar** para concluir a renomeação.
 
-## Outras informações
+*Traduzido por openai.com*
 
-Nesta série de tutoriais:
-
--  Gerenciando
-  mídias
--  Mídia: Carregar, excluir,
-  renomear
--  Mídia: corte, redimensionamento, rotação de
-  imagem
--  Mídia:
-  Opções

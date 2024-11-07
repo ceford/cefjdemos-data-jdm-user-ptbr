@@ -1,0 +1,9 @@
+<!-- Filename: What_has_the_copyright_of_Joomla!%3F / Display title: Direitos Autorais do Joomla! -->
+
+O projeto Joomla! não agrega os direitos autorais de seus colaboradores de código. Nenhum colaborador é obrigado a transferir seus direitos autorais para o Joomla! e cada contribuição individual permanecerá eternamente sob a propriedade de seu autor. Isso também se aplica às traduções dos conjuntos de idioma da Instalação, pois estas, sozinhas, estão incluídas no lançamento principal do Joomla!.
+
+A Open Source Matters Inc., uma organização sem fins lucrativos, detém os ativos do projeto Joomla! e representa os assuntos legais do Joomla!. O projeto Joomla! reivindica direitos autorais sobre a criação total agregada, que é o CMS e o framework. Esses direitos autorais são mantidos pela Open Source Matters Inc. Por isso, cada arquivo no lançamento é marcado como "Copyright - Open Source Matters Inc." Isso não viola os direitos autorais e a propriedade das contribuições individuais. Estas sempre permanecem propriedade dos autores. As atribuições dos direitos autorais dos colaboradores e outros elementos de código incluídos são detalhadas no arquivo principal de direitos autorais no diretório raiz da instalação do Joomla!.
+
+Como os colaboradores não transferem direitos autorais, eles declaram que suas contribuições de código são licenciadas para a Open Source Matters Inc. de forma limitada e não exclusiva. Limitada significa que a Open Source Matters Inc. pode usar sua contribuição apenas se ela for lançada sob GNU/GPL para todo o CMS do Joomla! (ou GNU/LGPL no caso específico das Bibliotecas do Framework do Joomla!). Não exclusiva significa que os colaboradores são livres para fazer o que quiserem com suas próprias criações, incluindo usá-las para seus próprios lançamentos sob qualquer licença que desejarem (inclusive comercial).
+
+*Traduzido por openai.com*

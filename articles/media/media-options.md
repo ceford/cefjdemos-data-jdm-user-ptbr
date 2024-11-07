@@ -1,72 +1,41 @@
-<!-- Filename: J4.x:Media:_Options / Display title: Mídia: Opções -->
+<!-- Filename: J4.x:Media:_Options / Display title: Mídia: Opções   -->
 
-## O formulário de opções
+## Introdução
 
-Para acessar o formulário Mídia: Opções, selecione o botão **opções** na
-barra de ferramentas da página de mídia. Os campos são bem comentados e
-fornecidos com valores padrão que devem ser adequados para quase todos
-os sites. Normalmente, você só precisa usar o formulário de opções se
-desejar manter os arquivos separados das imagens ou se tiver um formato
-de arquivo incomum não incluído na lista padrão.
+A página *Mídia: Opções* é usada para controlar o upload e armazenamento de mídia, tanto imagens quanto arquivos. **Atenção:** existem implicações de segurança associadas a alguns tipos de arquivo - é um caminho para invasão por hackers.
 
-**Cuidado**: existem implicações de segurança associadas a alguns tipos
-de arquivo - a entrada de um hacker.
+Para acessar o formulário *Mídia: Opções*, selecione o botão **Opções** na barra de ferramentas na página de Mídia. Os campos são bem comentados e fornecidos com valores padrão que devem ser adequados para quase todos os sites. Normalmente, você só precisa usar o formulário de opções se desejar manter Arquivos separados de Imagens ou se tiver um formato de arquivo incomum não incluído na lista padrão.
 
-## Separar arquivos
+## Captura de Tela
 
-Para configurar um local para arquivos separado das imagens, primeiro
-crie uma nova pasta na raiz de sua instalação, por exemplo **arquivos**.
-Lembre-se, ela fará parte de um link de url, faça-a em letras minúsculas
-e sem espaços ou sinais de pontuação.
+![O formulário de Opções de Mídia](../../../en/images/media/media-options.png)
 
-### Plugin local do sistema de arquivos
+## Caminho para Arquivos e Pastas
 
-Encontre o plug-in local do sistema de arquivos na lista de plug-ins e
-abra-o, adicione sua pasta de arquivos recém-criada à lista de locais
-onde você pode manter mídias. Basta clicar no botão + e selecionar os
-arquivos da lista de pastas disponíveis.
+Estes são itens separados no formulário de configuração, mas ambos apontam para a
+pasta *images* em uma nova instalação do Joomla. Se você quiser armazenar
+mídias não-imagem separadamente (por exemplo, PDFs, planilhas e arquivos de texto),
+siga os seguintes passos:
 
-<img
-src="https://docs.joomla.org/images/9/9e/J4.x-media-filesystem-local-plugin-en.png"
-class="thumbborder" decoding="async" data-file-width="800"
-data-file-height="406" width="800" height="406"
-alt="J4.x-media-filesystem-local-plugin-en.png" />
+1. Crie uma pasta chamada *files* na raiz da sua instalação do Joomla.
+2. Habilite o plugin *FileSystem - Local* e configure-o, conforme descrito no
+   artigo sobre [Locais de Arquivos de Mídia](jdocmanual?article=user/media/media-file-locations).
+3. Insira o nome da pasta, *files*, no campo *Caminho para Pasta de Arquivos* do
+   Formulário de Opções de Mídia.
 
-Certifique-se de que o plug-in esteja habilitado. Salve e feche.
+No formulário de Opções, insira o nome da pasta no campo **Caminho para Pasta de Arquivos**. Certifique-se de não usar o nome de uma pasta principal já existente do Joomla.
 
-### Formulário de opções
+Uma vez configurado, você poderá escolher entre as pastas de imagens e arquivos
+na parte Local da visualização de Mídia.
 
-No formulário de opções digite o nome da pasta no campo **caminho para a
-pasta de arquivos**. Certifique-se de não usar o nome de uma pasta
-central do Joomla existente.
+![A página de mídia](../../../en/images/media/media-sample-data-cassiopeia.png)
 
-<img src="https://docs.joomla.org/images/9/98/J4.x-media-options-en.png"
-class="thumbborder" decoding="async" data-file-width="800"
-data-file-height="406" width="800" height="406"
-alt="J4.x-media-options-en.png" />
+## Tipos Adicionais de Imagem ou Documento
 
-## Captura de tela
+Você pode perceber que uma Imagem ou Documento não pode ser carregado. Se for o caso, verifique se
+sua extensão está entre as *Extensões Permitidas*, se sua extensão está entre
+os *Tipos de Extensões Legais* para a mídia e se está entre os 
+*Tipos de MIME Legais* (você pode ter que procurar isso). Todos os três devem estar corretos
+ou o upload será negado.
+*Traduzido por openai.com*
 
-Quando configurado, você poderá escolher entre as pastas de imagens e
-arquivos na parte local da visualização de mídia.
-
-<img
-src="https://docs.joomla.org/images/0/08/J4.x-media-images-files-en.png"
-class="thumbborder" decoding="async" data-file-width="800"
-data-file-height="406" width="800" height="406"
-alt="J4.x-media-images-files-en.png" />
-
-## Outras informações
-
-Nesta série de tutoriais:
-
--  Gerenciando
-  mídia
--  Mídia: Carregar, excluir,
-  renomear
--  Mídia: corte, redimensionamento, rotação de
-  imagem
--  Mídia:
-  Opções
--  Media: Uploading SVG
-  files

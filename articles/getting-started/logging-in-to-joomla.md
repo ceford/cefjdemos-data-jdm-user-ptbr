@@ -1,130 +1,68 @@
-<!-- Filename: J4.x:Logging_in_to_Joomla / Display title: Iniciando sessão no Joomla -->
-
-<span id="main-portal-heading">**Tutorial**  
-Entrando e saindo do Joomla!</span> Joomla!  4.0
+<!-- Filename: J4.x:Logging_in_to_Joomla / Display title: Fazendo login no Joomla  -->
 
 ## Introdução
 
-Uma das grandes coisas sobre o Joomla! é que ele oferece a flexibilidade
-de realizar tarefas através do painel do administrador (geralmente
-chamado de back-end) e, se ativado, realizar tarefas diretamente da
-parte front-end (o público) do site.
+Uma das grandes vantagens do Joomla! é a flexibilidade que oferece para realizar tarefas através do Painel do Administrador (frequentemente chamado de backend) e, se ativado, executar tarefas diretamente a partir do frontend (a parte pública) do website.
 
-O acesso front-end é uma maneira fácil e eficiente de permitir que os
-criadores de conteúdo adicionem ou editem artigos rapidamente sem a
-necessidade de acessar o painel do administrador.
+O acesso pelo frontend é uma maneira fácil e eficiente de permitir que os redatores de conteúdo adicionem ou editem artigos rapidamente sem a necessidade de acessar o Painel do Administrador.
 
-Seu início de sessão no Joomla é configurado para controlar o que você
-pode ver e fazer (ou não) usando o gerenciador de usuários do Joomla e
-os poderosos níveis de controle de acesso (ACL). Isso significa que um
-site Joomla pode ter usuários que usam apenas o backend, alguns que usam
-apenas o frontend e outros que usam ambos.
+O login do Joomla é configurado para controlar o que os usuários podem ver e fazer (ou não podem) usando o componente de Usuário do Joomla e os poderosos Níveis de Controle de Acesso (ACL). Isso significa que um site Joomla pode ter usuários que usam apenas o backend, alguns que usam apenas o frontend e outros que usam ambos.
 
-As orientações a seguir cobrem o início e o término de sessão no backend
-e no frontend em seu site Joomla.
+O texto a seguir cobre o login e logout tanto no backend quanto no frontend de um site Joomla.
 
-**Nota:** Seu administrador do Joomla pode ter desabilitado o acesso
-frontend, exigindo que todas as tarefas sejam realizadas usando o painel
-do administrador backend.
+**Nota:** Um Administrador do Joomla pode ter desativado o acesso pelo frontend, exigindo que todas as tarefas sejam realizadas usando o Painel do Administrador no backend.
 
-Os passos cobertos neste tutorial são baseados em uma instalação padrão
-do Joomla!.
+### Login do Administrador
 
-## Entrar e sair do painel do administrador back-end
+Acesse a página de Login do Administrador. Este é o endereço web do site acrescido de /administrator, por exemplo, my-joomla-website.com/administrator, que invoca a página de login do Administrador do Joomla:
 
-### Iniciando sessão
+![Formulário de login do administrador](../../../en/images/getting-started/logging-in-to-joomla-administrator-login-form.png)
 
-Navegue até a página de início de sessão do administrador. Este é o
-endereço web do seu site anexado com /administrator, por exemplo,
-meu-website-joomla.com/administrator
+1. Adicione seu **Nome de Usuário**
+2. Adicione sua **Senha**
 
-Isso levará você ao início de sessão do administrador no Joomla:
+Selecione o botão **Entrar** para ser direcionado ao Painel Inicial do Joomla!.
 
-<img
-src="https://docs.joomla.org/images/thumb/2/2a/J4x_administrator_login_en.png/800px-J4x_administrator_login_en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/2/2a/J4x_administrator_login_en.png 1.5x"
-data-file-width="1000" data-file-height="562" width="800" height="450"
-alt="J4x administrator login en.png" />
+**Nota:**
 
-1.  Adicione seu **nome de usuário**;
-2.  adicione sua **senha**.
+1. Joomla fornece uma opção para configurar e usar a Autenticação Web.
+   Isso não está dentro do escopo deste tutorial.
+2. Se um site tiver vários idiomas instalados, você poderá
+   selecionar um idioma para usar a partir de uma lista suspensa antes de fazer login.
 
-Clique no botão para **iniciar sessão** e você será levado para o painel
-inicial do Joomla!.
+### Logout do Administrador
 
-**Notas:**
+Para sair, selecione o **Menu do Usuário** e depois **Sair**.
 
-1.  O Joomla oferece a opção de configurar e usar a autenticação web -
-    isso não está dentro do escopo deste tutorial;
-2.  se o site tiver outros idiomas instalados, você poderá selecionar o
-    idioma relevante a partir de uma lista suspensa antes de iniciar a
-    sessão.
+![Link de logout do administrador](../../../en/images/getting-started/logging-in-to-joomla-logout-link.png)
 
-### Terminando sessão
+### Login no Site
 
-Para terminar a sessão clique no **menu do usuário** e depois em
-**término de sessão**.
+Se o acesso pelo frontend estiver ativado, um formulário de login terá sido adicionado ao site. O Joomla permite várias maneiras de fazer isso. Uma instalação padrão inclui um formulário de login na barra lateral do site, mas você pode encontrar um link adicionado ao menu do site, ou talvez no rodapé. Em alguns casos, pode existir um link *Criar Página*. O design do site determinará onde acessar o formulário de login.
 
-<img
-src="https://docs.joomla.org/images/thumb/8/89/J4x_administrator_logout_en.png/800px-J4x_administrator_logout_en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/8/89/J4x_administrator_logout_en.png 1.5x"
-data-file-width="1000" data-file-height="159" width="800" height="127"
-alt="J4x administrator logout en.png" />
+Este exemplo usa um formulário de login localizado na barra lateral direita.
 
-## Entrar e sair no frontend do site
+![Módulo de formulário de login do site](../../../en/images/getting-started/logging-in-to-joomla-site-login-form.png)
 
-### Entrando
+No **Formulário de Login**
 
-Se o acesso frontend estiver ativado, um formulário de início de sessão
-será adicionado ao site. O Joomla permite várias maneiras de fazer isso.
-Uma instalação padrão inclui um formulário de início de sessão na barra
-lateral do site, mas você pode descobrir que um link foi adicionado ao
-menu do site, ou talvez no rodapé. Em alguns casos pode existir um link
-*criar página*. O design do site ditará onde você acessa o formulário de
-início de sessão.
+1. Adicione seu **Nome de Usuário**
+2. Adicione sua **Senha**
 
-Neste exemplo, usamos um formulário de início de sessão no site que está
-localizado na barra lateral.
+Selecione o botão **Entrar**.
 
-<img
-src="https://docs.joomla.org/images/thumb/a/ae/J4x_front_end_login_en.png/800px-J4x_front_end_login_en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/a/ae/J4x_front_end_login_en.png 1.5x"
-data-file-width="1000" data-file-height="548" width="800" height="438"
-alt="J4x front end login en.png" />
-  
-No **formulário de início de sessão**:
+Ao fazer login a partir do frontend do site, você pode ser mantido na mesma página de onde fez o login ou pode ser levado à sua página de Perfil. Você notará que o formulário de login também conterá um botão **Sair**.
 
-1.  Adicione seu **nome de usuário**;
-2.  adicione sua **senha**.
+### Logout do Site
 
-Clique no botão **iniciar sessão**.
+![Módulo de formulário de logout do site](../../../en/images/getting-started/logging-in-to-joomla-site-logout-form.png)
 
-Ao iniciar sessão a partir do frontend do site, você será mantido na
-mesma página em que iniciou a sessão. Você notará que o formulário de
-início de sessão também será substituído por um botão para **terminar
-sessão**.
+Para sair, vá até o formulário de login e selecione o botão **Sair**.
 
-### Terminando sessão
+## Dicas
 
-<img
-src="https://docs.joomla.org/images/thumb/a/a9/J4x_front_end_logout_en.png/800px-J4x_front_end_logout_en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/a/a9/J4x_front_end_logout_en.png 1.5x"
-data-file-width="1000" data-file-height="233" width="800" height="186"
-alt="J4x front end logout en.png" />
+- Alguns administradores de sites Joomla instalam extensões que ocultam ou restringem o acesso ao Painel de Administração do backend. Você pode precisar tomar medidas adicionais ou visitar uma URL de login alternativa.
+- Se você estiver fazendo edições usando o login no frontend, economize tempo fazendo login na página que deseja editar.
 
-Para terminar a sessão, vá para a posição em que você se conectou e
-clique no botão para **terminar sessão**.
+*Traduzido por openai.com*
 
-## Dicas rápidas
-
-- Alguns administradores de sites Joomla instalam extensões que ocultam
-  ou restringem o acesso ao painel do administrador backend. Talvez seja
-  necessário executar passos adicionais ou visitar um url de início de
-  sessão alternativo;
-- se você estiver fazendo edições usando o formulário de início de
-  sessão frontend, economize tempo iniciando sessão na página que deseja
-  editar.

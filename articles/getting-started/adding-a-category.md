@@ -1,103 +1,68 @@
-<!-- Filename: J4.x:Getting_Started:_Adding_a_Category / Display title: Primeiros passos: como adicionar uma categoria -->
+<!-- Filename: J4.x:Getting_Started:_Adding_a_Category / Display title: Adicionando uma Categoria -->
 
 ## Introdução
 
-Os proprietários de sites com mais de um punhado de artigos devem pensar
-na melhor forma de apresentar o conteúdo para facilitar a navegação. Por
-exemplo, se você tem um zoológico, um museu, uma coleção de minerais ou
-apenas um grande jardim, talvez tenha 1.000 espécimes para descrever. Um
-artigo para cada exemplar, com fotografias, necessita de alguma
-estrutura organizacional. Se os artigos fossem arquivos, você
-provavelmente os colocaria em uma hierarquia de arquivos. Em um sistema
-de gerenciamento de conteúdo (CMS), os artigos não são arquivos, mas as
-categorias fornecem uma estrutura semelhante a uma árvore. Exemplo:
+Proprietários de sites com mais de alguns artigos devem pensar sobre a melhor forma de apresentar o conteúdo para facilitar a navegação. Por exemplo, se você tem um zoológico, um museu, uma coleção de minerais ou apenas um grande jardim, você pode ter cerca de 1000 espécimes para descrever. Um artigo para cada espécime, com fotografias, precisa de alguma estrutura organizacional. Se os artigos fossem arquivos, você provavelmente os colocaria em uma hierarquia de arquivos. Em um CMS, os artigos não são arquivos, mas as categorias oferecem uma estrutura semelhante a uma árvore. Exemplo:
 
-|           |                                                 |
-|-----------|-------------------------------------------------|
-| categoria | subcategorias                                   |
-| mamíferos | símios, macacos, ungulados, cachorros, gatos    |
-| répteis   | cobras, lagartos, crocodilos, tartarugas        |
-| anfíbios  | rãs, sapos                                      |
-| aves      | rapinas, patos, gaivotas, tentilhões, parídeos  |
-| insetos   | aranhas, borboletas, abelhas, gafanhotos        |
-| peixes    | tubarões, salmões, bacalhaus, arenques, cavalas |
+| Categoria   | Subcategorias                         |
+|-------------|---------------------------------------|
+| Mamíferos   | Primatas, Macacos, Ungulados, Cães, Gatos |
+| Répteis     | Cobras, Lagartos, Crocodilos, Tartarugas |
+| Anfíbios    | Rãs, Sapos                           |
+| Aves        | Rapinantes, Patos, Gaivotas, Pintassilgos, Chapins |
+| Artrópodes  | Aranhas, Borboletas, Abelhas, Gafanhotos |
+| Peixes      | Tubarões, Salmões, Bacalhaus, Arenques, Cavalas |
 
-As subcategorias também podem ter outras subcategorias. Um número ideal
-parece ser cerca de sete.
+Subcategorias podem ter mais subcategorias também. A profundidade máxima gerenciável parece ser em torno de sete. Para a tabela acima, um museu pode adicionar mais categorias principais:
 
-## Tipos de itens de menu
+```text
+natureza -> vida -> animais -> mamíferos...
+natureza -> vida -> plantas -> árvores...
+natureza -> minerais...
+história -> egito...
+ciência -> astronomia...
+ciência -> química...
+```
 
-Existem dois tipos de itens de menu projetados para trabalhar com
-categorias:
+Imagine quantos espécimes um museu nacional ou de uma pequena cidade possui!
 
-- **Blog de categoria**: Este é um layout de página que tem um ou dois
-  provadores de artigos principais, geralmente largura de página
-  inteira, depois vários outros provadores em duas ou três colunas e,
-  finalmente, um mecanismo de paginação para vincular a mais artigos na
-  mesma categoria. O provador é o conteúdo antes da quebra de página. A
-  página inicial do site é um blog de categoria que inclui todas as
-  categorias.
-- **Lista de categorias**: Este é um layout de lista que exibe uma lista
-  de títulos de artigos em uma categoria.
+## Tipos de Itens de Menu
 
-## Criar uma categoria
+Existem vários tipos de itens de menu projetados para trabalhar com Categorias:
 
-O artigo mencionado nesta série de introdução, *meu primeiro artigo*,
-foi um pouco experimental. Pode haver mais experimentos, então por que
-não criar uma categoria de experimentos? Proceda da seguinte forma:
+- **Blog de Categoria** Este é um layout de página que possui uma ou duas
+  amostras de artigos destacadas, muitas vezes na largura total da página, em seguida,
+  várias outras amostras de artigos em duas ou três colunas, e finalmente um 
+  mecanismo de paginação para vincular a mais artigos na mesma categoria. 
+  A amostra é o conteúdo antes de uma quebra de página, geralmente os 
+  primeiros um ou dois parágrafos. A página *Inicial* de um site é 
+  frequentemente um blog de categoria que inclui *Todas as Categorias*. Um 
+  layout de *Artigos em Destaque* é semelhante a um blog de categoria e também 
+  é frequentemente usado como uma página Inicial.
+- **Lista de Categoria** Este é um layout de lista que exibe uma lista de 
+  artigos em uma categoria. Pode ser exibido com um filtro de Pesquisa para 
+  permitir a pesquisa de artigos por Título, Autor, Cliques, Tags ou Mês de publicação.
+- **Listar Todas as Categorias em uma Árvore de Categorias de Artigos** Este layout lista uma 
+  árvore de categorias a partir de um pai escolhido. Cada ramificação é recolhível e 
+  é mais útil para grandes e complexas estruturas de árvores de categorias.
 
-- Expanda o item de conteúdo no menu do administrador e selecione o
-  ícone **+** ao lado do item de menu de categorias. Observe que outros
-  componentes, como banners e contatos, também podem ter categorias.
-  Eles são mantidos separados das categorias de conteúdo.
-- O formulário **Artigos: Nova categoria** possui apenas um campo
-  obrigatório: o título, neste caso Experimentos.
-- O campo **descrição** é opcional mas é melhor preenchê-lo, pois seu
-  conteúdo é usado em algumas listas.
-- O campo **pai** especifica se esta é uma categoria, -sem pai-, ou uma
-  subcategoria, selecionado a partir da lista de categorias.
+Os itens de menu são abordados em um artigo posterior.
 
-<img
-src="https://docs.joomla.org/images/thumb/0/01/J4.x-getting-started-category-screenshot-en.png/800px-J4.x-getting-started-category-screenshot-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/thumb/0/01/J4.x-getting-started-category-screenshot-en.png/1200px-J4.x-getting-started-category-screenshot-en.png 1.5x, https://docs.joomla.org/images/0/01/J4.x-getting-started-category-screenshot-en.png 2x"
-data-file-width="1440" data-file-height="1134" width="800" height="630"
-alt="J4.x-getting-started-category-screenshot-en.png" />
+## Criar uma Categoria
 
-Salve e feche! Isso leva você para a tela da lista **Artigos:
-Categorias**.
+O exemplo a seguir utiliza uma categoria Mamíferos inspirada pela lista acima para demonstrar como criar uma nova Categoria:
 
-## Alterar categoria do artigo
+![Formulário de edição de Categoria](../../../en/images/getting-started/article-category-edit.png)
 
-- Selecione o item **artigos** no menu **Administrador **→** Conteúdo**;
-- selecione o link do título do artigo na coluna **título** para abrir o
-  artigo para edição;
-- no campo **categoria** selecione a categoria Experimentos na lista
-  suspensa;
-- **salve e feche**. Não há alteração na página inicial do site porque o
-  artigo ainda está marcado como destacado e a página inicial é uma
-  categoria de blog para todas as categorias.
+- Selecione o item **Conteúdo** no menu do Administrador para expandi-lo.
+- Selecione o ícone **+** ao lado do item de menu *Categorias* para abrir o formulário de edição de Categoria.
+- O formulário **Artigos: Nova Categoria** possui apenas um campo obrigatório: o *Título*, neste caso *Mamíferos*.
+- O campo **Descrição** é opcional, mas é melhor preenchê-lo, pois é usado em algumas listas. Sugestão:<br>
+  *Mamíferos são animais de sangue quente que dão à luz filhotes vivos.*
+- O campo **Pai** especifica se esta é uma categoria primária (-Sem Pai-) ou uma subcategoria selecionada a partir da lista de categorias.
+- **Salvar e Fechar** para retornar à página de lista **Artigos: Categorias**.
 
-## Criar item de menu de lista de categorias
+Esta categoria está agora disponível para uso com artigos.
 
-- Selecione **Menus **→** Menu principal **→** +** no menu do
-  administrador para abrir o formulário Menus: Novo item;
-- selecione **Artigos **→** lista de categorias** no campo de tipo de
-  item de menu;
-- selecione **Selecionar **→** Experimentos** no campo escolha uma
-  categoria;
-- insira um título, Experimentos neste caso;
-- salve e feche.
+*Traduzido por openai.com*
 
-Vá para a página inicial do site e recarregue. Selecione o novo item de
-menu Experimentos.
-
-<img
-src="https://docs.joomla.org/images/thumb/0/07/J4.x-getting-started-category-list-screenshot-en.png/800px-J4.x-getting-started-category-list-screenshot-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/0/07/J4.x-getting-started-category-list-screenshot-en.png 1.5x"
-data-file-width="852" data-file-height="272" width="800" height="255"
-alt="J4.x-getting-started-category-list-screenshot-en.png" />
-
-Não muito bonito nesta fase, mas o layout pode ser melhorado. Mais
-tarde...

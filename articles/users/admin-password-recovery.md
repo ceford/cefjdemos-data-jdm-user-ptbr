@@ -1,143 +1,87 @@
-<!-- Filename: How_do_you_recover_or_reset_your_admin_password%3F / Display title: Recuperação de senha do administrador -->
+<!-- Filename: How_do_you_recover_or_reset_your_admin_password%3F / Display title: Recuperação de Senha do Administrador   -->
 
 ## Introdução
 
-Normalmente, pode-se criar, editar e apagar usuários e senhas dentro do
-Gerenciador de Usuário no Administrativo. Você deve acessar o sistema
-com nível de acesso Super User.
+Normalmente, um Super Usuário pode adicionar, editar e excluir usuários e senhas da lista de Usuários. Em algumas situações, isso pode não ser possível. Por exemplo, a pessoa que conhecia a senha de um Super Usuário não está mais disponível. Ou talvez o Super Usuário tenha esquecido a senha que foi usada.
 
-Em algumas situações, isso pode não ser possível. Por exemplo, seu site
-foi hackeado e as senhas e usuários foram mudados. Ou talvez a pessoa
-que sabia as senhas não está mais disponível. Ou ainda você esqueceu a
-senha que era usada.
+Nesses casos, existem dois métodos disponíveis para permitir que um Administrador do site faça login como um Super Usuário.
 
-Nesses casos, ainda é possível alterar o banco de dados do Joomla! para
-que você possa voltar a acessar como Super User. Esses são os métodos
-disponíveis.
+## Método 1: Editar o Arquivo configuration.php
 
-## Método 1: arquivo configuration.php
+Se você tiver acesso ao arquivo `configuration.php` da instalação do Joomla no seu servidor, então poderá redefinir a senha de um Super Usuário ou criar um novo Super Usuário se conseguir fazer login como Gerente ou Administrador.
 
-Se você tem acesso ao arquivo configuration.php de sua instalação Joomla
-no servidor, é possível recuperar a senha usando o método a seguir.
+Você precisa abrir o arquivo `configuration.php` em um editor de texto. Primeiro, altere suas permissões de arquivo para 644. Suas ferramentas de gerenciamento de site, como cPanel ou Plesk (existem outras), geralmente permitem que você faça isso online. Caso contrário, pode ser necessário usar FTP para baixar o arquivo, alterá-lo localmente e enviá-lo novamente.
 
-1. Usando um programa de FTP, conecte-se ao seu site. Encontre o
-arquivo configuration.php e veja as permissões do arquivo. Se estiver em
-444 ou outro valor, mude para 644. Isso evitará erros quando fizer o
-upload do arquivo alterado seguindo esse procedimento.
-2. Baixe o arquivo de configuração.
-3. Abra o arquivo configuration.php em editor de texto como Notepad++
-ou SublimeText e adicione essa linha
+Adicione esta linha no final do arquivo, mas antes da chave de fechamento:
+```
+    public $root_user='meunome';
+```
+onde **meunome** é um nome de usuário com acesso ao grupo *Gerente* ou *Administrador* para o qual você conhece a senha. Um nome de usuário que esteja nos grupos *Autor*, *Editor* ou *Publicador* não funcionará porque esses grupos não possuem acesso ao backend.
 
-    public $root_user='myname';
+Este usuário agora será um Super Usuário temporário.
 
-    no fim do arquivo onde myname é um nome de usuário com acesso de
-administrador e que você saiba a senha. Um usuário com nível de acesso
-Autor ou superior também pode ser usado aqui.
-4. Salve o arquivo configuration.php e suba ele de volta para o site.
-Deixe as permissões do arquivo em 644.
-    Esse usuário será agora um Super User temporário.
-5. Acesse o Painel de Administração e mude a senha do usuário
-administrador ou crie um novo usuário Super User. Se criar um novo
-usuário, sugerimos bloquear ou apagar o usuário anterior, dependendo das
-circunstâncias.
-6. Ao terminar, certifique-se de usar o link "Clique aqui para tentar
-fazer automaticamente" que aparece na caixa de alerta para remover a
-linha que foi adicionada ao arquivos configuration.php. Se não tiver
-êxito usando o link, volta e apague a linha adicionada usando um editor
-de texto e suba de volta o arquivo para o site.
-7. Pelo programa de FTP verifique a permissão do arquivo
-configuration.php, que deve estar 444. Se você removeu manualmente a
-linha adicionada, mude a permissão para 444.
+Faça login na área administrativa e altere a senha do Super Usuário para a qual você não tem a senha ou crie uma nova conta de Super Usuário. Se você criar um novo usuário, talvez queira bloquear ou excluir o usuário antigo, dependendo das suas circunstâncias.
 
-Se você não tem usuários que saibam suas senha e não puder usar o
-registro do próprio site, você precisará fazer uma mudança no seu banco
-de dados, como mostrado a seguir.
+Ao terminar, certifique-se de usar o link *Selecionar aqui para tentar fazer isso automaticamente*, que aparece na caixa de alerta, para remover a linha que foi adicionada ao arquivo configuration.php. Se usar o link não for bem-sucedido, então volte e exclua a linha adicionada no seu arquivo configuration.php usando um editor de texto.
 
-## Método 2: Edição direta no Banco de Dados
+Se você não tiver usuários que saibam suas senhas, pode ser necessário fazer uma alteração no seu banco de dados.
 
-Se o método anterior não funcionou, existem mais duas opções. Ambas
-exigem mexer diretamente no banco de dados MySQL.
+## Método 2: Editar o Banco de Dados
 
-### Mudar a senha no Banco de Dados
+Se os métodos acima não funcionaram, você tem duas outras opções, ambas exigindo trabalho diretamente com o banco de dados MySQL.
 
-Se o usuário Administrador ainda estiver ativo, a opção mais simples é
-mudar a senha no banco de dados. Isso exige que se tenha acesso ao banco
-de dados MySQL usando phpMyAdmin ou outro cliente.
+### Alterar uma Senha no Banco de Dados
 
-Mude sua senha assim que voltar a ter acesso
+A opção mais simples é alterar a senha do Super Usuário no banco de dados para um valor conhecido. Isso requer que você tenha acesso ao banco de dados MySQL usando phpMyAdmin ou outro cliente. Estas instruções mostram como alterar uma senha para a palavra **secret**.
 
-Essas instruções mostram como mudar manualmente a senha para a palavra -
-`secret`
+Este método funcionará apenas se o usuário selecionado estiver nos grupos *Manager* ou *Administrator*.
 
-1.  No phpMyAdmin selecione o banco de dados do site Joomla! na listagem
-    do lado esquerdo, para ver as tabelas do banco.
-2.  Encontre e clique sobre a tabela com o sufixo "\_users" (Obs.: o
-    prefixo pode não ser jos\_).
-3.  Clique no botão "Browse" no topo. Isso exibirá todos os usuários
-    cadastrados no site.
-4.  Encontre o usuário que quer mudar a senha. Pressione o ícone Editar
-    da linha.
-5.  O formulário apresentado permitirá que se edite o campo da senha.
-    Copie o valor
+**Certifique-se de mudar a senha do Super Usuário assim que recuperar o acesso!**
 
-        d2064d358136996bd22421584a7cb33e:trd7TvKHx6dMeoMmBVxYmg0vuXEA4199
+1. Abra o phpMyAdmin e selecione o banco de dados do site Joomla!. Isso mostrará as tabelas do banco de dados no lado esquerdo da tela.
+2. Encontre e selecione a tabela *#__users* onde *#_* é o prefixo da tabela para o seu site.
+3. Na visualização *Browse*, encontre o usuário cuja senha você deseja alterar e selecione o ícone de Editar para essa linha.
+   - se a lista for longa, selecione o botão SQL no topo e use esta consulta:<br>
+   `SELECT * FROM `xxxxx_users` WHERE `username` = 'username'`<br>
+   onde você utiliza o seu prefixo de banco de dados para substituir `xxxxx` e o nome de usuário que você precisa encontrar no lugar de `username`.
+4. No formulário de edição, altere a senha para<br>
+   `d2064d358136996bd22421584a7cb33e:trd7TvKHx6dMeoMmBVxYmg0vuXEA4199`<br>
+   e selecione o botão *Go* na parte inferior do formulário. O phpMyAdmin deve exibir a mensagem *Affected rows: 1*. Neste ponto, a senha deve ser **secret**.
+5. Faça login com este usuário e senha e altere a senha deste usuário para um valor seguro. Verifique todos os usuários para garantir que são legítimos. Se você foi invadido, pode querer mudar todas as senhas no site.
 
-    para o campo e clique no botão *Go*. O phpMyAdmin deverá exibir uma
-    mensagem "Affected rows: 1". A senha foi modificada para
-    `secret`.
-6.  Acesse com o usuário e a senha acima e mude-os imediatamente após
-    login. Verifique que todos os usuários no Gerenciador estão
-    corretos. Se você foi hackeado, você poderá mudar todas as senhas do
-    site.
+### Adicionar um novo Super Usuário
 
-### Crie um novo Super Usuário
-
-Se mudar a senha não funcionar ou você não tem certeza qual usuário faz
-parte do grupo Super Users, com esse método é possível criar um novo
-usuário.
-
-1.  No phpMyAdmin selecione o banco de dados do site Joomla! na listagem
-    do lado esquerdo, para ver as tabelas do banco.
-2.  Clique no botão "SQL" na barra de ferramentas para rodar uma query
-    SQL no banco de dados selecionado. Isso exibirá um campo chamado
-    "Run SQL query/queries on database ".
-3.  Apague qualquer texto que apareça nesse campo, copie e cole a query
-    abaixo e aperte o botão *Go* para continuar e criar o novo usuário
-    administrador à tabela.
-4.  Use a query SQL query abaixo para criar outra conta de
-    administrador.
-
-    Certifique-se que o prefixo coincide com o do seu banco!
-
-    O código a seguir usa o prefixo de tabela jos31\_ como exemplo. Quando
-se instalou o Joomla! pela primeira vez o prefixo é **ALEATÓRIO** ou
-outro que se tenha definido. Será necessário mudar todas as ocorrências
-de **jos31\_** no código abaixo para aquela usada na sua instalação. 
-
-### Código SQL para uso com Joomla
-
-    INSERT INTO `jos31_users`
+Se alterar a senha não funcionar, ou você não tem certeza de qual usuário é um membro do grupo Super Usuário, você pode usar este método para criar um novo Super Usuário.
+1. Abra o phpMyAdmin e selecione o banco de dados do site Joomla!.
+2. Selecione o botão *SQL* na barra de ferramentas para executar uma consulta SQL no banco de dados selecionado. Isso exibirá um campo chamado "Run SQL query/queries on database xxxxx".
+3. Apague qualquer texto neste campo e copie e cole a seguinte consulta. Lembre-se de substituir `xxxxx` pelo seu próprio prefixo de banco de dados.
+    ```
+    INSERT INTO `xxxxx_users`
        (`name`, `username`, `password`, `params`, `registerDate`, `lastvisitDate`, `lastResetTime`)
     VALUES ('Administrator2', 'admin2',
         'd2064d358136996bd22421584a7cb33e:trd7TvKHx6dMeoMmBVxYmg0vuXEA4199', '', NOW(), NOW(), NOW());
-    INSERT INTO `jos31_user_usergroup_map` (`user_id`,`group_id`)
+    INSERT INTO `xxxxx_user_usergroup_map` (`user_id`,`group_id`)
     VALUES (LAST_INSERT_ID(),'8');
+    ```
+    Selecione o botão *Go* para executar a consulta e adicionar o novo Super Usuário à tabela.
 
-Agora será possível acessar o Painel de Administração do Joomla! com o
-nome de usuário "admin2" e a senha "secret". Depois de entrar, vá ao
-Gerenciador de Usuários, mude a senha e adicione um e-mail válido à
-conta. Caso seu site tenha sido hackeado, certifique-se que todo os
-usuários estão corretos, especialmente aqueles do grupo Super Users.
+Neste ponto, você deve ser capaz de fazer login no back end do Joomla! com o nome de usuário *admin2* e a senha *secret*.
 
-**Cuidado:** as senhas apresentadas aqui são de conhecimento público para
-recuperação apenas. Seu site poderá ser hackeado se não mudá-las depois
-de acessar. Certifique-se de fazer essa mudança.
+Depois de fazer login, vá para a lista de Usuários e altere a senha para um novo valor seguro e adicione um endereço de email válido à conta.
 
-Os exemplos acima mudam a senha para `secret`. Outros dois valores
-possíveis são mostrados abaixo:
+Se houver uma chance de que você tenha sido *invadido*, certifique-se de verificar se todos os usuários são legítimos, especialmente quaisquer membros do grupo Super Usuário.
 
-    - password = "this is the MD5 and salted hashed password"
+## Senhas Temporárias Alternativas
+
+**Aviso:** Os valores das senhas mostrados nesta página são de conhecimento público e
+são apenas para recuperação. Para evitar ser hackeado, certifique-se de alterar uma senha
+temporária para um valor seguro após fazer login.
+
+    password = "esta é a senha com hash MD5 e sal"
     ------------------------------------------------------
-    - admin  = 433903e0a9d6a712e00251e44d29bf87:UJ0b9J5fufL3FKfCc0TLsYJBh2PFULvT
-    - secret = d2064d358136996bd22421584a7cb33e:trd7TvKHx6dMeoMmBVxYmg0vuXEA4199
-    - OU812  = 5e3128b27a2c1f8eb53689f511c4ca9e:J584KAEv9d8VKwRGhb8ve7GdKoG7isMm
+    admin  = 433903e0a9d6a712e00251e44d29bf87:UJ0b9J5fufL3FKfCc0TLsYJBh2PFULvT
+    secret = d2064d358136996bd22421584a7cb33e:trd7TvKHx6dMeoMmBVxYmg0vuXEA4199
+    OU812  = 5e3128b27a2c1f8eb53689f511c4ca9e:J584KAEv9d8VKwRGhb8ve7GdKoG7isMm
+
+*Traduzido por openai.com*
+

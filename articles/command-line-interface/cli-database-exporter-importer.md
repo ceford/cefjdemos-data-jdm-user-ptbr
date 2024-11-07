@@ -1,66 +1,109 @@
-<!-- Filename: J4.x:CLI_Database_Exporter_Importer / Display title: Exportador e importador de banco de dados de interface de linha de comando (CLI) -->
+<!-- Filename: J4.x:CLI_Database_Exporter_Importer / Display title: Exportação e Importação de Banco de Dados via CLI  -->
 
-Joomla!  4.0
+## Introdução
 
-## Sobre
-
-Antes de atualizar o Joomla! ou  instalar uma extensão de
-terceiros,
-é altamente recomendável que você faça uma cópia de segurança de seu
-site.
-O console do Joomla! 4.x fornece comandos para exportar (cópia de
-segurança) e importar (restaurar) sua base de dados do Joomla!. Observe
-que ele não faz cópia de segurança do seu sistema de arquivos, o que
-deve ser feito separadamente
+Antes de atualizar o Joomla! ou instalar uma extensão de terceiros, é altamente 
+recomendado que você faça um backup do seu site. A interface de linha de comando 
+(CLI) do Joomla! fornece comandos para exportar (fazer backup) e importar 
+(restaurar) seu banco de dados do Joomla! Observe que ela não faz backup do 
+seu sistema de arquivos, o qual deve ser feito separadamente.
 
 ## Requisitos
 
-Para usar esses comandos, você precisa de um acesso seguro ao shell
-(ssh) de seu provedor de hospedagem (host) no qual a interface de linha
-de comando (cli) do php está instalada. Considere ter conhecimento
-básico do uso de comandos de shell.
+Para usar esses comandos, você precisa ter acesso ao terminal do host no qual o site está instalado. Isso pode ser um problema em hospedagens compartilhadas! Você também precisa ter conhecimento básico de comandos de shell do Linux, como ls e cd. Se tudo isso for desconhecido, você provavelmente deveria usar o Akeeba Backup, a extensão de backup e restauração mais popular e gratuita para uso básico.
+
+## Localização de Armazenamento Temporário de Backup
+
+Escolha com cuidado um local de armazenamento para um backup. Deve estar dentro
+do seu espaço pessoal de arquivos, mas fora da sua árvore web. O objetivo é criar
+um arquivo de backup que você possa baixar para o seu computador local ou outro
+lugar seguro, após o qual você pode excluir o arquivo de backup para economizar espaço.
+Também tome cuidado para não usar a pasta /tmp do sistema, que pode ser acessada por qualquer usuário.
+O melhor local é sua pasta tmp pessoal. A estrutura da árvore de pastas:
+```
+|-/home/username/tmp - sua pasta tmp pessoal
+|-/home/username/public_html - sua pasta raiz do Joomla
+```
 
 ## Instruções
 
-Inicie a sessão em seu provedor de hospedagem (host) e vá para a pasta
-raiz do seu site.
-Eu recomendo usar a pasta "tmp" do Joomla em seu para ter permissões de
-leitura/gravação.
+Faça login no seu host e vá para a pasta raiz do seu site.
+```
+cd /home/nomeusuario/public_html
+```
 
-- Listar todos os comandos disponíveis do console do Joomla:
-  `php cli/joomla.php list`
-- Exportar o banco de dados para a pasta:
-  `php cli/joomla.php database:export --all --folder `
-- Importar o banco de dados da pasta:
-  `php cli/joomla.php database:import --all --folder `
+- Liste todos os comandos CLI disponíveis:
+```sh
+  php cli/joomla.php list
+```
+- Exporte o banco de dados para a pasta tmp da conta:
+```sh
+  php cli/joomla.php database:export --folder /home/nomeusuario/tmp/meubancode dados
+```
+- Importe o banco de dados da pasta:
+```sh
+php cli/joomla.php database:import --folder /home/nomeusuario/tmp/meubancode dados
+```
 
 Você também pode:
 
-- Exporte o banco de dados como um arquivo .zip:
-  `php cli/joomla.php database:export --all --zip`
+- Exportar o banco de dados como um arquivo .zip:
+```sh
+php cli/joomla.php database:export --zip --folder /home/nomeusuario/tmp/meubancode dados
+```
 - Exportar uma tabela:
-  `php cli/joomla.php database:export --table `
+```sh
+php cli/joomla.php database:export --table xxxxx_action_log_config --folder /home/nomeusuario/tmp/meubancode dados
+```
 - Exportar uma tabela como um arquivo .zip:
-  `php cli/joomla.php database:export --table --zip`
+```sh
+php cli/joomla.php database:export --table xxxxx_action_log_config --zip --folder /home/nomeusuario/tmp/meubancode dados
+```
 - Importar uma tabela:
-  `php cli/joomla.php database:import --table `
-- Se precisar de ajuda:
-  `php cli/joomla.php database:export --help`
-  `php cli/joomla.php database:import --help`
+```sh
+php cli/joomla.php database:import --table xxxxx_action_log_config --folder /home/nomeusuario/tmp/meubancode dados
+```
+- Se você precisar de ajuda:
+```sh
+php cli/joomla.php database:export --help
+php cli/joomla.php database:import --help
+```
 
-## Cópia de segurança e restauração
+## Backup
 
-Para fazer uma cópia de segurança completa (com pastas, arquivos e banco
-de dados) do seu site, você pode executar estes comandos:
+Para fazer um backup completo de pastas, arquivos e do banco de dados, execute estes comandos:
 
-1.  Arquivar seu diretório raiz do Joomla:
-    `tar --exclude='./tmp/joomla_bak.*' -zcvf tmp/joomla_bak.tgz . > tmp/joomla_bak.log`
-2.  Exportar todo o banco de dados do Joomla:
-    `php cli/joomla.php database:export --all --folder tmp/db_bak`
+1. Arquive o diretório raiz do Joomla:
+```sh
+tar --exclude='/home/username/public_html/tmp' -zcvf /home/username/tmp/joomla_bak.tgz /home/username/public_html > /home/username/tmp/joomla_bak.log
+```
+2. Exporte todo o banco de dados do Joomla, a partir da pasta raiz do Joomla:
+```sh
+php cli/joomla.php database:export --folder /home/username/tmp/db_bak
+```
 
-E para restaurar, execute estes comandos:
+## Restaurar
 
-1.  Importar todo o banco de dados Joomla:
-    `php cli/joomla.php database:import --all --folder tmp/db_bak`
-2.  Extrair o arquivo:
-    `tar --recursive-unlink -xvf tmp/joomla_bak.tgz .`
+Para restaurar, primeiro certifique-se de que o banco de dados e o usuário do banco de dados existem. Em seguida, execute estes comandos:
+
+1. Extraia o arquivo:
+```sh
+tar -xvf /home/username/tmp/joomla_bak.tgz --directory /home/username/public_html
+```
+2. Certifique-se de que você está na raiz do seu site:
+```sh
+cd /home/username/public_html
+```
+3. Importe o banco de dados do Joomla:
+```sh
+php cli/joomla.php database:import --folder /home/username/tmp/db_bak
+```
+
+## Notas
+
+Nas opções do comando tar -zcvf e -xvf, o v significa verbose - uma lista de
+arquivos processados rola rapidamente pela tela do terminal. Deixe o v de fora para
+não ver a lista.
+
+*Traduzido por openai.com*
+

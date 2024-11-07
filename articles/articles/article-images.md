@@ -1,128 +1,73 @@
-<!-- Filename: Adding_an_image_to_an_article / Display title: Adicionando uma imagem em um artigo -->
+<!-- Filename: Adding_an_image_to_an_article / Display title: Artigo: Editar - Imagens -->
 
-## Introduction
+## Introdução
 
-How best to add images to an article depends on which version of Joomla
-and which editor are in use. This article has illustrations for Joomla
-4, with notes on differences in Joomla 3, and TinyMCE the Joomla default
-editor. To get started, open an article for editing:
+É importante entender que as imagens para documentos web são armazenadas separadamente do texto HTML. Quando uma página web é solicitada, o navegador primeiro busca o texto e arquivos de suporte separados, como folhas de estilo e scripts JavaScript. As imagens são buscadas posteriormente. Frequentemente, o navegador e o servidor web negociam qual versão de uma imagem buscar para se adequar ao tamanho e à resolução da tela do navegador. Existe até uma extensão do Joomla disponível que cria várias versões de uma imagem principal em diferentes tamanhos e formatos para melhorar a velocidade de entrega e renderização.
 
-- **Select** **Content **→** Articles** in the Administrator menu.
-- **Select** the title of the article you wish to edit
+As imagens são incorporadas nas páginas web pela inclusão de links devidamente formatados. Existem dois mecanismos diferentes para incluir imagens em artigos:
 
-After inserting the article text, place the cursor at the location where
-the image should appear.
+- A guia *Conteúdo* do formulário de edição permite a inserção de um ou mais links de imagem diretamente no texto do artigo. Este é o tema deste artigo.
+- A guia *Imagens e Links* do formulário de edição permite a inclusão de uma imagem como uma *Imagem de Introdução* ou uma *Imagem Completa do Artigo*, ou ambas. Isso é abordado em um artigo separado sobre [Imagens e Links](jdocmanual?article=user/articles/article-images-and-links).
 
-## Adding a local image
+Vale a pena fazer uma distinção entre imagens locais e imagens remotas:
 
-If the image is located in the images folder of your Joomla installation
-you should insert the image using the **CMS Content **→** Media** button
-In the TinyMCE edit toolbar (In Joomla 3: Select the Image button):
+- **Imagens Locais** estão localizadas no mesmo site da instalação do Joomla, geralmente na pasta *imagens*. Os links das imagens não precisam incluir o protocolo e o nome do domínio, pois são obtidos das configurações do site.
+- **Imagens Remotas** estão localizadas em outro lugar na internet. Elas precisam incluir o protocolo e o nome do domínio no link. O uso de imagens remotas por meio de tal *hot-linking* pode ser permitido hoje, mas não amanhã. O uso de imagens remotas sem permissão é considerado má etiqueta ou até mesmo roubo.
 
-<img
-src="https://docs.joomla.org/images/5/5e/Adding-an-image-to-an-article-cms-content-media.png"
-decoding="async" data-file-width="1000" data-file-height="508"
-width="1000" height="508" alt="Adding an image" />
+## Adicionando uma imagem local
 
-In the popup window, navigate to the image you want to use and click to
-select it. On selection a form will appear prompting for additional
-data. In Joomla 4 the form is to the left. In joomla 3 the form is at
-the bottom (scroll down):
+A melhor maneira de inserir imagens locais é utilizando o botão **CMS Conteúdo → Mídia** na barra de ferramentas de edição do TinyMCE. Ele abre um diálogo de Mídia que permite a seleção de qualquer imagem na pasta de imagens do site.
 
-<img
-src="https://docs.joomla.org/images/d/d4/Adding-an-image-to-an-article-selected-image.png"
-decoding="async" data-file-width="1000" data-file-height="508"
-width="1000" height="508" alt="Selecting an image" />
+**Importante:** Primeiro, posicione o cursor onde você deseja que a imagem apareça. Isso pode ser no início ou no final de um parágrafo ou em um parágrafo vazio.
 
-Defina as propriedades da imagem conforme necessário. Na maioria dos
-casos você certamente deve preencher o campo de descrição da imagem
-(texto alternativo). Os outros campos são usados para personalizar a
-aparência da imagem com sua própria CSS.
+![O diálogo de popup de mídia](../../../en/images/articles/articles-edit-images-media.png)
 
-- **Descrição da imagem**: Este se torna o atributo **alt**ernativo da
-  imagem, um recurso importante para acessibilidade e conformidade com
-  os padrões da web. No Joomla 3 é rotulado como **título da imagem**.
-- **Classe da imagem**: Se uma imagem for usada sem legenda, algumas
-  classes personalizadas podem ser aplicadas aqui. Por exemplo, no
-  Joomla 4, **float-end ms-2 mb-1** alinhará a imagem à direita e
-  flutuará o texto em torno dela com margens à esquerda e abaixo para
-  evitar que o texto toque na imagem. No Joomla 3, o estilo equivalente
-  é **pull-right**.
-- **Classe da figura**: Se uma legenda for definida, uma classe de
-  alinhamento, se houver, deve ser aplicada à figura. É uma marcação
-  html que inclui a marcação img. Observe que no Cassiopeia as margens
-  são aplicadas pela folha de estilo do modelo.
-- **Legenda da figura**: Habilita a legenda que exibe o título da imagem
-  abaixo da imagem.
+No diálogo de popup, navegue até a imagem que você deseja usar e selecione-a. Ao selecionar, um formulário aparecerá solicitando dados adicionais.
 
-**In Joomla 3**
+- **Descrição da Imagem (Texto Alternativo)** Isso é importante para fins de acessibilidade e conformidade com os padrões da web.
+- **Classe da Imagem** Se uma imagem for usada sem legenda, algumas classes personalizadas podem ser aplicadas aqui. Por exemplo, *float-end ms-2 mb-1* alinhará a imagem à direita e o texto flutuará ao redor com margens à esquerda e abaixo para evitar que o texto toque na imagem.
+- **Classe da Figura** Se uma legenda estiver definida, então uma classe de alinhamento, se houver, pode ser aplicada à Figura. Note que no Cassiopeia as margens são aplicadas à figura pela folha de estilo do template, então *float-start* ou *float-end* são suficientes.
+- **Legenda da Figura** Habilita a legenda que exibe o conteúdo deste campo como uma legenda abaixo da imagem.
 
-- **Flutuação da imagem**: Define o alinhamento da imagem. Por padrão, o
-  atributo de alinhamento é **não definido**.
-- **Classe da legenda**: Aplica a classe inserida no elemento
-  *figcaption*.
+**Importante:** Se o campo *Legenda da Figura* estiver vazio, a imagem será inserida dentro de uma tag `<img...>` e o campo *Classe da Figura* não será usado. Se o campo *Legenda da Figura* contiver texto, a tag `<img...>` será envolvida em tags `<figure>...</figure>`. As classes mais úteis para adicionar são *float-start* e *float-end* para posicionar a imagem à esquerda ou à direita da página, com o texto fluindo ao redor.
 
-Selecione o botão para *inserir mídia* para inserir a imagem. A tela
-para inserir imagem será fechada e a imagem será exibida no editor. Ou
-selecione o botão para *cancelar* para sair da tela para inserir imagem.
+Selecione o botão *Inserir Mídia* para inserir a imagem. A tela de Inserir Imagem se fechará e a imagem será exibida no editor. Ou selecione o botão *Cancelar* para sair da tela de Inserir Imagem.
 
-**Dica:** selecione o botão para alternar editor para ver os estilos de
-imagens e legendas aplicados.
+**Dica:** selecione o botão Alternar Editor para ver os estilos de Imagem e Figura aplicados. Pode ser necessário cortar e colar uma figura ou img para movê-la.
 
-### Using Drag and Drop for Local images
+### Usando Arrastar e Soltar para Imagens Locais
 
-In both Joomla 4 and Joomla 3 you can drag an image from the desktop or
-a file browser directly into the article text and the image will be
-uploaded to the media folder and placed in the article. The only snag is
-that all such uploaded images will be placed in the same media folder.
-The location of the Images Directory used for upload and whether this
-feature is enabled (On by default) are set in the TinyMCE configuration
-Options.
+Você pode arrastar uma imagem da área de trabalho ou de um navegador de arquivos diretamente para o texto do artigo e a imagem será carregada na pasta de mídia e colocada no artigo. A única ressalva é que todas essas imagens carregadas serão colocadas na mesma pasta de mídia.
 
-## Adding a remote image
+A localização do *Diretório de Imagens* usado para upload e se esse recurso está habilitado (ativado por padrão) são configurados nas Opções de configuração do TinyMCE.
 
-If the image you wish to use is not in the images folder of your Joomla
-installation a slightly different procedure is needed.
+## Adicionando um link de imagem remota
 
-- **Select** **Insert **→** Image** from the TinyMCE toolbar to open a
-  dialog box. In Jooml 3, use the Image icon and the same dialog as used
-  for local images.
-- **Insert** the image url in the Source field.
-- **Fill out** the other fields as required.
-- **Advanced** provides some formatting options applied as in-line
-  styles. Experiment with 1rem, 2, groove. (This feature is incomplete)
+Se a imagem que você deseja usar não estiver na pasta de imagens da sua instalação do Joomla, é necessário um procedimento ligeiramente diferente.
 
-<img
-src="https://docs.joomla.org/images/3/39/Adding-an-image-to-an-article-insert-edit-image.png"
-class="thumbborder" decoding="async" data-file-width="480"
-data-file-height="477" width="480" height="477"
-alt="Data for a remote image" />
+- Selecione **Inserir → Imagem** na barra de ferramentas do TinyMCE para abrir uma caixa de diálogo.
+- No campo **Fonte**, insira a URL da imagem.
+- Preencha os outros campos conforme necessário.
+- A aba **Avançado** oferece algumas opções de formatação aplicadas como estilos em linha. Experimente com 1rem, 2, groove.
 
-### Using Drag and Drop for Remote images
+![A caixa de diálogo de inserção de imagem](../../../en/images/articles/articles-edit-images-external-image.png)
 
-You can drag and drop an image from a remote web site directly into your
-article text. But be aware that this may also copy the image container
-html with class statements not valid for your site.
+### Usando Arrastar e Soltar para inserir links de imagem remota
 
-## Carregando imagens usando a tela para inserir imagem
+Você pode arrastar e soltar um link de imagem de um site remoto diretamente no texto do seu artigo. Mas esteja ciente de que isso também pode copiar o HTML do contêiner da imagem com declarações de classe que não são válidas para o seu site.
 
-Você pode carregar novas imagens usando a tela de mídia (a tela de
-imagem no Joomla 3).
+## Enviando imagens usando o diálogo de Mídia
 
-- Primeiro abra o navegador de mídia e navegue até a pasta onde você
-  deseja armazenar as novas imagens para o artigo atual.
-- Selecione o botão para carregar no canto superior esquerdo da tela de
-  mídia (no Joomla 3, role para baixo até o botão para procurar na parte
-  inferior do formulário de imagem) para abrir um navegador de arquivos.
-- Selecione os arquivos de imagem que você deseja carregar. Selecione
-  abrir, no navegador de arquivos, para confirmar a seleção. Observação:
-  o estilo e o layout do navegador de arquivos dependem do navegador e
-  do sistema operacional que você está usando. No Joomla 4 o
-  carregamento é imediato. No Joomla 3, selecione o botão para iniciar
-  carregamento.
-- O(s) arquivo(s) selecionado(s) aparece(m) em ordem alfabética na tela
-  de mídia/imagem.
-- Quando o carregamento estiver concluído, um aviso de confirmação verde
-  aparecerá na parte superior da tela.
+Você pode enviar novas imagens para a sua pasta de imagens a partir da página 
+*Conteúdo do CMS -> Mídia*.
 
-Agora você pode selecionar e inserir a imagem carregada como antes.
+- Abra o diálogo de Mídia e navegue até a pasta onde você deseja armazenar novas imagens para o artigo atual.
+- Selecione o botão Upload no canto superior esquerdo da tela de Mídia para abrir um navegador de arquivos.
+- Selecione os arquivos de imagem que deseja enviar. Selecione Abrir no navegador de arquivos para confirmar a seleção. Nota: O estilo e layout do navegador de arquivos dependem do navegador e sistema operacional que você está usando.
+- O(s) arquivo(s) selecionado(s) aparecerão em ordem alfabética na tela de Mídia/Imagem.
+- Quando o envio estiver completo, uma confirmação verde aparecerá no topo da tela.
+
+Agora você pode selecionar e inserir a imagem enviada como antes.
+
+*Traduzido por openai.com*
+

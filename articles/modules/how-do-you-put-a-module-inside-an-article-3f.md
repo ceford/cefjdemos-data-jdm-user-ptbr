@@ -1,101 +1,48 @@
-<!-- Filename: How_do_you_put_a_module_inside_an_article%3F / Display title: Como você coloca um módulo dentro de um artigo? -->
+<!-- Filename: How_do_you_put_a_module_inside_an_article%3F / Display title: Módulos dentro de Artigos -->
 
-Joomla!  <span class="small">≥ </span>2.5 series
+## Introdução
 
-Você geralmente desejará associar módulos a artigos de alguma forma. Os
-módulos são alocados nas posições de módulos e as posições de módulos
-aparecem em algum lugar na página web conforme determinado pelo tema. No
-entanto, às vezes é útil ter um módulo realmente incorporado no artigo.
-O núcleo do Joomla! oferece três maneiras de fazer isso: loadposition,
-loadmodule e loadmoduleid. O plugin "Conteúdo - Carregar módulos" deve
-estar habilitado.
+Você geralmente vai querer associar módulos a artigos de alguma forma. Os módulos são normalmente alocados em posições de módulo, e essas posições aparecem em algum lugar na página da web conforme determinado pelo template. No entanto, às vezes é útil ter um módulo realmente incorporado dentro de um artigo. O Joomla possui um plugin chamado *Conteúdo - Carregar Módulos* para fazer isso. Quando ativado, um módulo pode ser incorporado em um artigo de três maneiras diferentes:
 
-Sintaxe:
+```
+    {loadposition posição,[estilo]}
+    {loadmodule tipo_mod, o título,[estilo]}
+    {loadmoduleid idDoMódulo}
+```
 
-- {loadposition position,\[style\]}
-- {loadmodule mod_type,the title,\[style\]}
-- {loadmoduleid moduleId}
+Onde `estilo` é um dos valores de Estilo de Módulo da aba Avançado do formulário de entrada de dados do módulo, por exemplo, html, contorno, tabela, cartão ou semCartão.  
 
 ## loadposition
 
-Para inserir um módulo dentro de um artigo, você publica o módulo em uma
-posição e carrega essa posição no artigo da seguinte forma:
+Para inserir um módulo dentro de um artigo, você deve publicá-lo em uma posição e carregar essa posição no artigo da seguinte forma:
 
-1.  Crie um módulo e defina sua posição para ***minhaposição***.
-    ***minhaposição*** pode ser qualquer valor que não entre em conflito
-    com uma posição do tema existente. Digite a posição
-    ***minhaposição*** e pressione enter em vez de selecioná-la na lista
-    suspensa.
-2.  Atribua o módulo a **todos** os itens de menus. Isso garantirá que
-    ele sempre apareça, não importa como o visitante chegou ao artigo. O
-    módulo não será exibido a menos que você coloque o comando para
-    carregar o módulo em um
-    artigo.
-3.  Edite os artigos onde deseja que este módulo apareça e insira o
-    texto ***{loadposition minhaposição}*** no artigo, no local onde
-    deseja o módulo.
+1. Crie um módulo e defina sua posição como ***minhaposicao***. ***minhaposicao*** pode ser qualquer valor que não entre em conflito com uma posição de template existente. No formulário de edição do módulo, digite a posição ***minhaposicao*** e pressione Enter em vez de selecioná-la na lista suspensa.
+2. Atribua o módulo a **Todos** os Itens de Menu. Isso garantirá que ele sempre apareça, independentemente de como o visitante chegou ao artigo. O módulo não será exibido a menos que você use o comando para carregar o módulo em um artigo.
+3. Edite o artigo e insira o texto ***{loadposition minhaposicao}*** no local onde deseja que o módulo apareça.
 
-\*Observe que isso só funcionará se o  plugin *Conteúdo - Carregar
-módulo*
-(apenas em inglês) estiver habilitado. Se este plugin estiver
-desabilitado, o texto *{loadposition minhaposição}* será exibido
-inalterado no artigo. Além disso, o nome da posição deve ser todo em
-minúsculas. A "CapitalizaçãoCamelo" falhará.
+**Nota:** Se o plugin *Conteúdo - Carregar Módulos* estiver desativado, o texto *{loadposition minhaposicao}* aparecerá sem alterações no artigo. Além disso, o nome da posição deve estar todo em letras minúsculas. CapitalizaçãoMista falhará.  
 
 ## loadmodule
 
-Uma alternativa para "{loadposition xx}" é a variação "{loadmodule yyy}"
-que é tratada pelo mesmo plugin.
+A sintaxe *{loadmodule yyy}* procura o primeiro módulo cujo **tipo** corresponda à string 'yyy'. Assim, você pode carregar um módulo *mod_login* colocando {loadmodule login} em seu texto. O tipo não é tão óbvio! Por exemplo, o Seletor de Idiomas tem o tipo **languages**. Para encontrar o tipo, você precisa procurar na lista de pastas de módulos com um gerenciador de arquivos/explorador e remover a parte *mod_* do nome da pasta.
 
-Neste caso, o plugin procura o primeiro módulo cujo **tipo** corresponde
-à string "yyy". Então você pode carregar um módulo "mod_login" colocando
-{loadmodule login} em seu texto. Se você deseja carregar uma instância
-específica de um módulo, talvez pelo fato de você tem mais de um módulo
-de início de sessão (por exemplo, intitulado como "Login 1", "Login 2",
-etc.), terá que usar {loadmodule mod_tipodomódulo, títulodomódulo} onde
-mod\_**tipodomódulo** seria "mod_login" e **títulodomódulo** seria o
-nome/título dado à sua instância desse módulo. Então, no exemplo acima,
-você teria **{loadmodule mod_login Login 2}**. Você também pode
-adicionar o estilo usado para renderizar o módulo. Para fazer isso,
-adicione o estilo como o terceiro parâmetro (como, por exemplo,
-{loadmodule login,login2,xhtml}). Se você não adicionar um estilo,
-"nenhum" será usado.
+Se você deseja carregar uma instância específica de um módulo, porque tem mais de um módulo de login, por exemplo, intitulado como Login 1, Login 2, etc., você deve usar {loadmodule mod_modType, modTitle} onde **mod_modType** seria mod_login e **modTitle** seria o nome/título dado à sua instância desse módulo. Então, no exemplo acima, você acabaria com **{loadmodule mod_login Login 2}**.
+
+Você também pode adicionar o estilo que é usado para renderizar o módulo. Para fazer isso, adicione o estilo como terceiro parâmetro, como {loadmodule login,Login 2,xhtml}. Se você não adicionar um estilo, nenhum será usado.
 
 ## loadmoduleid
 
-Desde a versão 3.9.0 do Joomla!, uma alternativa para
-`{loadposition xx}` e `{loadmodule yyy}` é a variação `{loadmoduleid z}`
-que é tratada pelo mesmo plugin.
+A sintaxe *{loadmoduleid z}* procura o módulo cujo `id` corresponde ao número `z`. Portanto, você poderia carregar o módulo com id 200 inserindo *{loadmoduleid 200}* em seu texto. Esta variante não utiliza parâmetros adicionais como o parâmetro `style`.
 
-Neste caso, o plugin procura o módulo cujo `id` corresponde ao número
-`z`. Então você pode carregar o módulo com id 200 colocando
-`{loadmoduleid 200}` em seu texto. Esta variante não "entende"
-parâmetros adicionais como o parâmetro `style`.
+## Botão do Editor
 
-## Botão do editor (desde a versão 3.5 do Joomla!)
+Se o plugin editor-xtd *Botão - Módulo* estiver ativado, você pode usar o botão do editor *Módulo* para inserir as tags descritas acima de forma mais fácil no texto do editor. A lista de Módulos possui um botão na coluna Título para inserir por ID e um botão na coluna Posição para inserir por posição.
 
-Se o "Botão - Módulo" do plugin do editor-xtd estiver ativado, você
-poderá usar o botão "Módulo" do editor para inserir as tags descritas
-acima mais facilmente no texto do editor. Desde a versão 3.9 do Joomla!
-também está disponível a variante `loadmouleid`.
+## Módulos dentro de Módulos
 
-## Módulos dentro de módulos
+É possível incluir um módulo dentro de um módulo de *HTML Personalizado*. Eles são processados por plugins de conteúdo da mesma forma que os artigos.
 
-É possível, nas versões 2.5+ e 3.x+ do Joomla!, incluir um módulo dentro
-de um módulo de "HTML personalizada". Eles são processados por plugins
-de conteúdo da mesma forma que os artigos.
+Pode haver problemas de formatação, pois o estilo do módulo de *HTML Personalizado* envolverá o estilo do módulo incluído. É por isso que o botão do editor de *Módulo* não está disponível em módulos do tipo *Personalizado*.
 
-Para que isso funcione, a opção **Preparar conteúdo** deve estar
-habilitada conforme mostrado nesta captura de tela.
+*Traduzido por openai.com*  
 
-<img
-src="https://docs.joomla.org/images/d/de/J3x_custom_html_prepare_content_option-en.png"
-decoding="async" data-file-width="633" data-file-height="298"
-width="633" height="298"
-alt="Mostrando a opção &quot;Preparar conteúdo&quot; em um módulo de &quot;HTML personalizada&quot;." />
-
-Ao fazer isso, você deve se lembrar que pode ter problemas de
-formatação, pois o "cromo" do módulo de "HTML personalizada" envolverá o
-"cromo" do módulo incluído, possibilitando causar efeitos indesejáveis
-de formatação ou disposição (layout). É por isso que o botão "Módulo" do
-editor não está disponível em módulos dos tipos "Personalizados".
