@@ -2,30 +2,30 @@
 
 ## Finalidade
 
-O campo de caixas de seleção oferece uma ou mais caixas de seleção para serem marcadas em um artigo. As caixas que são marcadas aparecem na saída como uma lista separada por vírgulas. No exemplo a seguir, as caixas de seleção são usadas para indicar métodos de propagação de plantas, que podem ser uma ou mais das opções: Semente, Estaca ou Enxerto.
+O campo de caixas de seleção fornece uma ou mais caixas de seleção para serem selecionadas em um artigo. As caixas que são marcadas aparecem na saída como uma lista separada por vírgulas. No exemplo a seguir, as caixas de seleção são usadas para indicar métodos de propagação de plantas, que podem ser um ou mais dos seguintes: Semente, Estaca ou Enxerto.
 
-## Criação de Campos
+## Criação de Campo
 
 * O **Rótulo** é baseado no Título e aparece na saída antes da lista de valores selecionados.
 * As caixas de seleção são adicionadas uma de cada vez, cada uma com Texto e Valor. O Texto aparece na saída. O valor é usado no formulário de entrada de dados e cada um deve ser diferente.
 
-![Caixas de Seleção](../../../en/images/fields/fields-checkboxes.png "Caixas de Seleção")
+![Criação de campo de caixas de seleção](../../../en/images/fields/fields-checkboxes-edit.png)
 
-## Entrada de Dados
+**Nota:** Neste exemplo, a inclusão do tipo de campo no Título é apenas para fins de demonstração. Deixe-o de fora nos títulos dos seus próprios campos.
 
-Trata-se apenas de selecionar os itens que devem aparecer na saída.
+## Inserção de Dados
 
-![Seleção de Caixa de Seleção](../../../en/images/fields/fields-checkboxes-entry.png "Seleção de Caixa de Seleção")
+Isso é apenas uma questão de selecionar os itens que devem aparecer no resultado.
 
-Os campos só aparecem em um artigo se forem preenchidos no formulário de entrada de dados do artigo.
+![Inserção de dados de campo com caixas de seleção](../../../en/images/fields/fields-checkboxes-data-entry.png)
+
+Os campos só aparecerão em um artigo se forem preenchidos no formulário de entrada de dados do artigo.
 
 ## Exibição de Dados
 
-A captura de tela a seguir do site mostra o campo exibido em um artigo. A opção *Exibição automática* é responsável pela posição do campo e seu template é responsável pelo design do campo.
+A captura de tela do site a seguir mostra o campo exibido em um artigo. A opção *Exibição automática* é responsável pela posição do campo e seu template é responsável pelo design do campo.
 
-Procure pelo item **Propagação**.
-
-![Exibição de todos os campos](../../../en/images/fields/fields-display.png "Exibição de campos")
+![exibição do campo de caixas de seleção no site](../../../en/images/fields/fields-checkboxes-site.png)
 
 *Traduzido por openai.com*
 

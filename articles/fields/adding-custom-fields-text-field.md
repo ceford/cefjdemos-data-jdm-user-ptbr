@@ -7,27 +7,32 @@ O campo de texto permite a entrada de dados de texto em uma única linha.
 
 ## Criação de Campo
 
-Opções especiais dentro deste campo são:
+As opções especiais dentro deste campo são:
 
-- **Filtro** Permite que o sistema salve certas tags HTML ou dados brutos. Use o filtro
-bruto para garantir que o código HTML seja preservado quando o formulário for processado.
-- **Comprimento Máximo** O número máximo de caracteres que pode ser inserido.
-- **Prefixo** Isso aparece antes do texto na saída do Artigo. Exemplo: £.
-- **Sufixo** Isso aparece após o texto na saída do Artigo. Exemplo: EUR.
+- **Filtro** Permite que o sistema salve certas tags HTML ou dados brutos. Use o
+filtro raw para garantir que o código HTML seja preservado quando o formulário for processado.
+- **Comprimento Máximo** O número máximo de caracteres que podem ser inseridos.
+- **Prefixo** Aparece antes do texto na saída do Artigo. Exemplo: £.
+- **Sufixo** Aparece após o texto na saída do Artigo. Exemplo: EUR.
 
-## Inserção de Dados
+![criação de campo de texto](../../../en/images/fields/fields-text-edit.png)
+
+**Nota:** Neste exemplo, a inclusão do tipo de campo no Título é apenas para
+fins de demonstração. Deixe-o de fora nos títulos de seus próprios campos.
+
+## Entrada de Dados
 
 Simples: Digite seu texto.
+
+![entrada de dados no campo de texto](../../../en/images/fields/fields-text-data-entry.png)
 
 
 ## Exibição de Dados
 
-A captura de tela a seguir do site mostra o campo exibido em um artigo. A opção *Exibição automática* é responsável pela posição do campo e seu template é responsável pelo design do campo.
+A captura de tela a seguir do Site mostra o campo exibido em um artigo. A opção *Exibição automática* é responsável pela posição do campo, e o seu template é responsável pelo design do campo.
 
-Procure pelo item **Preço**.
+![exibição do campo de texto do site](../../../en/images/fields/fields-text-site.png)
 
-![Exibição de todos os campos](../../../en/images/fields/fields-display.png "Exibição dos campos")
-
-O campo de Texto segue o rótulo do campo. E observe que o símbolo £ foi definido como um Prefixo.
+O campo Texto segue o campo Rótulo.
 *Traduzido por openai.com*
 

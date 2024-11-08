@@ -11,21 +11,24 @@ As opções especiais dentro deste campo são:
 - **Usuário Padrão** Pode ser útil definir um usuário padrão se o mesmo usuário
 aparecer em quase todos os Artigos.
 
+![criação de campo de usuário](../../../en/images/fields/fields-user-edit.png)
+
+**Nota:** Neste exemplo, a inclusão do tipo de campo no Título é apenas para
+fins de demonstração. Deixe-o fora nos seus próprios títulos de campos.
 
 ## Entrada de Data
 
 Simples, basta selecionar um usuário da lista de usuários.
 
+![entrada de dados do campo de usuário](../../../en/images/fields/fields-user-data-entry.png)
 
 ## Exibição de Dados
 
-A captura de tela do site a seguir mostra o campo exibido em um artigo. A
-opção *Exibição automática* é responsável pela posição do campo e
-seu template é responsável pelo design do campo.
+A captura de tela do Site a seguir mostra o campo exibido em um artigo. A opção *Exibição automática* é responsável pela posição do campo e seu modelo é responsável pelo design do campo.
 
-Procure pelo item **Repórter**.
+![exibição do campo do usuário no site](../../../en/images/fields/fields-user-site.png)
 
-![Exibição de todos os campos](../../../en/images/fields/fields-display.png "Exibição dos campos")
+O rótulo do campo é seguido pelo Nome do usuário (não pelo nome de usuário).
 
-O rótulo do campo é seguido pelo Nome do usuário (não o nome de usuário).
+*Traduzido por openai.com*
 

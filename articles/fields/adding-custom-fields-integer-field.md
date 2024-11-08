@@ -2,7 +2,7 @@
 
 ## Finalidade
 
-O campo Inteiro fornece uma lista suspensa de números inteiros entre valores mínimos e máximos especificados.
+O campo Integer fornece uma lista suspensa de números inteiros entre valores mínimo e máximo especificados.
 
 ## Criação de Campo
 
@@ -12,22 +12,24 @@ Opções especiais para este campo:
 - **Primeiro** O menor na lista.
 - **Último** O maior na lista.
 - **Passo** O incremento para cada passo na lista.
-- **Classe do Campo** Defina para *w-auto* para fazer a lista apenas larga o suficiente para sua lista de inteiros.
+- **Classe do Campo** Defina como *w-auto* para fazer a lista ligeiramente larga o suficiente para sua lista de inteiros.
 
+![Criação de campo inteiro](../../../en/images/fields/fields-integer-edit.png)
+
+**Nota:** Neste exemplo, a inclusão do tipo de campo no Título é apenas para fins de demonstração. Não inclua isso nos títulos dos seus próprios campos. 
 
 ## Entrada de Dados
 
-Selecione o número inteiro necessário da lista, ou mais de um em uma lista de seleção múltipla. Note que, sem o w-auto, o campo de seleção de inteiro ocupa toda a largura do formulário.
+Selecione o número inteiro exigido da lista ou mais de um de uma lista de seleção múltipla. Observe que, sem o w-auto, o campo de seleção de inteiros ocupa a largura total do formulário.
 
-![Seleção de Inteiro](../../../en/images/fields/fields-integer-entry.png "Seleção de Inteiro")
+![Entrada de dados do campo de número inteiro](../../../en/images/fields/fields-integer-data-entry.png)
+
 
 ## Exibição de Dados
 
-A captura de tela do Site a seguir mostra o campo exibido em um artigo. A opção *Exibição automática* é responsável pela posição do campo e seu template é responsável pelo design do campo.
+A captura de tela do Site a seguir mostra o campo exibido em um artigo. A opção *Exibição automática* é responsável pela posição do campo, e o seu modelo é responsável pelo design do campo.
 
-Procure o item **RHS Hardiness**.
-
-![Exibição de todos os campos](../../../en/images/fields/fields-display.png "Exibição dos campos")
+![Exibição do campo inteiro no site](../../../en/images/fields/fields-integer-site.png)
 
 *Traduzido por openai.com*
 
