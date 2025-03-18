@@ -53,7 +53,7 @@ Para Joomla 4 e 5, antes de ativar, é necessário alterar `if ($app->isAdmin())
 
 Em um artigo, selecione a aba Publicação e, em seguida, o botão **Auto** da *URL Canônica*. Isso irá colocar um link como o seguinte em qualquer página que exiba o artigo único:
 ```
-	<link href="/jdm3/en/user/seo/seo-basics.html" rel="canonical" />
+    <link href="/jdm3/en/user/seo/seo-basics.html" rel="canonical" />
 ```
 
 ## Qualidade do Conteúdo
@@ -119,4 +119,3 @@ Nem é preciso dizer que imagens atraentes podem melhorar enormemente um site. N
 * Use imagens responsivas - há um plugin no Joomla que cria dinamicamente versões webp de imagens png e jpg em vários tamanhos.
 
 *Traduzido por openai.com*
-

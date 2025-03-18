@@ -134,7 +134,7 @@ use Joomla\Component\Fields\Administrator\Helper\FieldsHelper;
 Então, onde você desejar inserir os campos no seu template, use o seguinte código:
 ```php
 <?php foreach ($this->item->jcfields as $field) : ?>
-	<?php echo FieldsHelper::render($field->context, 'field.render', array('field' => $field)); ?><br>
+    <?php echo FieldsHelper::render($field->context, 'field.render', array('field' => $field)); ?><br>
 <?php endforeach ?>
 ```
 
@@ -142,7 +142,7 @@ Ou para uma substituição pura, que não traduz o rótulo:
 
 ```php
 <?php foreach ($this->item->jcfields as $field) : ?>
-	<?php echo $field->label . ':' . $field->value; ?><br>
+    <?php echo $field->label . ':' . $field->value; ?><br>
 <?php endforeach ?>
 ```
 
@@ -173,4 +173,3 @@ Para adicionar o **valor** do campo à sua substituição, insira o código abai
 ```
 
 Você pode adicionar este código a qualquer parte da sua substituição. Exemplos: O conteúdo de uma div, o src em uma tag `img`, dentro de um atributo de classe CSS, etc.
-

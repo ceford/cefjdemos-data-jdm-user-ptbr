@@ -17,24 +17,24 @@ Os módulos são atribuídos a uma posição em uma página definida pelo templa
 E a lista a seguir mostra as posições de módulos disponíveis por nome:
 
 ```xml
-	<positions>
-		<position>topbar</position>
-		<position>abaixo-topo</position>
-		<position>menu</position>
-		<position>busca</position>
-		<position>banner</position>
-		<position>topo-a</position>
-		<position>topo-b</position>
-		<position>principal-topo</position>
-		<position>principal-rodapé</position>
-		<position>caminho</position>
-		<position>barra-lateral-esquerda</position>
-		<position>barra-lateral-direita</position>
-		<position>inferior-a</position>
-		<position>inferior-b</position>
-		<position>rodapé</position>
-		<position>depuração</position>
-	</positions>
+    <positions>
+        <position>topbar</position>
+        <position>abaixo-topo</position>
+        <position>menu</position>
+        <position>busca</position>
+        <position>banner</position>
+        <position>topo-a</position>
+        <position>topo-b</position>
+        <position>principal-topo</position>
+        <position>principal-rodapé</position>
+        <position>caminho</position>
+        <position>barra-lateral-esquerda</position>
+        <position>barra-lateral-direita</position>
+        <position>inferior-a</position>
+        <position>inferior-b</position>
+        <position>rodapé</position>
+        <position>depuração</position>
+    </positions>
 ```
 
 ## Adicionar um Módulo Core
@@ -53,14 +53,14 @@ Desça e selecione o módulo Imagem Aleatória. Isso abrirá o formulário de ed
 
 - **Título** Este campo é obrigatório.
 - **Tipo de Imagem** O padrão é jpg.
-- **Pasta de Imagem** Insira um caminho para uma pasta que realmente contenha 
+- **Pasta de Imagem** Insira um caminho para uma pasta que realmente contenha
   imagens do tipo que você selecionou.
 - **Link** Um URL para redirecionar se a imagem for selecionada.
 - **Largura** Força todas as imagens a serem exibidas com essa largura em pixels.
 - **Altura** Deixe vazio para manter a proporção da imagem.
-- **Posição** Selecione uma posição do módulo para que o módulo realmente 
+- **Posição** Selecione uma posição do módulo para que o módulo realmente
   apareça em uma página. Na ilustração, foi selecionado lado-direito.
-- **Salvar & Fechar** Ou use o botão de Ajuda na Barra de Ferramentas para 
+- **Salvar & Fechar** Ou use o botão de Ajuda na Barra de Ferramentas para
   descobrir o que os outros campos fazem.
 
 ## Ordem dos Módulos
@@ -110,4 +110,3 @@ Tudo pronto?
 - **Wrapper (Envoltório)** Este módulo mostra uma janela iframe para a localização especificada.
 
 *Traduzido por openai.com*
-

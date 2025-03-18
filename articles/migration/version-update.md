@@ -131,20 +131,19 @@ ver as etapas registradas no log. Ele mostrará as etapas principais (baixar zip
 instalar, executar comandos SQL, limpeza), algo assim:
 
 ```
-2024-04-17T09:13:16+00:00	INFO 127.0.0.1	update	Atualização iniciada pelo usuário Jimmy (139). A versão antiga é 5.0.3.
-2024-04-17T09:13:18+00:00	INFO 127.0.0.1	update	Baixando o arquivo de atualização de ...
-2024-04-17T09:13:28+00:00	INFO 127.0.0.1	update	Arquivo Joomla_5.1.0-Stable-Update_Package.zip baixado.
-2024-04-17T09:13:28+00:00	INFO 127.0.0.1	update	Iniciando a instalação da nova versão.
-2024-04-17T09:13:40+00:00	INFO 127.0.0.1	update	Finalizando a instalação.
-2024-04-17T09:13:40+00:00	INFO 127.0.0.1	update	Início das atualizações de SQL.
-2024-04-17T09:13:40+00:00	INFO 127.0.0.1	update	A versão atual do banco de dados (esquema) é 5.0.0-2023-09-11.
+2024-04-17T09:13:16+00:00    INFO 127.0.0.1    update    Atualização iniciada pelo usuário Jimmy (139). A versão antiga é 5.0.3.
+2024-04-17T09:13:18+00:00    INFO 127.0.0.1    update    Baixando o arquivo de atualização de ...
+2024-04-17T09:13:28+00:00    INFO 127.0.0.1    update    Arquivo Joomla_5.1.0-Stable-Update_Package.zip baixado.
+2024-04-17T09:13:28+00:00    INFO 127.0.0.1    update    Iniciando a instalação da nova versão.
+2024-04-17T09:13:40+00:00    INFO 127.0.0.1    update    Finalizando a instalação.
+2024-04-17T09:13:40+00:00    INFO 127.0.0.1    update    Início das atualizações de SQL.
+2024-04-17T09:13:40+00:00    INFO 127.0.0.1    update    A versão atual do banco de dados (esquema) é 5.0.0-2023-09-11.
 ... Várias consultas SQL individuais
-2024-04-17T09:13:41+00:00	INFO 127.0.0.1	update	Fim das atualizações de SQL.
-2024-04-17T09:13:41+00:00	INFO 127.0.0.1	update	Desinstalando extensões
-2024-04-17T09:13:41+00:00	INFO 127.0.0.1	update	Excluindo arquivos e pastas removidos.
-2024-04-17T09:13:44+00:00	INFO 127.0.0.1	update	Limpando após a instalação.
-2024-04-17T09:13:44+00:00	INFO 127.0.0.1	update	A atualização para a versão 5.1.0 está completa.
+2024-04-17T09:13:41+00:00    INFO 127.0.0.1    update    Fim das atualizações de SQL.
+2024-04-17T09:13:41+00:00    INFO 127.0.0.1    update    Desinstalando extensões
+2024-04-17T09:13:41+00:00    INFO 127.0.0.1    update    Excluindo arquivos e pastas removidos.
+2024-04-17T09:13:44+00:00    INFO 127.0.0.1    update    Limpando após a instalação.
+2024-04-17T09:13:44+00:00    INFO 127.0.0.1    update    A atualização para a versão 5.1.0 está completa.
 ```
 
 *Traduzido por openai.com*
-
