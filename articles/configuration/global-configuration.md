@@ -54,9 +54,13 @@ Os itens neste painel são bem explicados pela ajuda embutida. No entanto, se vo
 
 ![Guia de configuração global do servidor](../../../en/images/configuration/global-configuration-server-tab.png)
 
-### Painel de Email
+### Painel de e-mail
 
-Um site Joomla deve ser capaz de enviar emails de saída. Entre outras coisas, ele enviará mensagens automáticas para o proprietário do site quando houver atualizações disponíveis. No entanto, alguns serviços de hospedagem restringem os métodos pelos quais emails de saída podem ser enviados. Usando seu próprio endereço de email particular no campo *Email do Remetente*:
+Um site Joomla deve ser capaz de enviar e-mails de saída. Entre outras coisas, ele enviará mensagens automáticas para o proprietário do site quando houver atualizações disponíveis. No entanto, alguns serviços de hospedagem restringem os métodos pelos quais os e-mails de saída podem ser enviados.
+
+#### Enviar e-mail de teste
+
+Antes do Joomla 5.3, o botão **Enviar e-mail de teste** enviava uma mensagem para o endereço configurado no campo **E-mail do remetente**. A partir da versão 5.3, o e-mail de teste é enviado diretamente para o endereço de e-mail do administrador que estiver logado.
 
 - Primeiro, tente PHP Mail e selecione o botão *Enviar Email de Teste*. Se o email chegar, você está pronto para prosseguir. Caso contrário:
 - Tente a opção Sendmail. Se isso não funcionar:
