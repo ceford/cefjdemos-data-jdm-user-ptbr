@@ -6,7 +6,7 @@ Era uma vez, era prática comum para um site exibir itens de notícias de sites 
 
 O método para compartilhar notícias é a *Really Simple Syndication*, geralmente abreviada para **RSS**, e isso ainda tem um lugar na promoção de sites. A captura de tela a seguir mostra o *NetNewsWire*, um leitor de RSS gratuito e de código aberto para Mac. Outros leitores de RSS estão disponíveis para outras plataformas. A ilustração mostra o feed RSS de **Anúncios do Joomla!** selecionado. Dez anúncios são listados com título e breve descrição. O anúncio selecionado é exibido na íntegra na coluna da direita.
 
-![Feed RSS dos Anúncios do Joomla](../../../en/images/news-feeds/news-netnewswire-display.png "Anúncios do Joomla")
+![Feed RSS dos Anúncios do Joomla](../../../en/images/news-feeds/news-netnewswire-display.png)
 
 Imagine o que um ou mais feeds RSS podem fazer pelo seu site!  
 
@@ -32,13 +32,13 @@ O Feed RSS não pode ser ocultado em uma página inicial de Artigos em Destaque 
 
 Há um módulo principal que você pode colocar em páginas de Blog Destacado ou Categoria para fornecer um link de Sindicação. Preencha os campos na guia do Módulo. A maioria tem valores padrão adequados. Se o campo Rótulo for deixado em branco, o rótulo padrão em inglês será *Feed Entries*. Na guia *Atribuição de Menu*, selecione **Em todas as páginas**. O módulo só aparecerá em páginas de Blog Destacado e de Categoria.
 
-![Entrada de dados de feeds de sindicação](../../../en/images/news-feeds/news-syndication-feeds-form.png "Entrada de dados de feeds de sindicação")
+![Entrada de dados de feeds de sindicação](../../../en/images/news-feeds/news-syndication-feeds-form.png)
 
 Lembre-se de atribuir o módulo a uma *Posição* e marcá-lo como *Publicado*.
 
 Na visualização da página do site, o módulo exibe um link. Não é para ser clicado, a menos que você tenha um Leitor de Notícias local configurado. O link precisa ser copiado para uso em um Leitor de Notícias em outro site ou aplicativo de Leitor de Notícias.
 
-![Exibição de feeds de sindicação](../../../en/images/news-feeds/news-syndication-feeds-display.png "Exibição de feeds de sindicação")
+![Exibição de feeds de sindicação](../../../en/images/news-feeds/news-syndication-feeds-display.png)
 
 Observe que o link é para os itens dessa página. Portanto, se o seu site tiver várias páginas de blog de categoria, você terá vários feeds RSS diferentes.
 

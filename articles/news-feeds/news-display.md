@@ -4,11 +4,11 @@
 
 Existe um módulo central de *Exibição de Feed* disponível para mostrar notícias de outros sites. A captura de tela a seguir mostra o formulário de entrada de dados com a URL do feed de notícias de Anúncios do Joomla. Note que a Contagem de Palavras está definida para 100. Caso contrário, o comprimento de um anúncio pode ser excessivo para um módulo de barra lateral.
 
-![Entrada de dados do módulo de exibição de feed](../../../en/images/news-feeds/news-joomla-news-form.png "Entrada de dados do módulo de exibição de feed")
+![Entrada de dados do módulo de exibição de feed](../../../en/images/news-feeds/news-joomla-news-form.png)
 
 O resultado pode não ser esteticamente agradável, mas pode ser melhorado com alguns estilos personalizados em user.css:
 
-![Entrada de dados do módulo de exibição de feed](../../../en/images/news-feeds/news-joomla-news-display.png "Entrada de dados do módulo de exibição de feed")
+![Entrada de dados do módulo de exibição de feed](../../../en/images/news-feeds/news-joomla-news-display.png)
 
 ## Páginas de Exibição de Feed
 
@@ -22,7 +22,7 @@ Como alternativa à exibição de notícias em um módulo, você pode criar um i
     - A aba **Opções** tem itens para controlar a *Exibição* do feed.
 * **Salvar & Fechar**
 
-![Entrada de dados do componente NewsFeed](../../../en/images/news-feeds/news-feed-data-entry.png "Entrada de dados do componente NewsFeed")
+![Entrada de dados do componente NewsFeed](../../../en/images/news-feeds/news-feed-data-entry.png)
 
 Crie um item de menu partindo do menu do Administrador:
 
@@ -32,11 +32,11 @@ Crie um item de menu partindo do menu do Administrador:
 * Preencha o restante do formulário conforme apropriado.
 * **Salvar & Fechar**
 
-![Entrada de dados do item de menu NewsFeed](../../../en/images/news-feeds/news-feed-data-entry.png "Entrada de dados do item de menu NewsFeed")
+![Entrada de dados do item de menu NewsFeed](../../../en/images/news-feeds/news-feed-data-entry.png)
 
 Teste: vá ao menu do Site e selecione o item de menu do Feed.
 
-![Exibição do NewsFeed](../../../en/images/news-feeds/news-feed-display.png "Exibição do NewsFeed")
+![Exibição do NewsFeed](../../../en/images/news-feeds/news-feed-display.png)
 
 Cada item no feed é um `<li>` dentro de uma tag `<ul>`, então, por padrão, aparece marcado por um marcador. Isso não é tão evidente se os itens forem longos. Você pode aplicar seus próprios estilos em *user.css*. O seguinte colocará cada item em uma caixa distinta:
 
@@ -54,13 +54,13 @@ ul.com-newsfeeds-newsfeed__items > li {
 ```
 Que aparece assim:
 
-![Exibição personalizada do NewsFeed](../../../en/images/news-feeds/news-feed-custom-display.png "Exibição personalizada do NewsFeed")
+![Exibição personalizada do NewsFeed](../../../en/images/news-feeds/news-feed-custom-display.png)
 
 ## Listar Feeds de Notícias em uma Categoria
 
 A página *Joomla! Feeds de Notícias RSS* lista oito feeds de notícias separados. Você pode criar um feed para alguns ou todos eles e atribuí-los a uma Categoria, digamos *Notícias Joomla*. Em seguida, você pode criar um item de menu com o *Tipo de Item de Menu* definido como *Listar Feeds de Notícias em uma Categoria* e a Categoria definida como *Notícias Joomla*.
 
-![Formulário de menu de feed de notícias por categoria](../../../en/images/news-feeds/news-feed-menu-category-form.png "Formulário de menu de feed de notícias por categoria")
+![Formulário de menu de feed de notícias por categoria](../../../en/images/news-feeds/news-feed-menu-category-form.png)
 
 Experimente para ver o resultado!
 

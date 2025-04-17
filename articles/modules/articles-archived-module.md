@@ -48,7 +48,7 @@ Quando estiver pronto, selecione o botão **Salvar & Fechar**.
 
 O módulo será publicado na barra lateral do site e exibirá uma lista de links ditada pelo número de meses para exibição configurado no módulo.
 
-![Exemplo de Módulo de Artigos Arquivados](../../../en/images/modules/modules-archived-articles.png "Exemplo de Módulo de Artigos Arquivados")
+![Exemplo de Módulo de Artigos Arquivados](../../../en/images/modules/modules-archived-articles.png)
 
 ## Dicas
 

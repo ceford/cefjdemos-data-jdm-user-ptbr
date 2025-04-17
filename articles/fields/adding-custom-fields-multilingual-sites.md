@@ -10,7 +10,7 @@ Se você possui um site multilíngue, pode exibir os rótulos e descrições dos
 
 No exemplo a seguir, um grupo de campo de Contato e um campo são criados para as preferências pessoais de um contato. O grupo de campo é nomeado Favoritos e o campo de exemplo é nomeado Carro. Claramente, mais campos podem ser adicionados para outras coisas favoritas, como comida ou filmes.
 
-Para seguir este exemplo, presume-se que você configurou um site multilíngue conforme descrito no tutorial [Sites Multilíngues](jdocmanual?article=user/languages/setup-a-multilingual-site "Sites Multilíngues").
+Para seguir este exemplo, presume-se que você configurou um site multilíngue conforme descrito no tutorial [Sites Multilíngues](jdocmanual?article=user/languages/setup-a-multilingual-site).
 
 ## Constantes de Idioma
 
@@ -49,7 +49,7 @@ No menu do Administrador:
 
 A captura de tela a seguir mostra um exemplo de criação de substituição para uma constante de idioma em alemão.
 
-![Criação de substituição em alemão](../../../en/images/fields/fields-overrides-creation-de.png "Criação de substituição em alemão")
+![Criação de substituição em alemão](../../../en/images/fields/fields-overrides-creation-de.png)
 
 ## Definindo o Grupo de Campos
 
@@ -79,11 +79,11 @@ No menu do Administrador:
 
 Com o inglês selecionado antes do login do Administrador, o formulário de entrada de dados de Contato deve conter uma aba com o nome em inglês do seu grupo de campos e campos naquele grupo também com valores em inglês.
 
-![Entrada de dados em inglês](../../../en/images/fields/fields-overrides-entry.png "Entrada de dados em inglês")
+![Entrada de dados em inglês](../../../en/images/fields/fields-overrides-entry.png)
 
 Com o alemão selecionado antes do login do Administrador, você deve ver as traduções alemãs de suas constantes de idioma:
 
-![Entrada de dados em alemão](../../../en/images/fields/fields-overrides-entry-de.png "Entrada de dados em alemão")
+![Entrada de dados em alemão](../../../en/images/fields/fields-overrides-entry-de.png)
 
 Aviso: tradução por translate.google.co.uk!
 
@@ -91,11 +91,11 @@ Aviso: tradução por translate.google.co.uk!
 
 Em inglês:
 
-![Exibição de dados em inglês](../../../en/images/fields/fields-overrides-display.png "Exibição de dados em inglês")
+![Exibição de dados em inglês](../../../en/images/fields/fields-overrides-display.png)
 
 E alemão:
 
-![Exibição de dados em alemão](../../../en/images/fields/fields-overrides-display-de.png "Exibição de dados em alemão")
+![Exibição de dados em alemão](../../../en/images/fields/fields-overrides-display-de.png)
 
 *Traduzido por openai.com*
 

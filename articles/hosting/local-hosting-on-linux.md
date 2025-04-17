@@ -10,13 +10,13 @@ Você precisa instalar um conjunto de pacotes de software frequentemente chamado
 
 No Menu do sistema, marcado com o logotipo do LM, selecione Administração / Gerenciador de Pacotes Synaptic. Você será solicitado a inserir sua senha. Digite sua senha de login para abrir a GUI. No canto superior direito, há um botão de `Pesquisa`. Selecione-o, digite **apache** e clique em `Pesquisar`. Marque a caixa de seleção `apache2` e, no rótulo pop-up, escolha `Marcar para Instalação`. Outro pop-up mostrará uma lista de pacotes adicionais necessários para dar suporte ao apache. Selecione `Marcar`:
 
-![gerenciador de pacotes synaptic](../../../en/images/hosting/synaptic-package-manager-gui.png "Interface do Gerenciador de Pacotes Synaptic")
+![gerenciador de pacotes synaptic](../../../en/images/hosting/synaptic-package-manager-gui.png)
 
 Selecione o botão `Aplicar` na barra de ferramentas superior e, em seguida, o botão `Aplicar` na caixa de diálogo Resumo. O Apache será instalado e configurado, e o processo terminará com uma **caixa de diálogo de Alterações Aplicadas**. Selecione `Fechar`.
 
 Você pode confirmar que o Apache está instalado e funcionando ao abrir seu navegador — Firefox, por padrão, em uma nova instalação do Linux Mint — e digitar **localhost** na barra de URL. Você deve ver a Página Padrão do Ubuntu Apache2:
 
-![página padrão do apache](../../../en/images/hosting/apache-default-page.png "Página Padrão do Apache")
+![página padrão do apache](../../../en/images/hosting/apache-default-page.png)
 
 A página contém algumas informações úteis sobre localizações de arquivos que podem não estar tão prontamente disponíveis mais tarde, então você pode querer imprimir esta página em papel ou em um arquivo PDF.
 

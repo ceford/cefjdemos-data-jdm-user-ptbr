@@ -182,7 +182,7 @@ Isso pode ser feito automaticamente através da função de exibição do contro
     }
 
 Há também alguns urlparams a serem considerados. Confira este
-[Joomla StackExchange](http://joomla.stackexchange.com/questions/5781/how-can-i-use-joomlas-cache-with-my-components-view/7000#7000 "")
+[Joomla StackExchange](http://joomla.stackexchange.com/questions/5781/how-can-i-use-joomlas-cache-with-my-components-view/7000#7000)
 
 Também esteja ciente de que quaisquer atualizações (como acessos ou contagens de visitas) NÃO serão atualizadas (a menos que você adicione isso fora deste método e, portanto, qualquer parte mais profunda do MVC).
 

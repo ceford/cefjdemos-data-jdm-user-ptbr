@@ -52,7 +52,7 @@ Dependendo do tamanho do seu site, a indexação pode levar de alguns minutos a 
 
 A página de Conteúdo Indexado lista todo o conteúdo indexado. Se você preferir que itens específicos não sejam exibidos nos resultados de busca, pode despublicá-los do banco de dados do Smart Search selecionando a caixa de seleção ao lado do título do item e, em seguida, pressionando o botão Despublicar.
 
-**NOTA IMPORTANTE**: Se o seu site tiver uma grande quantidade de conteúdo, ou itens de conteúdo particularmente grandes, ou tiver espaço em disco restrito, você deve ler sobre [Pesquisa Inteligente em sites grandes](jdocmanual?article=user/smart-search/smart-search-on-large-sites "Pesquisa Inteligente em sites grandes").
+**NOTA IMPORTANTE**: Se o seu site tiver uma grande quantidade de conteúdo, ou itens de conteúdo particularmente grandes, ou tiver espaço em disco restrito, você deve ler sobre [Pesquisa Inteligente em sites grandes](jdocmanual?article=user/smart-search/smart-search-on-large-sites).
 
 ## Expondo a Busca Inteligente aos Usuários do Site
 

@@ -39,7 +39,7 @@ A lista com marcadores dos campos personalizados pode ser melhorada removendo os
 }
 ```
 
-![styled business committee](../../../en/images/contacts/contact-business-committee-styled.png "Styled Business Committee")
+![styled business committee](../../../en/images/contacts/contact-business-committee-styled.png)
 
 Isso é o máximo que pode ser feito com estilização. Melhor, mas ainda não o suficiente. Para adicionar mais itens e alterar o layout será necessário uma substituição de layout.
 
@@ -153,7 +153,7 @@ a:has(.contact-thumbnail) {
 
 ### Resultado
 
-![comitê de negócios em grade](../../../en/images/contacts/contact-business-committee-grid.png "Comitê de Negócios em Grade")
+![comitê de negócios em grade](../../../en/images/contacts/contact-business-committee-grid.png)
 
 *Traduzido por openai.com*
 

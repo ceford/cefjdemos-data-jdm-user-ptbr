@@ -6,13 +6,13 @@ Os Tours Guiados são projetados para oferecer aos novatos em Joomla uma breve i
 
 Há vários tours integrados e o tour **Bem-vindo ao Joomla!** inicia automaticamente na primeira vez que um usuário faz login na interface do Administrador.
 
-![Boas-vindas aos Tours Guiados](../../../en/images/help/guided-tours-welcome.png "Boas-vindas aos Tours Guiados")
+![Boas-vindas aos Tours Guiados](../../../en/images/help/guided-tours-welcome.png)
 
 ## Lista de Tours
 
 Os Tours estão listados em um menu suspenso na barra de título do painel e nas telas de lista, como na ilustração a seguir:
 
-![Tours Guiados](../../../en/images/help/guided-tours.png "Tours Guiados")
+![Tours Guiados](../../../en/images/help/guided-tours.png)
 
 A lista completa inclui o seguinte:
 

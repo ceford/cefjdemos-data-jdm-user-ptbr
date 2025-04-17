@@ -12,7 +12,7 @@ Você pode usar a ferramenta online pelo site PageSpeed Insights.
 
 A captura de tela a seguir mostra a primeira parte do relatório do PageSpeed Insights:
 
-![Relatório do PageSpeed Insights](../../../en/images/performance/performance-pagespeed-insights.png "Relatório do PageSpeed Insights")
+![Relatório do PageSpeed Insights](../../../en/images/performance/performance-pagespeed-insights.png)
 
 ## Melhorias de Desempenho
 

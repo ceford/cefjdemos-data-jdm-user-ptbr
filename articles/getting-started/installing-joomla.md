@@ -21,7 +21,7 @@ Os valores mínimos para o arquivo *php.ini* estão mostrados abaixo:
 
 ### Configuração de Banco de Dados
 
-Se você ainda não configurou um banco de dados, faça isso agora. Isso é abordado para um serviço de hospedagem com cPanel no tutorial [Hospedagem cPanel](jdocmanual?article=user/hosting/cpanel-hosting "Hospedagem cPanel"). Há também um tutorial *Criando um Banco de Dados para Joomla!* que cobre métodos de localhost e phpMyAdmin.
+Se você ainda não configurou um banco de dados, faça isso agora. Isso é abordado para um serviço de hospedagem com cPanel no tutorial [Hospedagem cPanel](jdocmanual?article=user/hosting/cpanel-hosting). Há também um tutorial *Criando um Banco de Dados para Joomla!* que cobre métodos de localhost e phpMyAdmin.
 
 Você precisará anotar informações básicas do banco de dados necessárias quando a instalação do Joomla for iniciada.
 

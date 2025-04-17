@@ -26,7 +26,7 @@ Os contatos são criados por meio da página de lista de Contatos. Selecione o b
 
 No formulário **Contatos: Edição**, insira todos os dados que você tiver disponíveis sobre o contato.
 
-![captura de tela de entrada de dados](../../../en/images/contacts/contact-data-entry.png "Captura de Tela da Entrada de Dados")
+![captura de tela de entrada de dados](../../../en/images/contacts/contact-data-entry.png)
 
 **Notas:**
 
@@ -60,13 +60,13 @@ Câmara dos Comuns
 - Comitê de Negócios
 - Comitê de Cultura
 ```
-![todas as categorias em uma árvore de categorias](../../../en/images/contacts/contact-all-committees.png "Todas as Categorias em uma Árvore de Categorias de Contatos")
+![todas as categorias em uma árvore de categorias](../../../en/images/contacts/contact-all-committees.png)
 
 A segunda linha de cada entrada vem da Descrição da Categoria.
 
 Se você selecionar um dos links do Comitê, a página do Comitê poderá ser assim:
 
-![contatos em uma categoria](../../../en/images/contacts/contact-culture-committee.png "Contatos em uma Categoria")
+![contatos em uma categoria](../../../en/images/contacts/contact-culture-committee.png)
 
 O layout não está exatamente como desejado. Seria bom incluir uma
 imagem em miniatura de cada indivíduo e um layout melhor dos detalhes. Isso
@@ -77,7 +77,7 @@ pode ser feito com uma substituição de template (mais tarde).
 Para o Comitê de Negócios, há um item de menu Listar Contatos em uma Categoria.
 Isso faz com que um layout diferente seja usado:
 
-![lista de categoria de contatos](../../../en/images/contacts/contact-category-list.png "Lista de Categoria de Contatos")
+![lista de categoria de contatos](../../../en/images/contacts/contact-category-list.png)
 
 Melhor, mas ainda não está certo! Foi necessário substituir o estilo
 da imagem. Novamente, parece que uma substituição de template poderia ser útil.
@@ -86,7 +86,7 @@ da imagem. Novamente, parece que uma substituição de template poderia ser úti
 
 Neste exemplo, os Presidentes de todos os comitês foram marcados como destaque.
 
-![contatos em destaque](../../../en/images/contacts/contact-featured.png "Contatos em Destaque")
+![contatos em destaque](../../../en/images/contacts/contact-featured.png)
 
 ## Ordem de Classificação
 
