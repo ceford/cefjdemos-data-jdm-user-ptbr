@@ -27,9 +27,11 @@ O indexador divide o trabalho de indexação em lotes de itens de conteúdo. Por
 Se o indexador estiver ficando sem memória, tente fazer os seguintes ajustes um de cada vez até que o problema seja resolvido.
 
 1. Diminua o tamanho do lote. Se você tiver itens de conteúdo particularmente grandes, o indexador pode ficar sem memória até mesmo com um único item de conteúdo, então tente diminuir para 5 inicialmente e, se ainda ficar sem memória, reduza para 1.
-2. Se você puder alocar mais memória para o indexador, faça isso. Você pode aumentar a memória alocada para o indexador de linha de comando usando um parâmetro extra na linha de comando. Por exemplo, para aumentar o limite de memória para 256Mb, use o seguinte comando, substituindo *256M* pela quantidade de memória que você pode alocar com segurança para um processo em seu sistema.<br>
-   *php -d memory_limit=256M finder_indexer.php*
-5. Tente identificar quais itens de conteúdo estão fazendo o indexador ficar sem memória. Se não for óbvio, você pode tentar desabilitar todos os plugins de Pesquisa Inteligente, exceto um. Executar o indexador com apenas um plugin habilitado por vez deve revelar qual(is) tipo(s) de conteúdo estão causando o problema. Como último recurso, considere dividir alguns itens de conteúdo excepcionalmente grandes em itens separados. Se o problema for com um tipo de conteúdo personalizado, examine o código do plugin e considere indexar menos do conteúdo disponível por item.
+2. Se você puder alocar mais memória para o indexador, faça isso. Você pode aumentar a memória alocada para o indexador de linha de comando usando um parâmetro extra na linha de comando. Por exemplo, para aumentar o limite de memória para 256Mb, use o seguinte comando, substituindo *256M* pela quantidade de memória que você pode alocar com segurança para um processo em seu sistema.
+```php
+    php -d memory_limit=256M joomla.php finder:index
+```
+3. Tente identificar quais itens de conteúdo estão fazendo o indexador ficar sem memória. Se não for óbvio, você pode tentar desabilitar todos os plugins de Pesquisa Inteligente, exceto um. Executar o indexador com apenas um plugin habilitado por vez deve revelar qual(is) tipo(s) de conteúdo estão causando o problema. Como último recurso, considere dividir alguns itens de conteúdo excepcionalmente grandes em itens separados. Se o problema for com um tipo de conteúdo personalizado, examine o código do plugin e considere indexar menos do conteúdo disponível por item.
 
 ## Problemas com Falta de Espaço em Disco
 
