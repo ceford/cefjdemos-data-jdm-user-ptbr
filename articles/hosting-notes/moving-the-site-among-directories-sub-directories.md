@@ -33,4 +33,3 @@ Digamos que você instalou o Joomla na seguinte pasta: public_html/tryjoomla. Ag
 6. Se você tiver cache habilitado, faça login no backend do administrador (que agora será em `http://www.example.com/administrator` e não mais em `http://www.example.com/tryjoomla/administrator`). Vá para Sistema / Cache e exclua todos os arquivos de cache.
 
 *Traduzido por openai.com*
-
