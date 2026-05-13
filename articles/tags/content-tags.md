@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:How_To_Use_Content_Tags_in_Joomla / Display title: Tags de Conteúdo  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:How_To_Use_Content_Tags_in_Joomla",
+  "title": "Tags de Conteúdo  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -22,7 +29,7 @@ A exibição das tags pode ser desativada! Isso pode parecer ilógico, mas é um
 
 - Selecione **Componentes → Tags** no menu do Administrador.
 
-![a página da lista de tags](../../../en/images/tags/tags-list.png)
+![a página da lista de tags](../../../en/images/tags/content-tags/01-tags-list.png)
 
 Independentemente de como as tags são criadas, elas podem ser encontradas nesta lista.
 
@@ -32,7 +39,7 @@ Independentemente de como as tags são criadas, elas podem ser encontradas nesta
 
 Selecione o botão **Novo** na barra de ferramentas da lista de Tags.
 
-![nova tag chamada predator](../../../en/images/tags/new-tag-predator.png)
+![nova tag chamada predator](../../../en/images/tags/content-tags/02-new-tag-predator.png)
 
 - **Título** Este é o único campo *obrigatório*.
 - **Nome alternativo** Este é criado a partir do Título ao salvar.
@@ -83,7 +90,7 @@ Utilize a lista de Tags para encontrar, abrir e ajustar as configurações das t
 
 ### O Filtro da Lista de Tags
 
-![filtro de lista de tags por tipo](../../../en/images/tags/tags-list-filter.png)
+![filtro de lista de tags por tipo](../../../en/images/tags/content-tags/03-tags-list-filter.png)
 
 Você pode manipular a lista de várias maneiras:
 
@@ -110,11 +117,11 @@ No formulário de edição da tag:
 
 Uma vez que as tags foram criadas em seu site, elas estão disponíveis para uso não apenas em conteúdo, mas também em alguns módulos úteis, como **Tags Populares** e **Tags Similares**. Os exemplos a seguir mostram como eles aparecem em uma instalação padrão usando o Template padrão **Cassiopeia**.
 
-![exemplo de uso de tags no site labrador amarelo](../../../en/images/tags/tag-examples-yellow-labrador.png)
+![exemplo de uso de tags no site labrador amarelo](../../../en/images/tags/content-tags/04-tag-examples-yellow-labrador.png)
 
 Quando você clica em uma das tags, será levado para uma página que lista todos os itens atribuídos a essa tag específica:
 
-![exemplo de uso de tags no site labrador preto](../../../en/images/tags/tag-examples-black-labrador.png)
+![exemplo de uso de tags no site labrador preto](../../../en/images/tags/content-tags/05-tag-examples-black-labrador.png)
 
 Clicar em uma tag levará você a uma página que exibe uma lista de todos os itens atribuídos a essa tag específica - na prática, é uma lista filtrada do conteúdo com tags do seu site. Uma caixa de filtro é fornecida para facilitar a busca por itens à medida que a lista cresce. Você também pode definir o número de resultados que deseja ver em uma única visualização.
 

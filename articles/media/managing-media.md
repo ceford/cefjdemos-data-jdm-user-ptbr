@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Managing_Media / Display title: Gerenciando Mídia -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Managing_Media",
+  "title": "Gerenciando Mídia ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -20,7 +27,7 @@ Nos dois primeiros casos, o componente de Mídia aparece em uma tela normal de c
 
 A imagem a seguir mostra a página de Mídia logo após a instalação do Joomla, mas com a pasta cassiopeia/sampledata selecionada. Uma pasta *files* foi adicionada para armazenar arquivos que não são imagens, e uma pasta extra chamada *garbage* foi adicionada para ilustrar a exclusão de pastas:
 
-![Página de Mídia mostrando dados de exemplo cassiopeia](../../../en/images/media/media-sample-data-cassiopeia.png)
+![Página de Mídia mostrando dados de exemplo cassiopeia](../../../en/images/media/managing-media/01-media-sample-data-cassiopeia.png)
 
 ## Gerenciando Pastas
 
@@ -60,7 +67,7 @@ Se você selecionar uma pasta diferente, a pasta anterior no mesmo nível será 
 
 A pasta selecionada para exclusão é ilustrada abaixo:
 
-![Página de mídia mostrando pasta de lixo](../../../en/images/media/media-sample-data-garbage-select.png)
+![Página de mídia mostrando pasta de lixo](../../../en/images/media/managing-media/02-media-sample-data-garbage-select.png)
 
 ## Barra de Ferramentas da Área de Mídia
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Joomla_Core_Features / Display title: Recursos Principais do Joomla -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Joomla_Core_Features",
+  "title": "Recursos Principais do Joomla ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Gerenciamento de Conteúdo
 

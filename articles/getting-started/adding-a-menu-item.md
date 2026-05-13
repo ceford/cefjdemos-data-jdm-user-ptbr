@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Getting_Started:_Adding_a_Menu_Item / Display title: Adicionando um Item ao Menu -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Menu_Item",
+  "title": "Adicionando um Item ao Menu ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -14,7 +21,7 @@ item de menu - um link para ele no Menu Principal. Isso seria um item de menu do
 
 ## A Página de Edição do Menu
 
-![Formulário de edição de item do menu](../../../en/images/getting-started/menu-item-edit-form.png)
+![Formulário de edição de item do menu](../../../en/images/getting-started/adding-a-menu-item/01-menu-item-edit-form.png)
 
 O formulário *Menus: Novo Item* possui quatro campos obrigatórios a serem preenchidos:
 
@@ -31,7 +38,7 @@ O formulário *Menus: Novo Item* possui quatro campos obrigatórios a serem pree
 Isso é tudo o que deve ser feito. Tudo o mais é opcional. Dê uma olhada na 
 página inicial do site. O item de menu no menu principal se liga diretamente a essa página.
 
-![Visualização do site de artigo único](../../../en/images/getting-started/menu-item-single-article-site-view.png)
+![Visualização do site de artigo único](../../../en/images/getting-started/adding-a-menu-item/02-menu-item-single-article-site-view.png)
 
 ## Múltiplos Itens de Menu
 
@@ -47,7 +54,7 @@ Até aqui tudo bem. Mas o que acontece quando você tem 10, 100, 1000 ou mais ar
 
 Vá para a página inicial do site e recarregue. Selecione o novo item de menu *Artigos sobre Mamíferos*.
 
-![Lista de categorias de Artigos sobre Mamíferos](../../../en/images/getting-started/menu-item-category-list-site-view.png)
+![Lista de categorias de Artigos sobre Mamíferos](../../../en/images/getting-started/adding-a-menu-item/03-menu-item-category-list-site-view.png)
 
 Selecione o título do artigo, Mamíferos, para ir à visualização do artigo. Se você tiver muitos artigos, poderá encontrá-los aqui, assim não será necessário ter itens de menu para artigos individuais.
 

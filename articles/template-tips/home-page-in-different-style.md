@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Home_Page_in_Different_Style / Display title: Página Inicial em Estilo Diferente   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Home_Page_in_Different_Style",
+  "title": "Página Inicial em Estilo Diferente   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Página Inicial do Site
 
@@ -16,7 +23,7 @@ Suponha que você gostaria de dar à sua página inicial uma aparência distinti
 
 Os dados de amostra Cassiopeia criam uma página inicial usando um tipo de item de menu **Artigos em Destaque**. Ela está organizada com a aparência mostrada na captura de tela abaixo (algumas pequenas alterações foram feitas em artigos individuais para melhorar a captura de tela aqui).
 
-![página inicial usando cassiopeia e dados de amostra](../../../en/images/templates/templates-home-page-style-cassiopeia-sample-data.png)
+![página inicial usando cassiopeia e dados de amostra](../../../en/images/template-tips/home-page-in-different-style/01-templates-home-page-style-cassiopeia-sample-data.png)
 
 É assim que o layout é alcançado:
 
@@ -24,11 +31,11 @@ Os dados de amostra Cassiopeia criam uma página inicial usando um tipo de item 
 
 A imagem grande abaixo da barra de menu está em um módulo personalizado chamado Imagem, atribuído à posição banner no modelo Cassiopeia.
 
-![módulo personalizado usado no estilo de dados de amostra](../../../en/images/templates/templates-home-page-style-custom-module-image.png)
+![módulo personalizado usado no estilo de dados de amostra](../../../en/images/template-tips/home-page-in-different-style/02-templates-home-page-style-custom-module-image.png)
 
 Na aba Atribuição de Menu, o módulo é atribuído apenas à página inicial:
 
-![aba de atribuição de menu do módulo personalizado](../../../en/images/templates/templates-home-page-style-custom-module-menu-assignment.png)
+![aba de atribuição de menu do módulo personalizado](../../../en/images/template-tips/home-page-in-different-style/03-templates-home-page-style-custom-module-menu-assignment.png)
 
 A imagem de fundo é selecionada na aba Opções do formulário de edição de Módulos: Personalizado.
 
@@ -44,7 +51,7 @@ Há artigos separados sobre Substituições e Layouts.
 
 Abaixo da grande imagem, há três pequenas caixas, cada uma com uma imagem e texto abaixo. Elas são criadas usando um módulo Artigos - Newsflash na posição top-a do modelo. O módulo é configurado para exibir 3 itens. A atribuição do menu é apenas para a página inicial. A aba Avançado tem o Layout definido como horizontal e o Estilo do Módulo definido como noCard.
 
-![módulo newsflash](../../../en/images/templates/templates-home-page-style-newsflash-module-image.png)
+![módulo newsflash](../../../en/images/template-tips/home-page-in-different-style/04-templates-home-page-style-newsflash-module-image.png)
 
 Isso conclui a explicação de como a página inicial dos dados de amostra Cassiopeia foi criada.  
 

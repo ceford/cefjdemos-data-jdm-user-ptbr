@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Submenus / Display title: Submenus -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Submenus",
+  "title": "Submenus ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Noções Básicas de Menu
 
@@ -28,7 +35,7 @@ Suponha que você tenha uma série de artigos sobre animais. Podem ser animais d
 
 As listas podem ser bastante longas, então você pode querer exibir apenas uma lista de raças de gatos nas páginas sobre gatos e apenas uma lista de raças de cães nas páginas sobre cães. A captura de tela a seguir mostra o layout pretendido que o usuário gostaria de alcançar:
 
-![submenus objetivos animais gatos](../../../en/images/menus/submenus-objectives-animals-cats.png)
+![submenus objetivos animais gatos](../../../en/images/menus/submenus/01-submenus-objectives-animals-cats.png)
 
 Neste exemplo, quando o usuário seleciona o item de menu Animais, a página Animais é carregada e o módulo de menu Gatos desaparece (nem o módulo Cães aparece). Selecionar o item de menu Gatos faz com que o módulo de menu Gatos apareça junto à página Gatos. Selecionar o item de menu Birmanês faz com que a página Birmanês apareça. Selecionar o item de menu Cães substitui o módulo de menu Gatos por um módulo de menu Cães junto à página Cães.
 
@@ -56,7 +63,7 @@ No menu do Administrador:
 - Em alguns casos, pode ser necessário lembrar do objetivo deste menu. Portanto, preencha o campo de descrição.
 - Salvar ou Salvar & Fechar.
 
-![submenus novo menu](../../../en/images/menus/submenus-new-menu.png)
+![submenus novo menu](../../../en/images/menus/submenus/02-submenus-new-menu.png)
 
 ## Criar Itens de Menu
 
@@ -100,7 +107,7 @@ Continue até que você tenha sete itens de menu, um para cada artigo.
 
 Quando você tiver criado todos os seus itens de menu, verifique se eles apresentam as relações corretas de pai-filho e se estão na ordem correta. Você pode ordenar a coluna de Ordenação (a segunda coluna) e usar os controles de arrasto (elipses verticais) para mover os itens para a ordem correta. Se algum item tiver um pai incorreto, basta selecionar o título do item e mudar o pai no formulário Menus: Editar Item.
 
-![lista de itens do menu de submenus](../../../en/images/menus/submenus-menu-items-list.png)
+![lista de itens do menu de submenus](../../../en/images/menus/submenus/03-submenus-menu-items-list.png)
 
 ## Módulos de Menu
 
@@ -126,7 +133,7 @@ No menu do Administrador:
     Cães)
   - Posição: barra lateral-esquerda (ou onde for mais adequado)
 
-![módulo de submenus animais](../../../en/images/menus/submenus-animals-module.png)
+![módulo de submenus animais](../../../en/images/menus/submenus/04-submenus-animals-module.png)
 
 ### Atribuição de Menu de Animais
 
@@ -141,7 +148,7 @@ neste caso em apenas três páginas. Na aba Atribuição de Menu:
 - Certifique-se de que nenhuma outra caixa esteja marcada.
 - Salvar & Fechar
 
-![atribuição de menu módulo animais de submenus](../../../en/images/menus/submenus-animals-module-menu-assignment.png)
+![atribuição de menu módulo animais de submenus](../../../en/images/menus/submenus/05-submenus-animals-module-menu-assignment.png)
 
 ## Módulo de Submenu de Gatos
 
@@ -181,7 +188,7 @@ Até agora tudo bem! Mas não há um link para a página de Animais no Menu Prin
   - Tipo de Item de Menu: Alias do Item de Menu
   - Item de Menu: Animais - selecionado na lista de itens de menu existentes.
 
-![submenus animais alias](../../../en/images/menus/submenus-animals-alias.png)
+![submenus animais alias](../../../en/images/menus/submenus/06-submenus-animals-alias.png)
 
 - Salvar
 - Ordenação - após salvar, a ordem pode ser alterada. Neste exemplo, ele é colocado primeiro.
@@ -193,7 +200,7 @@ os submenus na posição do lado esquerdo. O link Animais no menu superior
 abrirá a página de animais a partir da qual é possível navegar para as
 páginas de Gatos ou Cachorros:
 
-![objetivos dos submenus animais cachorros](../../../en/images/menus/submenus-objectives-animals-dogs.png)
+![objetivos dos submenus animais cachorros](../../../en/images/menus/submenus/07-submenus-objectives-animals-dogs.png)
 
 *Traduzido por openai.com*
 

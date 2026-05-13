@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Parameters_for_all_Custom_Fields / Display title: Parâmetros do Campo -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Parâmetros do Campo ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Formulário de Entrada de Dados de Campo
 
@@ -9,7 +16,7 @@ Uma lista de Campos estará vazia inicialmente. Para começar, por exemplo, com 
 
 O formulário consiste em um campo de Título e quatro abas.
 
-![Aba geral de parâmetros do campo](../../../en/images/fields/fields-parameters-general-tab.png)
+![Aba geral de parâmetros do campo](../../../en/images/fields/adding-custom-fields-parameters/01-fields-parameters-general-tab.png)
 
 ## Título
 
@@ -69,7 +76,7 @@ aparecem como guias separadas no formulário de entrada de dados do Artigo.
 
 ### Aba Opções
 
-![Parâmetros do campo aba opções](../../../en/images/fields/fields-parameters-options-tab.png)
+![Parâmetros do campo aba opções](../../../en/images/fields/adding-custom-fields-parameters/02-fields-parameters-options-tab.png)
 
 #### Opções de Formulário
 
@@ -129,13 +136,13 @@ item de conteúdo. Isso pode levar à divulgação inesperada de informações.
 
 ### Aba Publicação
 
-![Parâmetros do campo aba publicação](../../../en/images/fields/fields-parameters-publishing-tab.png)
+![Parâmetros do campo aba publicação](../../../en/images/fields/adding-custom-fields-parameters/03-fields-parameters-publishing-tab.png)
 
 ### Aba Permissões
 
 As permissões para cada grupo de usuários são autoexplicativas para as ações *Excluir*, *Editar* e *Editar estado*. As permissões indicam quem pode fazer o quê com o campo como um todo — por exemplo, excluí-lo, modificá-lo ou despublicá-lo.
 
-![Parâmetros do campo aba permissões](../../../en/images/fields/fields-parameters-permissions-tab.png)
+![Parâmetros do campo aba permissões](../../../en/images/fields/adding-custom-fields-parameters/04-fields-parameters-permissions-tab.png)
 
 A permissão *Editar valor de campo personalizado* pode causar confusão. Ela define quem pode alterar o conteúdo do campo. Por padrão, essa permissão está configurada como **Não permitido (Herdado)** para todos os grupos, exceto para Superusuários. Dois exemplos:
 

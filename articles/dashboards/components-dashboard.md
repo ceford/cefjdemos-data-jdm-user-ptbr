@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Components_Dashboard / Display title: Painel de Componentes -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Components_Dashboard",
+  "title": "Painel de Componentes ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -6,7 +13,7 @@ Para abrir o Painel de Componentes, selecione o ícone do painel à direita do i
 
 ## Captura de Tela
 
-![Painel de componentes](../../../en/images/dashboards/components-dashboard.png)
+![Painel de componentes](../../../en/images/dashboards/components-dashboard/01-components-dashboard.png)
 
 *Traduzido por openai.com*
 

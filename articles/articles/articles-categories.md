@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Create_and_Manage_Article_Categories / Display title: Artigos: Categorias  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Create_and_Manage_Article_Categories",
+  "title": "Artigos: Categorias  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -44,11 +51,11 @@ Existem várias maneiras de chegar à página *Artigos: Nova Categoria*:
 
 A captura de tela a seguir mostra o link *Categorias de Artigos* no Painel Inicial para a lista de categorias e o *Símbolo de Mais* adjacente que leva ao formulário *Artigos: Nova Categoria*.
 
-![O ícone de adicionar categoria destacado no painel inicial](../../../en/images/articles/category-add-via-home-dashboard.png)
+![O ícone de adicionar categoria destacado no painel inicial](../../../en/images/articles/articles-categories/01-category-add-via-home-dashboard.png)
 
 ## Os Artigos: formulário de Nova Categoria
 
-![O formulário de edição da nova categoria de artigos](../../../en/images/getting-started/article-category-edit.png)
+![O formulário de edição da nova categoria de artigos](../../../en/images/articles/articles-categories/02-article-category-edit.png)
 
 A captura de tela acima mostra o formulário preenchido. Existem apenas dois campos que precisam de algum conteúdo. Todo o resto tem valores padrão ou nulos que você pode deixar por enquanto e preencher mais tarde conforme a necessidade surgir.
 
@@ -84,7 +91,7 @@ As configurações nesta aba afetam a aparência desta Categoria nas páginas do
 
 Fechar o formulário de edição leva à página de lista **Artigos: Categorias**.
 
-![Uma lista de categorias filtrada pela tag Natureza](../../../en/images/articles/categories-list.png)
+![Uma lista de categorias filtrada pela tag Natureza](../../../en/images/articles/articles-categories/03-categories-list.png)
 
 ### Salvar no Menu como Lista
 
@@ -100,7 +107,7 @@ Na aba *Exibir Página*, tente definir o campo *Mostrar Cabeçalho da Página* c
 
 A seguinte captura de tela mostra a visualização do site de uma página de blog de categoria em desenvolvimento.
 
-![Página de blog da categoria Mamíferos](../../../en/images/articles/article-mammals-articles-blog-site-view.png)
+![Página de blog da categoria Mamíferos](../../../en/images/articles/articles-categories/04-article-mammals-articles-blog-site-view.png)
 
 ## Dicas
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Assorted_Issues / Display title: Questões Diversas -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Assorted_Issues",
+  "title": "Questões Diversas ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Problema de Redirecionamento Após Atualização para 4.0.6
 

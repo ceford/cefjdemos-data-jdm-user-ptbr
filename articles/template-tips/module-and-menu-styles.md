@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Module_and_Menu_Styles / Display title: Estilos de Módulo e Menu  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Module_and_Menu_Styles",
+  "title": "Estilos de Módulo e Menu  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Sobre Cascading Style Sheets
 
@@ -22,7 +29,7 @@ Mas e se você quiser estilizar um módulo ou uma página inteira? Por exemplo, 
 
 Este exemplo simples aplica estilos personalizados ao módulo de Login e ao seu título. A captura de tela a seguir mostra os nomes dos estilos inseridos na aba Avançado do formulário de edição dos Módulos: Login. A Classe do Módulo foi definida como `make-me-light-green` e a Classe do Cabeçalho foi definida como `make-me-dark-green`. Note que você pode incluir sinais de subtração ou sublinhados nos nomes das classes, mas espaços separam diferentes nomes de classes.
 
-![formulário de edição do módulo de login aba avançada mostrando classe personalizada](../../../en/images/templates/templates-edit-module-style.png)
+![formulário de edição do módulo de login aba avançada mostrando classe personalizada](../../../en/images/template-tips/module-and-menu-styles/01-templates-edit-module-style.png)
 
 As seguintes declarações de estilo são usadas no arquivo user.css:
 ```css
@@ -37,7 +44,7 @@ As seguintes declarações de estilo são usadas no arquivo user.css:
 ```
 Preste atenção no ponto (.) que é usado em css para definir uma classe com esse nome. O ponto não deve ser utilizado no formulário de entrada de dados do módulo. O resultado neste exemplo é o seguinte:
 
-![aparência do site do módulo personalizado com ferramentas de desenvolvedor](../../../en/images/templates/templates-edit-module-style-result.png)
+![aparência do site do módulo personalizado com ferramentas de desenvolvedor](../../../en/images/template-tips/module-and-menu-styles/02-templates-edit-module-style-result.png)
 
 A parte inferior da imagem mostra o painel de Ferramentas de Desenvolvedor do navegador com a tag `<div>` do módulo de Login selecionada. Você pode ver que o estilo personalizado da Classe do Módulo foi adicionado aos estilos já definidos no template do módulo. A próxima linha mostra a tag `<h3>` também com a Classe do Cabeçalho personalizada adicionada aos estilos já definidos.
 
@@ -66,7 +73,7 @@ Todas funcionam através do formulário de Menus: Editar Item:
 ```
 A classe é adicionada à tag body da página:
 
-![aparência do site da página personalizada com ferramentas de desenvolvedor](../../../en/images/templates/templates-edit-page-class-result.png)
+![aparência do site da página personalizada com ferramentas de desenvolvedor](../../../en/images/template-tips/module-and-menu-styles/03-templates-edit-page-class-result.png)
 
 *Traduzido por openai.com*
 

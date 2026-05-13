@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Deleting_an_Article / Display title: Artigos: Excluir -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Deleting_an_Article",
+  "title": "Artigos: Excluir ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -22,7 +29,7 @@ Considere por que você quer deletar o artigo:
 - Selecione o botão **Ações** na Barra de Ferramentas.
 - Selecione **Lixeira** no menu suspenso.
 
-![Artigo selecionado para exclusão](../../../en/images/articles/articles-selected-to-trash.png)
+![Artigo selecionado para exclusão](../../../en/images/articles/articles-delete/01-articles-selected-to-trash.png)
 
 Haverá uma mensagem de confirmação e o artigo terá desaparecido da lista atual de artigos, uma vez que normalmente não inclui itens na lixeira.
 
@@ -35,7 +42,7 @@ Para ver a lista de artigos na lixeira:
 - Selecione o botão **Opções de Filtro** para abrir a lista de filtros.
 - Selecione **Na Lixeira** na lista *-- Selecionar Status --*.
 
-![Visualização da lixeira de artigos](../../../en/images/articles/articles-trash-list.png)
+![Visualização da lixeira de artigos](../../../en/images/articles/articles-delete/02-articles-trash-list.png)
 
 ### Para Restaurar
 

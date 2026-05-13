@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Pagination / Display title: Artigo: Edição - Paginação  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Pagination",
+  "title": "Artigo: Edição - Paginação  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Artigos Longos
 
@@ -18,12 +25,12 @@ Para adicionar quebras de página, primeiro abra um artigo no editor de texto, T
     Exemplo: Capítulo 2
 - Selecione o botão **Inserir Quebra de Página**.
 
-![Formulário de diálogo de quebra de página](../../../en/images/articles/articles-edit-pagination.png)
+![Formulário de diálogo de quebra de página](../../../en/images/articles/article-pagination/01-articles-edit-pagination.png)
 
 - Repita para cada quebra de página que você deseja criar.
 - Salve o artigo e confira a Prévia ou a visualização no Site.
 
-![Visualização de paginação do artigo no site](../../../en/images/articles/articles-site-pagination.png)
+![Visualização de paginação do artigo no site](../../../en/images/articles/article-pagination/02-articles-site-pagination.png)
 
 ## Editar ou Mover uma Quebra de Página
 
@@ -42,7 +49,7 @@ Você pode selecionar uma quebra de página e excluí-la. No entanto, você não
 
 O editor de Código-fonte está localizado em um diálogo popup:
 
-![Editor de código-fonte](../../../en/images/articles/articles-edit-pagination-source-code.png)
+![Editor de código-fonte](../../../en/images/articles/article-pagination/03-articles-edit-pagination-source-code.png)
 
 *Traduzido por openai.com*
 

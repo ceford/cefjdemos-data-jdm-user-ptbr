@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:Workflow_Scenarios_Example_1 / Display title: Exemplo de Fluxo de Trabalho 1  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:Workflow_Scenarios_Example_1",
+  "title": "Exemplo de Fluxo de Trabalho 1  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -6,7 +13,7 @@ Um fluxo de trabalho consiste em *estágios* e *transições* entre esses estág
 
 Um único site pode ter muitos fluxos de trabalho. Aqui, um *Fluxo de Trabalho de Newsletter* é usado como exemplo para explicar como três indivíduos com diferentes funções podem estar envolvidos na produção de um artigo de newsletter. O exemplo usa os grupos de usuários Autor, Editor e Publicador padrão do Joomla. Isso tem um problema: um Autor só pode ver artigos Publicados, portanto, não pode reeditar artigos Não Publicados. Um método para evitar esse problema é abordado no [Exemplo 2](jdocmanual?article=user/workflows/workflow-example-2).
 
-![Lista de Fluxos de Trabalho](../../../en/images/workflows/example-1-workflows-list.png)
+![Lista de Fluxos de Trabalho](../../../en/images/workflows/workflow-example-1/01-example-1-workflows-list.png)
 
 Observe que o *Fluxo de Trabalho Básico* está definido como *Padrão*. Isso pode ter consequências problemáticas abordadas mais adiante neste artigo!
 
@@ -20,7 +27,7 @@ Observe que o *Fluxo de Trabalho Básico* está definido como *Padrão*. Isso po
 
 Existem quatro etapas neste Fluxo de Trabalho:
 
-![Lista de Fluxos de Trabalho](../../../en/images/workflows/example-1-workflow-stages.png)
+![Lista de Fluxos de Trabalho](../../../en/images/workflows/workflow-example-1/02-example-1-workflow-stages.png)
 
 - **Rascunho** é a etapa criada por Arthur para um novo artigo.
 - **Revisão** é a etapa onde Eddie assume para revisar o conteúdo.
@@ -33,7 +40,7 @@ Os formulários de entrada de dados das etapas precisam de pouca explicação, a
 
 Duas transições são necessárias entre cada etapa: uma para reverter a etapa se mais trabalho for necessário na etapa anterior; e uma segunda para migrar para a próxima etapa. Transições extras são necessárias para lidar com a extinção de um artigo:
 
-![Lista de Fluxos de Trabalho](../../../en/images/workflows/example-1-workflow-transitions.png)
+![Lista de Fluxos de Trabalho](../../../en/images/workflows/workflow-example-1/03-example-1-workflow-transitions.png)
 
 - **Rascunho/Revisão** para mover a etapa de Rascunho para Revisão.
 - **Revisão/Rascunho** para reverter a etapa de Revisão para Rascunho.
@@ -51,7 +58,7 @@ As últimas três transições permitem que Pru mude o status de um artigo quand
 
 O formulário de entrada de dados possui quatro abas começando com a aba *Transição*:
 
-![Lista de Fluxos de Trabalho](../../../en/images/workflows/example-1-edit-transition.png)
+![Lista de Fluxos de Trabalho](../../../en/images/workflows/workflow-example-1/04-example-1-edit-transition.png)
 
 - **Nome** É melhor usar as etapas Atual e Alvo no nome.
 - **Etapa Atual** A etapa antes de a transição ocorrer.
@@ -60,14 +67,14 @@ O formulário de entrada de dados possui quatro abas começando com a aba *Trans
 
 #### A aba *Ações de Transição*:
 
-![Lista de Fluxos de Trabalho](../../../en/images/workflows/example-1-edit-transition-actions.png)
+![Lista de Fluxos de Trabalho](../../../en/images/workflows/workflow-example-1/05-example-1-edit-transition-actions.png)
 
 - **Estado de Destaque** Definir o estado de destaque que um item deve ter após executar esta transição. Deixe em *-Não Selecionado-* se o usuário que provavelmente executará esta transição não tiver permissão para destacar artigos.
 - **Estado de Publicação** Definir o estado de publicação que um item deve ter após executar esta transição. Deixe em *-Não Selecionado-* se o usuário que provavelmente executará esta transição não tiver permissão para alterar o estado do artigo.
 
 #### A aba *Notificações*:
 
-![Lista de Fluxos de Trabalho](../../../en/images/workflows/example-1-edit-transition-notification.png)
+![Lista de Fluxos de Trabalho](../../../en/images/workflows/workflow-example-1/06-example-1-edit-transition-notification.png)
 
 - **Enviar Notificação** Defina como *Sim* onde notificações são necessárias, por exemplo, quando Arthur precisa notificar Eddie que um artigo está pronto para revisão.
 - **Texto Adicional da Mensagem** Este é um texto adicional genérico para ajudar o destinatário.
@@ -86,7 +93,7 @@ Cada artigo é atribuído a um fluxo de trabalho na primeira vez que é salvo. S
 
 É necessária uma nova categoria de Newsletter para exibir a Newsletter como um Blog de Categoria e garantir que os artigos da Newsletter sejam atribuídos ao Fluxo de Trabalho da Newsletter.
 
-![Lista de fluxos de trabalho](../../../en/images/workflows/example-1-newsletter-category.png)
+![Lista de fluxos de trabalho](../../../en/images/workflows/workflow-example-1/07-example-1-newsletter-category.png)
 
 ## O Item de Menu do Boletim Informativo
 
@@ -147,11 +154,11 @@ Você pode permitir o acesso ao backend para todos os membros desses grupos da s
 
 Isso permitirá que Arthur, Eddie e Pru façam login no backend com acesso aos itens de Conteúdo. Um Painel Inicial muito reduzido:
 
-![Painel inicial para Arthur](../../../en/images/workflows/example-1-backend-home.png)
+![Painel inicial para Arthur](../../../en/images/workflows/workflow-example-1/08-example-1-backend-home.png)
 
 Mas Arthur tem acesso aos seus artigos em rascunho:
 
-![Lista de artigos para Arthur](../../../en/images/workflows/example-1-backend-articles.png)
+![Lista de artigos para Arthur](../../../en/images/workflows/workflow-example-1/09-example-1-backend-articles.png)
 
 Observe que Arthur não pode editar o último item na lista porque não é um de seus próprios artigos. O título do artigo não está vinculado. Da mesma forma, Arthur não pode editar nenhuma das categorias existentes porque ele não tem permissão e elas também não estão vinculadas. Ele pode criar uma nova Categoria, mas ela fica Não Publicada e ele não pode publicá-la!
 
@@ -169,7 +176,7 @@ Se você atribuir um artigo ao fluxo de trabalho errado, há dois métodos dispo
 - Selecione um Fluxo de Trabalho e Etapa apropriados como destino.
 - Selecione o botão **Processar**.
 
-![Lista de artigos para Arthur](../../../en/images/workflows/example-1-backend-batch.png)
+![Lista de artigos para Arthur](../../../en/images/workflows/workflow-example-1/10-example-1-backend-batch.png)
 
 ### Método Alternativo
 

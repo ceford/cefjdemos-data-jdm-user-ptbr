@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Calendar_Field / Display title: Campo de Calendário -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Campo de Calendário ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Finalidade
 
@@ -13,7 +20,7 @@ Os parâmetros comuns de campo são descritos em um artigo separado.
 * **Mostrar Hora** Se configurado como *Sim*, a hora é adicionada ao campo de data, ao seletor de data e à data de saída. **Cuidado**: Mesmo que você não especifique a hora na data padrão, ela será exibida quando a opção *Mostrar hora* estiver ativa.
 * **Placeholder** Este está na aba Opções. Ele pode ser configurado para um formato de data, como *YYYY-MM-DD*, para lembrar os usuários do formato necessário e/ou um lembrete do que a data representa, como *Data de chegada*.
 
-![criação de campo de calendário](../../../en/images/fields/fields-calendar-edit.png)
+![criação de campo de calendário](../../../en/images/fields/adding-custom-fields-calendar-field/01-fields-calendar-edit.png)
 
 **Nota:** Neste exemplo, a inclusão do tipo de campo no Título é apenas para fins de demonstração. Deixe de fora nos títulos dos seus próprios campos.
 
@@ -23,7 +30,7 @@ O uso do campo de Calendário é simples. Você pode digitar a data no formato n
 
 A captura de tela a seguir mostra uma data de Aquisição:
 
-![entrada de dados do campo de calendário](../../../en/images/fields/fields-calendar-data-entry.png)
+![entrada de dados do campo de calendário](../../../en/images/fields/adding-custom-fields-calendar-field/02-fields-calendar-data-entry.png)
 
 Os campos só aparecem em um artigo se forem preenchidos no formulário de entrada de dados do artigo.
 
@@ -31,7 +38,7 @@ Os campos só aparecem em um artigo se forem preenchidos no formulário de entra
 
 A captura de tela a seguir do site mostra o campo exibido em um artigo. A opção *Exibição automática* é responsável pela posição do campo e seu modelo é responsável pelo design do campo.
 
-![exibição do campo de calendário no site](../../../en/images/fields/fields-calendar-site.png)
+![exibição do campo de calendário no site](../../../en/images/fields/adding-custom-fields-calendar-field/03-fields-calendar-site.png)
 
 Os formatos de data são localizados usando strings de idioma.
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Setup_a_Multilingual_Site / Display title: Configurar um Site Multilíngue  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Setup_a_Multilingual_Site",
+  "title": "Configurar um Site Multilíngue  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Dados de Exemplo
 

@@ -1,4 +1,11 @@
-<!-- Filename: Adding_an_image_to_an_article / Display title: Artigo: Editar - Imagens -->
+<!--
+{
+  "source": "https://docs.joomla.org/Adding_an_image_to_an_article",
+  "title": "Artigo: Editar - Imagens ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -20,7 +27,7 @@ A melhor maneira de inserir imagens locais é utilizando o botão **CMS Conteúd
 
 **Importante:** Primeiro, posicione o cursor onde você deseja que a imagem apareça. Isso pode ser no início ou no final de um parágrafo ou em um parágrafo vazio.
 
-![O diálogo de popup de mídia](../../../en/images/articles/articles-edit-images-media.png)
+![O diálogo de popup de mídia](../../../en/images/articles/article-images/01-articles-edit-images-media.png)
 
 No diálogo de popup, navegue até a imagem que você deseja usar e selecione-a. Ao selecionar, um formulário aparecerá solicitando dados adicionais.
 
@@ -50,7 +57,7 @@ Se a imagem que você deseja usar não estiver na pasta de imagens da sua instal
 - Preencha os outros campos conforme necessário.
 - A aba **Avançado** oferece algumas opções de formatação aplicadas como estilos em linha. Experimente com 1rem, 2, groove.
 
-![A caixa de diálogo de inserção de imagem](../../../en/images/articles/articles-edit-images-external-image.png)
+![A caixa de diálogo de inserção de imagem](../../../en/images/articles/article-images/02-articles-edit-images-external-image.png)
 
 ### Usando Arrastar e Soltar para inserir links de imagem remota
 

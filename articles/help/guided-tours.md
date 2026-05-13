@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=help&filename=guided-tours.md / Display title: Passeios Guiados  -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=help&filename=guided-tours.md",
+  "title": "Passeios Guiados  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -6,13 +13,13 @@ Os Tours Guiados são projetados para oferecer aos novatos em Joomla uma breve i
 
 Há vários tours integrados e o tour **Bem-vindo ao Joomla!** inicia automaticamente na primeira vez que um usuário faz login na interface do Administrador.
 
-![Boas-vindas aos Tours Guiados](../../../en/images/help/guided-tours-welcome.png)
+![Boas-vindas aos Tours Guiados](../../../en/images/help/guided-tours/01-guided-tours-welcome.png)
 
 ## Lista de Tours
 
 Os Tours estão listados em um menu suspenso na barra de título do painel e nas telas de lista, como na ilustração a seguir:
 
-![Tours Guiados](../../../en/images/help/guided-tours.png)
+![Tours Guiados](../../../en/images/help/guided-tours/02-guided-tours.png)
 
 A lista completa inclui o seguinte:
 

@@ -1,4 +1,11 @@
-<!-- Filename: How_do_you_block_direct_hot_linking_to_image_files_using_htaccess%3F / Display title: Desativar Hotlinking de Imagens -->
+<!--
+{
+  "source": "https://docs.joomla.org/How_do_you_block_direct_hot_linking_to_image_files_using_htaccess%3F",
+  "title": "Desativar Hotlinking de Imagens ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Definição
 

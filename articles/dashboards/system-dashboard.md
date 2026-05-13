@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:System_Dashboard / Display title: Painel do Sistema -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:System_Dashboard",
+  "title": "Painel do Sistema ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -17,7 +24,7 @@ Itens individuais são abordados em outros tutoriais.
 
 ## Captura de Tela
 
-![Painel do sistema](../../../en/images/dashboards/system-dashboard.png)
+![Painel do sistema](../../../en/images/dashboards/system-dashboard/01-system-dashboard.png)
 
 *Traduzido por openai.com*
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Template_Layouts / Display title: Modelos de Layout   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Template_Layouts",
+  "title": "Modelos de Layout   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Estruturas de Arquivos de Layout
 
@@ -68,7 +75,7 @@ Sua sessão irá expirar às <br><?php echo $endTime; ?>
 
 Feche os arquivos do Cassiopeia. Selecione **Conteúdo** → **Módulos do Site** e abra o módulo de Login. Na aba Avançado, item Layout, você encontrará a escolha entre **-- Do Módulo -- / Padrão** e **-- Do Template cassiopeia -- / expires**.
 
-![módulo de login mostrando layouts alternativos](../../../en/images/templates/layouts-module-login.png)
+![módulo de login mostrando layouts alternativos](../../../en/images/templates/template-layouts/01-layouts-module-login.png)
 
 Uma maneira de usar esse recurso é ter dois formulários de Login, um com acesso Público e outro com acesso para Súper Usuários. No último, selecione a opção **expires** e apenas Súper Usuários verão o lembrete de tempo de expiração da sessão.
 
@@ -83,11 +90,11 @@ Você pode traduzir o nome do arquivo usando Substituições de Idioma. Tente o 
 - Selecione o botão **Novo** e preencha o formulário. Neste exemplo, a chave de idioma é **TPL_CASSIOPEIA_MOD_LOGIN_LAYOUT_EXPIRES** e o texto pode ser **Login / Logout com tempo de expiração**
 - Salve e feche e volte para o formulário do módulo de Login.
 
-![formulário de edição de substituições de idiomas](../../../en/images/templates/layouts-language-override-form.png)
+![formulário de edição de substituições de idiomas](../../../en/images/templates/template-layouts/02-layouts-language-override-form.png)
 
 O campo de seleção de layout do módulo com **expires** traduzido:
 
-![seleção de layouts alternativos do módulo](../../../en/images/templates/layouts-example-translated.png)
+![seleção de layouts alternativos do módulo](../../../en/images/templates/template-layouts/03-layouts-example-translated.png)
 
 ## Layouts Alternativos de Componentes
 
@@ -95,11 +102,11 @@ Layouts alternativos de componentes funcionam de forma semelhante aos layouts de
 
 Você pode definir um valor global para layouts de componentes na janela de Opções do componente. Por exemplo, na janela Artigo: Opções, existe um parâmetro *Escolher um Layout*, conforme mostrado abaixo:
 
-![formulário de opções de artigos com lista de layouts alternativos](../../../en/images/templates/layouts-articles-options.png)
+![formulário de opções de artigos com lista de layouts alternativos](../../../en/images/templates/template-layouts/04-layouts-articles-options.png)
 
 Assim como os layouts de módulos, os layouts de componentes são mostrados como opções de parâmetro na tela de edição do componente individual. Por exemplo, para um artigo, o parâmetro aparece na aba Artigos: Editar Opções, conforme mostrado abaixo.
 
-![formulário de edição de artigo mostrando lista de layouts alternativos](../../../en/images/templates/layout-article-edit.png)
+![formulário de edição de artigo mostrando lista de layouts alternativos](../../../en/images/templates/template-layouts/05-layout-article-edit.png)
 
 Assim como outros parâmetros, a configuração Usar Global usará a configuração do parâmetro Opções. A configuração Do Padrão do Componente usará o layout padrão do componente. Layouts alternativos que você criou para diferentes modelos são mostrados sob o título de cada modelo.
 
@@ -121,11 +128,11 @@ Layouts alternativos de categoria funcionam como layouts de componentes. As regr
 
 Você pode definir layouts de categoria globalmente, na tela de Opções de cada componente. Abaixo está um exemplo das Opções de Contato: Opções / Formulário de Categoria:
 
-![formulário de opções do componente de contatos mostrando layouts alternativos](../../../en/images/templates/layouts-contacts-options.png)
+![formulário de opções do componente de contatos mostrando layouts alternativos](../../../en/images/templates/template-layouts/06-layouts-contacts-options.png)
 
 Os layouts alternativos de categoria aparecem quando você adiciona ou edita uma categoria no formulário Componente: Editar Categoria / Opções, como mostrado abaixo.
 
-![formulário de opções do componente de contatos mostrando layouts alternativos](../../../en/images/templates/layouts-contacts-category-options.png)
+![formulário de opções do componente de contatos mostrando layouts alternativos](../../../en/images/templates/template-layouts/07-layouts-contacts-category-options.png)
 
 Layouts alternativos de categoria podem ser usados para artigos, banners, contatos e feeds de notícias.
 
@@ -140,7 +147,7 @@ Se houver um item de menu configurado para uma categoria específica, o layout s
 
 Para artigos, existem dois layouts principais de categoria disponíveis: Blog e Lista. Cada um desses layouts aparece no formulário Opções de Artigos na aba Categoria sob o título "Do Componente". Layouts alternativos também aparecem na lista, permitindo que os layouts de Blog ou Lista ou modelos alternativos sejam selecionados como o layout padrão da categoria, seja globalmente ou ao editar uma única categoria de artigo.
 
-![formulário de opções de componente de contatos mostrando layouts alternativos](../../../en/images/templates/layouts-articles-options-category.png)
+![formulário de opções de componente de contatos mostrando layouts alternativos](../../../en/images/templates/template-layouts/08-layouts-articles-options-category.png)
 
 Isso significa que, como outras opções de layout, você pode controlar se os links de categoria de artigo usam layouts de blog ou lista. É importante entender que, como outros parâmetros de layout, essa opção só terá efeito quando não houver item de menu de categoria única para a categoria.
 
@@ -152,7 +159,7 @@ O arquivo XML usa o mesmo formato que os arquivos XML de Itens de Menu do núcle
 
 Os Itens de Menu Alternativos aparecem quando você seleciona um Tipo de Item de Menu, conforme mostrado abaixo.
 
-![lista de seleção de item de menu](../../../en/images/templates/layouts-menu-blog-menu-creation.png)
+![lista de seleção de item de menu](../../../en/images/templates/template-layouts/09-layouts-menu-blog-menu-creation.png)
 
 Os Itens de Menu Alternativos são utilizados e funcionam da mesma forma que os itens de menu padrão. Como já são baseados em layouts personalizados, substituições de template não se aplicam aos itens de menu alternativos.
 

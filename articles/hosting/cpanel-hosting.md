@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Hosting_Setup / Display title: Hospedagem cPanel -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Hosting_Setup",
+  "title": "Hospedagem cPanel ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -6,7 +13,7 @@
 
 Quando você faz login no seu serviço de hospedagem cPanel, é isso que você deve esperar ver:
 
-![painel de controle de hospedagem cpanel](../../../en/images/hosting/cpanel-hosting.png)
+![painel de controle de hospedagem cpanel](../../../en/images/hosting/cpanel-hosting/01-cpanel-hosting.png)
 
 ### Configuração de Banco de Dados
 
@@ -24,7 +31,7 @@ No mesmo formulário, desça até *Add User to Database*. Selecione o usuário q
 
 Em algum momento, você terá baixado o arquivo zip com o código fonte do Joomla para seu próprio laptop ou computador de mesa. Agora você precisa decidir como estruturar seu site. O diretório raiz de documentos do seu site é a pasta *public_html*. Você poderia colocar o Joomla lá. No entanto, isso o impede de usar outro aplicativo no mesmo site. Por exemplo, você poderia ter duas instalações separadas do Joomla, uma para produção (visualização pública) e outra para testes (visualização privada). Então, você poderia criar uma pasta dentro do *public_html*, chamada *j4*, por exemplo, e fazer o upload do Joomla lá. Você poderia ter outra pasta chamada *j4test* e colocar outra cópia do Joomla lá. A ilustração abaixo mostra tal configuração com dois sites Joomla.
 
-![gerenciador de arquivos de hospedagem cpanel](../../../en/images/hosting/cpanel-file-manager.png)
+![gerenciador de arquivos de hospedagem cpanel](../../../en/images/hosting/cpanel-hosting/02-cpanel-file-manager.png)
 
 Quando você tiver decidido sobre sua estrutura, selecione a pasta Joomla escolhida no Gerenciador de Arquivos e clique no botão Upload. No formulário de upload, selecione o arquivo zip do código fonte do Joomla no seu computador local para enviá-lo para a pasta selecionada. Após o upload, volte para o Gerenciador de Arquivos, selecione o arquivo *zip* e clique no botão Extract. Após a extração, você pode selecionar e excluir o arquivo *zip*.
 

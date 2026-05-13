@@ -1,4 +1,11 @@
-<!-- Filename: Joomla_Licenses / Display title: Licenças do Joomla  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Joomla_Licenses",
+  "title": "Licenças do Joomla  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## LICENÇA PÚBLICA GERAL GNU
 

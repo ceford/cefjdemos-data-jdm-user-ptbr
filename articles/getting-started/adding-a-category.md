@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Getting_Started:_Adding_a_Category / Display title: Adicionando uma Categoria -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Category",
+  "title": "Adicionando uma Categoria ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -52,7 +59,7 @@ Os itens de menu são abordados em um artigo posterior.
 
 O exemplo a seguir utiliza uma categoria Mamíferos inspirada pela lista acima para demonstrar como criar uma nova Categoria:
 
-![Formulário de edição de Categoria](../../../en/images/getting-started/article-category-edit.png)
+![Formulário de edição de Categoria](../../../en/images/articles/articles-categories/02-article-category-edit.png)
 
 - Selecione o item **Conteúdo** no menu do Administrador para expandi-lo.
 - Selecione o ícone **+** ao lado do item de menu *Categorias* para abrir o formulário de edição de Categoria.

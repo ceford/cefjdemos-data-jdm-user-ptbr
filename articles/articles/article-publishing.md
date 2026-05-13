@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:_Article_Publishing / Display title: Artigo: Edição - Publicação  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:_Article_Publishing",
+  "title": "Artigo: Edição - Publicação  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -10,7 +17,7 @@ Geralmente, os artigos são publicados no dia em que são criados e permanecem a
 
 ## Captura de Tela
 
-![Aba de publicação do formulário de edição do artigo](../../../en/images/articles/articles-edit-publishing-tab.png)
+![Aba de publicação do formulário de edição do artigo](../../../en/images/articles/article-publishing/01-articles-edit-publishing-tab.png)
 
 O painel *Metadados* é explicado em um artigo separado. Este artigo aborda o painel *Publicação*.
 
@@ -58,7 +65,7 @@ Antes da data de Início da Publicação, os artigos são considerados como **Pe
 
 Os valores de data e hora podem ser digitados nos campos de data ou selecionados com a ferramenta de calendário, que é aberta ao selecionar o ícone de calendário no final de cada campo de data.
 
-![Datas de publicação](../../../en/images/articles-access/article-schedule-publishing.png)
+![Datas de publicação](../../../en/images/articles/article-publishing/02-article-schedule-publishing.png)
 
 O calendário se movimenta entre dias, meses e anos usando as setas do teclado para frente, para trás, para cima e para baixo. O botão **Hoje** define a data atual. O botão **Limpar** limpa a data e hora.
 

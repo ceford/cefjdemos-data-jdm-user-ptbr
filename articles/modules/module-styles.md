@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=modules&filename=module-styles.md / Display title: Estilos de Módulo  -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=modules&filename=module-styles.md",
+  "title": "Estilos de Módulo  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Conceitos de Estilo
 
@@ -58,7 +65,7 @@ O cabeçalho do módulo agora está em azul escuro. Existem várias maneiras de 
 * Altere também a borda inferior do cabeçalho.
 * Aplique esse estilo a vários módulos em vez de um por vez.
 
-![Exemplo de Módulo de Artigos Arquivados](../../../en/images/modules/modules-archived-articles.png)
+![Exemplo de Módulo de Artigos Arquivados](../../../en/images/modules/module-styles/01-modules-archived-articles.png)
 
 *Traduzido por openai.com*
 

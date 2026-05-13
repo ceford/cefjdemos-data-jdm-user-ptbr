@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:_Article_Metadata / Display title: Artigo: Editar - Metadados   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:_Article_Metadata",
+  "title": "Artigo: Editar - Metadados   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -42,7 +49,7 @@ No Joomla, para uma única página, o título do artigo se torna o título da p�
 
 O artigo *Meta Descrição* é um campo na aba *Publicação* do formulário de entrada de dados do artigo:
 
-![Aba de publicação do formulário de edição do artigo](../../../en/images/articles/articles-edit-publishing-tab.png)
+![Aba de publicação do formulário de edição do artigo](../../../en/images/articles/article-metadata/01-articles-edit-publishing-tab.png)
 
 Se não houver uma descrição de metadados do artigo, então uma descrição de metadados de um único item de menu de artigo será usada, se estiver configurada. Se não houver uma descrição de metadados do item de menu, então a descrição meta global do site será utilizada, se estiver configurada. Caso contrário, o campo de descrição de metadados é omitido.
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Content_Dashboard / Display title: Painel de Conteúdo  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Content_Dashboard",
+  "title": "Painel de Conteúdo  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -6,7 +13,7 @@ O Painel de Conteúdo é acessado através do ícone à direita do item do menu 
 
 ## Captura de Tela
 
-![Dashboard de conteúdo](../../../en/images/dashboards/content-dashboard.png)
+![Dashboard de conteúdo](../../../en/images/dashboards/content-dashboard/01-content-dashboard.png)
 
 *Traduzido por openai.com*
 

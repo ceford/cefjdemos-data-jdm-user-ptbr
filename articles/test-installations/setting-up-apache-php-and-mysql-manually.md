@@ -1,4 +1,11 @@
-<!-- Filename: Setting_up_Apache,_PHP_and_MySQL_manually / Display title: Configurando Apache, PHP e MySQL manualmente  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Setting_up_Apache,_PHP_and_MySQL_manually",
+  "title": "Configurando Apache, PHP e MySQL manualmente  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Visão Geral
 

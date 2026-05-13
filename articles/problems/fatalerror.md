@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:FatalError / Display title: ErroFatal -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:FatalError",
+  "title": "ErroFatal ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -9,11 +16,11 @@ De tempos em tempos, o Joomla pode exibir uma página de erro em vez da página 
 
 ### Página de Erro do Sistema
 
-![Página de erro fatal do sistema](../../../en/images/problems/fatal-error.png)
+![Página de erro fatal do sistema](../../../en/images/problems/fatalerror/01-fatal-error.png)
 
 ### Página de Erro do Modelo
 
-![Página de erro do modelo](../../../en/images/problems/template-error.png)
+![Página de erro do modelo](../../../en/images/problems/fatalerror/02-template-error.png)
 
 ## Como Resolver
 
@@ -39,7 +46,7 @@ Se a sua interface de Administrador **não estiver** funcionando, edite o arquiv
 
 Com as alterações feitas, recarregue a página que estava causando o erro. Agora você deve ver uma rastreabilidade de pilha. Exemplo:
 
-![Página de erro do template](../../../en/images/problems/template-error-stack-trace.png)
+![Página de erro do template](../../../en/images/problems/fatalerror/03-template-error-stack-trace.png)
 
 O primeiro item na rastreabilidade de pilha indica onde o erro foi disparado. Às vezes, isso é suficiente para identificar a Extensão defeituosa. Outras vezes, a Extensão defeituosa está mais abaixo na rastreabilidade de pilha. Pode não significar muito para você, mas a rastreabilidade de pilha é inestimável para os especialistas que respondem perguntas nos Fóruns do Joomla.
 

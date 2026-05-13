@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Site_Modules / Display title: Módulos do Site -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Site_Modules",
+  "title": "Módulos do Site ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -12,7 +19,7 @@ Pode haver múltiplas instâncias do mesmo módulo. Por exemplo, você pode usar
 
 Os módulos são atribuídos a uma posição em uma página definida pelo template em uso. A ilustração a seguir mostra um layout esquemático do template Cassiopeia:
 
-![Diagrama de posições do template Cassiopeia](../../../en/images/modules/cassiopeia-template-positions.png)
+![Diagrama de posições do template Cassiopeia](../../../en/images/modules/site-modules/01-cassiopeia-template-positions.png)
 
 E a lista a seguir mostra as posições de módulos disponíveis por nome:
 
@@ -41,15 +48,15 @@ E a lista a seguir mostra as posições de módulos disponíveis por nome:
 
 Os módulos core são aqueles fornecidos com uma nova instalação do Joomla. Existem milhares de módulos adicionais disponíveis de fornecedores terceiros. Suponha que você gostaria de mostrar uma imagem aleatória para tornar seu site mais interessante para os visitantes. No menu do Administrador, selecione **Conteúdo → Módulos do Site** para ver a lista de módulos do site já em uso:
 
-![Lista de Módulos do Site](../../../en/images/modules/cassiopeia-modules-list.png)
+![Lista de Módulos do Site](../../../en/images/modules/site-modules/02-cassiopeia-modules-list.png)
 
 Selecione o botão Novo para ver uma lista de módulos do site disponíveis para instalação:
 
-![Módulos do Site disponíveis](../../../en/images/modules/cassiopeia-modules-available.png)
+![Módulos do Site disponíveis](../../../en/images/modules/site-modules/03-cassiopeia-modules-available.png)
 
 Desça e selecione o módulo Imagem Aleatória. Isso abrirá o formulário de edição **Módulos: Imagem Aleatória** pronto para você preencher.
 
-![Módulo de imagem aleatória](../../../en/images/modules/cassiopeia-module-random-image.png)
+![Módulo de imagem aleatória](../../../en/images/modules/site-modules/04-cassiopeia-module-random-image.png)
 
 - **Título** Este campo é obrigatório.
 - **Tipo de Imagem** O padrão é jpg.
@@ -72,7 +79,7 @@ Após salvar, talvez seja necessário alterar a ordem dos módulos na posição 
 
 ## Visualizar o Site
 
-![Visualização do módulo de imagem aleatória no site](../../../en/images/modules/cassiopeia-module-random-image-site.png)
+![Visualização do módulo de imagem aleatória no site](../../../en/images/modules/site-modules/05-cassiopeia-module-random-image-site.png)
 
 Verifique a aparência do Site. Neste caso, pode ser uma boa ideia centralizar a imagem. Isso pode ser feito da seguinte maneira:
 

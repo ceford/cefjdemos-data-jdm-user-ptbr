@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Help / Display title: Painel de Ajuda  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Help",
+  "title": "Painel de Ajuda  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -6,7 +13,7 @@ A tela de Ajuda não é intitulada como um Painel, mas possui todos os recursos 
 
 ## Captura de Tela
 
-![Painel de Ajuda](../../../en/images/dashboards/help-dashboard.png)
+![Painel de Ajuda](../../../en/images/dashboards/help-dashboard/01-help-dashboard.png)
 
 *Traduzido por openai.com*
 

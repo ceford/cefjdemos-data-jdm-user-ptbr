@@ -1,4 +1,11 @@
-<!-- Filename: Smart_Search_on_large_sites / Display title: Pesquisa Inteligente em Sites Grandes -->
+<!--
+{
+  "source": "https://docs.joomla.org/Smart_Search_on_large_sites",
+  "title": "Pesquisa Inteligente em Sites Grandes ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Indexação do Site
 

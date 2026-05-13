@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:Article_Access_Restriction / Display title: Artigo: Restrição de Acesso   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:Article_Access_Restriction",
+  "title": "Artigo: Restrição de Acesso   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -10,7 +17,7 @@ Este artigo descreve a implementação de restrição de acesso no formulário *
 
 O Joomla fornece os Níveis de Acesso vistos na captura de tela a seguir:
 
-![Níveis de acesso do usuário](../../../en/images/articles/article-access-user-groups.png)
+![Níveis de acesso do usuário](../../../en/images/articles/article-access-restriction/01-article-access-user-groups.png)
 
 Os níveis de acesso aparecem na aba *Conteúdo* do formulário *Artigo: Editar*.
 

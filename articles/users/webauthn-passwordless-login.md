@@ -1,4 +1,11 @@
-<!-- Filename: WebAuthn_Passwordless_Login / Display title: Login WebAuthn -->
+<!--
+{
+  "source": "https://docs.joomla.org/WebAuthn_Passwordless_Login",
+  "title": "Login WebAuthn ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Login sem Senha com WebAuthn
 
@@ -23,11 +30,11 @@ WebAuthn é o futuro da autenticação. Fácil, seguro e sem complicações. Tud
 
 A imagem a seguir mostra um dispositivo de hardware inserido na porta USB de um computador portátil. Custou £15 em fevereiro de 2022.
 
-![fotografia do dispositivo de hardware](../../../en/images/users/passwordless-login-hardware-device.jpg)
+![fotografia do dispositivo de hardware](../../../en/images/users/webauthn-passwordless-login/01-passwordless-login-hardware-device.jpg)
 
 WebAuthn usa um plugin do sistema que está habilitado por padrão. Um botão de **Autenticação na Web** estará presente nas telas de login padrão do Joomla 4 e posteriores, como ilustrado na tela de login do Administrador:
 
-![formulário de login seguro do administrador](../../../en/images/users/passwordless-login-login-form.jpg)
+![formulário de login seguro do administrador](../../../en/images/users/webauthn-passwordless-login/02-passwordless-login-login-form.jpg)
 
 ## Configuração do Usuário
 
@@ -46,14 +53,14 @@ autenticador de hardware. Por motivos de segurança e praticidade, há um
 intervalo de tempo relativamente curto permitido para ativar o autenticador:
 60 segundos.
 
-![prompt seguro de login de administrador com hardware](../../../en/images/users/passwordless-login-hardware-propmpt.png)
+![prompt seguro de login de administrador com hardware](../../../en/images/users/webauthn-passwordless-login/03-passwordless-login-hardware-propmpt.png)
 
 Uma vez que você desbloquear seu autenticador — tocando em um botão, escaneando sua
 impressão digital / rosto, inserindo um PIN ou uma combinação dos acima
 dependendo do seu autenticador — a mensagem desaparece, o
 autenticador é registrado e a tela aparece como segue:
 
-![login seguro de administrador autenticador registrado](../../../en/images/users/passwordless-login-registered-authenticator.png)
+![login seguro de administrador autenticador registrado](../../../en/images/users/webauthn-passwordless-login/04-passwordless-login-registered-authenticator.png)
 
 É muito importante notar que você só pode registrar ou remover
 autenticadores na sua própria conta de usuário. Por motivos de segurança, mesmo um

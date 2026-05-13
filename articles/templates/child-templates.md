@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Child_Templates / Display title: Templates Filhos -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Child_Templates",
+  "title": "Templates Filhos ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -15,7 +22,7 @@ Começando a partir de **Sistema → Painel de Modelos → Modelos do Site**
 - Preencha o diálogo pop-up do Modelo Filho e selecione o botão Criar
   Modelo Filho:
 
-![formulário de criação de modelo filho modal](../../../en/images/templates/child-templates-create-green.png)
+![formulário de criação de modelo filho modal](../../../en/images/templates/child-templates/01-child-templates-create-green.png)
 
 A seleção de Cassiopeia - Padrão no campo Estilos de Modelos Adicionais
 parece desnecessária (isso é um bug?).
@@ -37,7 +44,7 @@ adicionadas ou removidas.
 - Selecione o Tipo de Arquivo `.css`.
 - Selecione o botão *Criar*.
 
-![formulário de criação de css do usuário do modelo filho](../../../en/images/templates/child-templates-create-green-user-css.png)
+![formulário de criação de css do usuário do modelo filho](../../../en/images/templates/child-templates/02-child-templates-create-green-user-css.png)
 
 O arquivo user.css está vazio, pronto para que você insira alguns estilos personalizados.
 Insira o seguinte para começar o tema verde:
@@ -92,7 +99,7 @@ direita com um item. Esse parece ser um bom lugar para um novo item de menu.
   Artigos Destacados neste exemplo.
 - Selecione *cassiopeia_manual - Padrão* no campo de formulário *Estilo de Modelo*.
 
-![formulário de edição do item de menu do modelo filho](../../../en/images/templates/child-templates-create-green-menu-item.png)
+![formulário de edição do item de menu do modelo filho](../../../en/images/templates/child-templates/03-child-templates-create-green-menu-item.png)
 
 - Para os propósitos da captura de tela seguinte, o Layout de Blog foi
   configurado para Artigos de Destaque: 0, Artigos de Introdução: 3 e
@@ -102,7 +109,7 @@ direita com um item. Esse parece ser um bom lugar para um novo item de menu.
 
 - Na página inicial do seu site, selecione o item de menu recém-criado.
 
-![site mostrando o modelo de tema verde personalizado](../../../en/images/templates/child-templates-green-site-result.png)
+![site mostrando o modelo de tema verde personalizado](../../../en/images/templates/child-templates/04-child-templates-green-site-result.png)
 
 ### Editar o Estilo
 

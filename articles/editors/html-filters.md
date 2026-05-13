@@ -1,4 +1,11 @@
-<!-- Filename: Entering_raw_HTML_in_editors / Display title: Filtros HTML -->
+<!--
+{
+  "source": "https://docs.joomla.org/Entering_raw_HTML_in_editors",
+  "title": "Filtros HTML ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Tag Textarea do HTML
 
@@ -24,7 +31,7 @@ Você pode selecionar um dos editores disponíveis, incluindo Nenhum, no seu Per
 
 No Painel Inicial, selecione Configuração Global e depois a aba Filtros de Texto. As configurações padrão têm *Sem HTML* selecionado para os grupos de usuários Visitante, Público e Registrado. Qualquer um desses grupos pode ter a oportunidade de preencher um campo de área de texto, por exemplo, em um formulário de contato que busca informações adicionais sobre um problema, então a remoção automática de todas as tags HTML é geralmente apropriada. Outros grupos, exceto Super Usuários, são restringidos pela Lista Padrão de Proibidos. Super Usuários não têm filtragem.
 
-![configuração global dos filtros de texto](../../../en/images/configuration/global-configuration-filters-tab.png)
+![configuração global dos filtros de texto](../../../en/images/editors/html-filters/01-global-configuration-filters-tab.png)
 
 As notas explicam o que está incluído na lista padrão de proibidos e como usar as outras listas.
 

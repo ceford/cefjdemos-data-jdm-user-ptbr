@@ -1,4 +1,11 @@
-<!-- Filename: category-list-override.md / Display title: Substituição da Lista de Categorias  -->
+<!--
+{
+  "source": "https://docs.joomla.org/category-list-override.md",
+  "title": "Substituição da Lista de Categorias  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## O Item de Menu Listar Contatos em uma Categoria
 
@@ -39,7 +46,7 @@ A lista com marcadores dos campos personalizados pode ser melhorada removendo os
 }
 ```
 
-![styled business committee](../../../en/images/contacts/contact-business-committee-styled.png)
+![styled business committee](../../../en/images/contacts/category-list-override/01-contact-business-committee-styled.png)
 
 Isso é o máximo que pode ser feito com estilização. Melhor, mas ainda não o suficiente. Para adicionar mais itens e alterar o layout será necessário uma substituição de layout.
 
@@ -153,7 +160,7 @@ a:has(.contact-thumbnail) {
 
 ### Resultado
 
-![comitê de negócios em grade](../../../en/images/contacts/contact-business-committee-grid.png)
+![comitê de negócios em grade](../../../en/images/contacts/category-list-override/02-contact-business-committee-grid.png)
 
 *Traduzido por openai.com*
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Check-out_and_Check-in / Display title: Artigo: Check-in  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Check-out_and_Check-in",
+  "title": "Artigo: Check-in  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -32,7 +39,7 @@ No menu do Administrador:
   **Sistema → Painel de Manutenção → Check-in Global**.
 - A lista mostra o número de itens alocados.
 
-![Página de check-in global](../../../en/images/articles/global-checkin.png)
+![Página de check-in global](../../../en/images/articles/article-check-in/01-global-checkin.png)
 
 - Na lista de tabelas do banco de dados, selecione a caixa de seleção para o tipo de item a ser verificado.
 - Selecione *Check-in* na Barra de Ferramentas.

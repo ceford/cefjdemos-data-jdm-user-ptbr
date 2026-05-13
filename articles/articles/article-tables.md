@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Tables / Display title: Artigo: Edição - Tabelas  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Tables",
+  "title": "Artigo: Edição - Tabelas  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Sobre Tabelas
 
@@ -116,7 +123,7 @@ Aqui, as classes do Bootstrap têm os seguintes efeitos:
 
 A captura de tela do site a seguir mostra uma tabela para um programa de conferência com os estilos inline padrão do TinyMCE e uma tabela semelhante com estilos Bootstrap:
 
-![Exemplo de tabelas](../../../en/images/articles/articles-site-tables.png)
+![Exemplo de tabelas](../../../en/images/articles/article-tables/01-articles-site-tables.png)
 
 Consulte a documentação do Bootstrap sobre [Tabelas](https://getbootstrap.com/docs/5.3/content/tables/) para mais opções.
 

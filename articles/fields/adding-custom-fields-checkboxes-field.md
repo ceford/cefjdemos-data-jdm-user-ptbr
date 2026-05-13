@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Checkboxes_Field / Display title: Campo de Caixas de Seleção -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Campo de Caixas de Seleção ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Finalidade
 
@@ -9,7 +16,7 @@ O campo de caixas de seleção fornece uma ou mais caixas de seleção para sere
 * O **Rótulo** é baseado no Título e aparece na saída antes da lista de valores selecionados.
 * As caixas de seleção são adicionadas uma de cada vez, cada uma com Texto e Valor. O Texto aparece na saída. O valor é usado no formulário de entrada de dados e cada um deve ser diferente.
 
-![Criação de campo de caixas de seleção](../../../en/images/fields/fields-checkboxes-edit.png)
+![Criação de campo de caixas de seleção](../../../en/images/fields/adding-custom-fields-checkboxes-field/01-fields-checkboxes-edit.png)
 
 **Nota:** Neste exemplo, a inclusão do tipo de campo no Título é apenas para fins de demonstração. Deixe-o de fora nos títulos dos seus próprios campos.
 
@@ -17,7 +24,7 @@ O campo de caixas de seleção fornece uma ou mais caixas de seleção para sere
 
 Isso é apenas uma questão de selecionar os itens que devem aparecer no resultado.
 
-![Inserção de dados de campo com caixas de seleção](../../../en/images/fields/fields-checkboxes-data-entry.png)
+![Inserção de dados de campo com caixas de seleção](../../../en/images/fields/adding-custom-fields-checkboxes-field/02-fields-checkboxes-data-entry.png)
 
 Os campos só aparecerão em um artigo se forem preenchidos no formulário de entrada de dados do artigo.
 
@@ -25,7 +32,7 @@ Os campos só aparecerão em um artigo se forem preenchidos no formulário de en
 
 A captura de tela do site a seguir mostra o campo exibido em um artigo. A opção *Exibição automática* é responsável pela posição do campo e seu template é responsável pelo design do campo.
 
-![exibição do campo de caixas de seleção no site](../../../en/images/fields/fields-checkboxes-site.png)
+![exibição do campo de caixas de seleção no site](../../../en/images/fields/adding-custom-fields-checkboxes-field/03-fields-checkboxes-site.png)
 
 *Traduzido por openai.com*
 

@@ -1,4 +1,11 @@
-<!-- Filename: Auto_redirect_guests_to_login / Display title: Redirecionar automaticamente os convidados para o login -->
+<!--
+{
+  "source": "https://docs.joomla.org/Auto_redirect_guests_to_login",
+  "title": "Redirecionar automaticamente os convidados para o login ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Funcionalidade Desejada
 

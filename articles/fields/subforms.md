@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=fields&filename=subform.md / Display title: Campo de Subformulário -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=fields&filename=subform.md",
+  "title": "Campo de Subformulário ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Finalidade
 
@@ -15,7 +22,7 @@ Opções especiais para este campo:
 - **Título** e **Rótulo**. Neste exemplo, estes são configurados como *Espécimes*.
 - **Campos**. Adicione os campos necessários no subformulário um por um. Cada linha tem uma lista suspensa de campos disponíveis e uma opção alternável de Renderizar Valores Sim/Não. A ordem dos itens pode ser alterada com o ícone de arrastar.
 
-![Criação de Subformulário](../../../en/images/fields/fields-subform-edit.png)
+![Criação de Subformulário](../../../en/images/fields/subforms/01-fields-subform-edit.png)
 
 **Nota:** Neste exemplo, a inclusão do tipo de campo no Título é apenas para fins de demonstração. Deixe-o de fora nos títulos dos seus campos.
 
@@ -23,13 +30,13 @@ Opções especiais para este campo:
 
 No formulário de entrada de dados, você precisa adicionar linhas para cada espécime. Cada linha contém um campo de Calendário, um campo de Texto e um campo de Cor.
 
-![Entrada de dados em subformulário](../../../en/images/fields/fields-subform-data-entry.png)
+![Entrada de dados em subformulário](../../../en/images/fields/subforms/02-fields-subform-data-entry.png)
 
 ## Exibição de Dados
 
 No artigo, o subformulário intitulado Especímenes tem uma linha para cada espécime. Procure o item **Especímenes** nesta captura de tela:
 
-![exibição do subformulário no site](../../../en/images/fields/fields-subform-site.png)
+![exibição do subformulário no site](../../../en/images/fields/subforms/03-fields-subform-site.png)
 
 *Traduzido por openai.com*
 

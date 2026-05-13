@@ -1,4 +1,11 @@
-<!-- Filename: Search_Engine_Friendly_URLs / Display title: URLs Amigáveis para Motores de Busca   -->
+<!--
+{
+  "source": "https://docs.joomla.org/Search_Engine_Friendly_URLs",
+  "title": "URLs Amigáveis para Motores de Busca   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Caminhos e Rotas
 

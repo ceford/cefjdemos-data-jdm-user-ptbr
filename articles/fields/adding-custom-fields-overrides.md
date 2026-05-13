@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Overrides / Display title: Ejemplo de Substituições de Modelo -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Ejemplo de Substituições de Modelo ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Exibição Automática de Campo
 

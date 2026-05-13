@@ -1,4 +1,11 @@
-<!-- Filename: How_do_you_put_a_module_inside_an_article%3F / Display title: Módulos dentro de Artigos -->
+<!--
+{
+  "source": "https://docs.joomla.org/How_do_you_put_a_module_inside_an_article%3F",
+  "title": "Módulos dentro de Artigos ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 

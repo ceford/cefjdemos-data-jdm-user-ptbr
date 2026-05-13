@@ -1,4 +1,11 @@
-<!-- Filename: Smart_Search_configuration_options / Display title: Opções de Busca Inteligente -->
+<!--
+{
+  "source": "https://docs.joomla.org/Smart_Search_configuration_options",
+  "title": "Opções de Busca Inteligente ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Sobre Opções
 

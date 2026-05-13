@@ -1,4 +1,11 @@
-<!-- Filename: Help4.x:Components_Version_History / Display title: Artigo: Versões  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Help4.x:Components_Version_History",
+  "title": "Artigo: Versões  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -16,7 +23,7 @@ Selecione o botão **Versões** na barra de ferramentas enquanto edita o item.
 
 ## Captura de Tela
 
-![Caixa de diálogo de versões](../../../en/images/articles/articles-versions.png)
+![Caixa de diálogo de versões](../../../en/images/articles/article-versions/01-articles-versions.png)
 
 ## Cabeçalhos de Coluna
 
@@ -33,9 +40,9 @@ No topo da página, você verá a barra de ferramentas mostrada na captura de te
 
 - **Restaurar** A versão atual do item está marcada com uma estrela à direita da data. Se você deseja restaurar uma das outras versões salvas, marque a caixa de seleção para a versão desejada e selecione o botão *Restaurar*. A versão atual do item será substituída pela versão selecionada, e a tela de edição será recarregada com a versão restaurada carregada no editor.
 - **Pré-visualizar** Para pré-visualizar uma versão, selecione o item na coluna de Data ou marque a caixa de seleção e clique no botão Pré-visualizar. Uma janela do navegador separada será carregada mostrando a versão selecionada do item, similar à captura de tela abaixo. Após visualizar a versão, feche a janela do navegador. 
-![Caixa de diálogo de pré-visualização de versões](../../../en/images/articles/articles-versions-preview.png)
+![Caixa de diálogo de pré-visualização de versões](../../../en/images/articles/article-versions/02-articles-versions-preview.png)
 - **Comparar** Para comparar duas versões e ver o que foi alterado, clique nas caixas de seleção para cada uma das versões e clique no botão Comparar. Uma nova janela do navegador será aberta, conforme mostrado na captura de tela abaixo. A primeira coluna é o nome do campo, a segunda é a versão mais antiga, a terceira é a versão mais recente, e a última coluna destaca as diferenças entre as duas versões.
-![Caixa de diálogo de comparação de versões](../../../en/images/articles/articles-versions-compare.png)
+![Caixa de diálogo de comparação de versões](../../../en/images/articles/article-versions/03-articles-versions-compare.png)
 - **Manter Ativado/Desativado** Este botão permite alternar a funcionalidade Manter Para Sempre de uma versão. Normalmente, a versão mais antiga de um item será excluída automaticamente quando o número máximo de versões (definido nas Opções do componente) for excedido. Se você definir a propriedade Manter Para Sempre para uma versão, ela nunca será excluída automaticamente.
 - **Excluir** Este botão permite que você exclua manualmente uma ou mais versões. Selecione a caixa de seleção para as versões que deseja excluir e então selecione o botão Excluir. Note que isso *não* exclui o item que está sendo editado. Apenas exclui a versão selecionada do item.
 

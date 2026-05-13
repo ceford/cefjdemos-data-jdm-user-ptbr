@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Headings / Display title: Artigo: Editar - Títulos -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Headings",
+  "title": "Artigo: Editar - Títulos ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Semântica de Títulos
 
@@ -39,7 +46,7 @@ Abra o artigo que deseja editar. Note que o contêiner padrão de texto é um pa
 - Na parte inferior da tela, o indicador de contêiner mostrará HX.
 - Você pode dar um clique duplo em qualquer texto selecionado para fazer uma alteração rápida, por exemplo, de P para H2 (alternar) ou de H2 para H3 usando uma barra pop-up, como na captura de tela a seguir:
 
-![formulário de edição de artigo com h3 selecionado](../../../en/images/articles/articles-edit-headings.png)
+![formulário de edição de artigo com h3 selecionado](../../../en/images/articles/article-headings/01-articles-edit-headings.png)
 
 Nota: por convenção, todas as tags HTML usam letras minúsculas. Se você selecionar o botão *Alternar Editor* para ver o código-fonte, verá os parágrafos e títulos definidos em tags com letras minúsculas.
 

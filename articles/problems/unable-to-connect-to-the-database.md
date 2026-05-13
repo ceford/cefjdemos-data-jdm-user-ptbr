@@ -1,4 +1,11 @@
-<!-- Filename: Unable_to_connect_to_the_database / Display title: Conexão com o Banco de Dados  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Unable_to_connect_to_the_database",
+  "title": "Conexão com o Banco de Dados  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Erro de Conexão
 

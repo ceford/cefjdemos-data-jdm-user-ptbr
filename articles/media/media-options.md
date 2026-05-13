@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Media:_Options / Display title: Mídia: Opções   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Media:_Options",
+  "title": "Mídia: Opções   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -8,7 +15,7 @@ Para acessar o formulário *Mídia: Opções*, selecione o botão **Opções** n
 
 ## Captura de Tela
 
-![O formulário de Opções de Mídia](../../../en/images/media/media-options.png)
+![O formulário de Opções de Mídia](../../../en/images/media/media-options/01-media-options.png)
 
 ## Caminho para Arquivos e Pastas
 
@@ -28,7 +35,7 @@ No formulário de Opções, insira o nome da pasta no campo **Caminho para Pasta
 Uma vez configurado, você poderá escolher entre as pastas de imagens e arquivos
 na parte Local da visualização de Mídia.
 
-![A página de mídia](../../../en/images/media/media-sample-data-cassiopeia.png)
+![A página de mídia](../../../en/images/media/media-options/02-media-sample-data-cassiopeia.png)
 
 ## Tipos Adicionais de Imagem ou Documento
 

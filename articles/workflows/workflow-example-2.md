@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:Workflow_Scenarios_Example_2 / Display title: Exemplo de Fluxo de Trabalho 2  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:Workflow_Scenarios_Example_2",
+  "title": "Exemplo de Fluxo de Trabalho 2  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -12,14 +19,14 @@ Primeiro crie novos Grupos de Usuários, todos filhos de *Registrado*.
 - **Presidente** Um filho de *Comitê*
 - **Secretário** Um filho de *Comitê*
 
-![Grupos de usuários personalizados](../../../en/images/workflows/example-2-user-groups.png)
+![Grupos de usuários personalizados](../../../en/images/workflows/workflow-example-2/01-example-2-user-groups.png)
 
 ## Nível de Acesso do Usuário
 
 - Crie um novo nível, **Comitê** e adicione *Comitê* aos Grupos de Usuários Com Acesso de Visualização.
 - No Nível de Acesso *Especial*, adicione *Comitê* aos Grupos de Usuários Com Acesso de Visualização.
 
-![Níveis de Acesso de Visualização](../../../en/images/workflows/example-2-viewing-access-levels.png)
+![Níveis de Acesso de Visualização](../../../en/images/workflows/workflow-example-2/02-example-2-viewing-access-levels.png)
 
 ## Criar Usuários
 
@@ -36,7 +43,7 @@ Primeiro crie novos Grupos de Usuários, todos filhos de *Registrado*.
   - **Presidente** Todos definidos como *Permitido* exceto *Excluir*. Talvez...
   - **Secretário** Todos definidos como *Permitido* exceto *Excluir* e *Editar Estado*.
 
-![Lista de fluxos de trabalho](../../../en/images/workflows/example-2-workflows-list.png)
+![Lista de fluxos de trabalho](../../../en/images/workflows/workflow-example-2/03-example-2-workflows-list.png)
 
 ### Criar as Etapas do Fluxo de Trabalho
 
@@ -50,7 +57,7 @@ Primeiro crie novos Grupos de Usuários, todos filhos de *Registrado*.
   - **Nota** *Documentos publicados.* 
   - **Permissões** Todos deixados como *Herdados*.
 
-![Etapas do fluxo de trabalho](../../../en/images/workflows/example-2-stages-committee-workflow.png)
+![Etapas do fluxo de trabalho](../../../en/images/workflows/workflow-example-2/04-example-2-stages-committee-workflow.png)
 
 ### Criar as Transições do Fluxo de Trabalho
 
@@ -120,7 +127,7 @@ Esta é a transição executada quando um documento do Comitê não é mais nece
 - **Aba de Permissões**
   - **Secretário** Definir *Executar Transição* como *Negado*.
 
-![Transições do fluxo de trabalho](../../../en/images/workflows/example-2-transitions-committee-workflow.png)
+![Transições do fluxo de trabalho](../../../en/images/workflows/workflow-example-2/05-example-2-transitions-committee-workflow.png)
 
 ## Criar uma Nova Categoria
 
@@ -145,7 +152,7 @@ eles seguirão o fluxo de trabalho padrão que precisa de um Super Usuário para
 - **Escolher uma Categoria** *Comitê*
 - **Acesso** *Comitê*
 
-![Item de menu de documentos do comitê](../../../en/images/workflows/example-2-menu-item.png)
+![Item de menu de documentos do comitê](../../../en/images/workflows/workflow-example-2/06-example-2-menu-item.png)
 
 ## Verifique o Site
 
@@ -155,7 +162,7 @@ Alice, Bob e Charlie podem ver o item do Menu, mas ninguém mais pode, nem mesmo
 
 Alice e Bob também podem ver um link de Editar para cada artigo e um botão **Novo Artigo**. Este botão é geralmente usado por Bob para criar um Documento do Comitê, mas Alice também pode fazê-lo.
 
-![Visão de Bob da página da lista de categorias dos documentos do comitê](../../../en/images/workflows/example-2-committee-papers.png)
+![Visão de Bob da página da lista de categorias dos documentos do comitê](../../../en/images/workflows/workflow-example-2/07-example-2-committee-papers.png)
 
 ### Para Criar e Publicar um Documento do Comitê
 

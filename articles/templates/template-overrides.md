@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Template_Overrides / Display title: Substituições de Modelo  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Template_Overrides",
+  "title": "Substituições de Modelo  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -10,7 +17,7 @@ Muitas das extensões do Joomla têm modelos de saída bastante complexos que s�
 
 Comece selecionando **Sistema → Templates → Templates do Site** no menu do Administrador e, em seguida, selecione o item Detalhes e Arquivos do Cassiopeia. Isso abrirá o formulário Templates: Personalizar (Cassiopeia):
 
-![customizar template aba do site cassiopeia](../../../en/images/templates/templates-customise-cassiopeia.png)
+![customizar template aba do site cassiopeia](../../../en/images/templates/template-overrides/01-templates-customise-cassiopeia.png)
 
 **Importante:** não edite nenhum dos arquivos fornecidos como parte do template Cassiopeia. Na próxima atualização do Joomla, esses arquivos podem ser sobrescritos e suas edições serão perdidas.
 
@@ -20,7 +27,7 @@ A pasta html é onde estão localizadas as sobrescritas. Se você expandir a pas
 
 Selecione a aba Criar Substituições para ver a lista de Módulos, Componentes, Plugins e Layouts para os quais você pode criar substituições:
 
-![modelos personalizar aba de substituições cassiopeia](../../../en/images/templates/cassiopeia-customisation-create-overrides.png)
+![modelos personalizar aba de substituições cassiopeia](../../../en/images/templates/template-overrides/02-cassiopeia-customisation-create-overrides.png)
 
 Selecione o item mod_login. Os arquivos PHP do template mod_login serão copiados para a pasta html, e você será retornado à aba Editor. Expanda as pastas html e mod_login. Você verá os arquivos default.php e default_logout.php.
 
@@ -32,7 +39,7 @@ Note como é fácil excluir arquivos se você mudar de ideia. E com o botão Ger
 
 Na aba Editor, selecione o arquivo default_logout.php. Observe os botões no canto superior direito: Mostrar Arquivo Original e Mostrar Diferenças. O último foi definido como Sim para a captura de tela a seguir, a fim de mostrar algumas linhas de código adicionadas próximo ao topo do arquivo. Essas linhas de código calculam quando a sessão do usuário irá expirar após o carregamento da página que contém o formulário de logout.
 
-![personalizar modelos aba overrides cassiopeia](../../../en/images/templates/cassiopeia-customisation-edit-logout-override.png)
+![personalizar modelos aba overrides cassiopeia](../../../en/images/templates/template-overrides/03-cassiopeia-customisation-edit-logout-override.png)
 
 A área de Dif mostra linhas adicionadas em um fundo verde e linhas deletadas em um fundo vermelho. Não há linhas deletadas neste caso. O código é mostrado aqui caso deseje copiá-lo para tentar isso você mesmo.
 
@@ -56,7 +63,7 @@ Sua sessão irá expirar às <br><?php echo $endTime; ?>
 
 Salve e recarregue a página do site que contém o formulário de logout.
 
-![personalizar modelos aba overrides cassiopeia](../../../en/images/templates/cassiopeia-customisation-logout-override-result.png)
+![personalizar modelos aba overrides cassiopeia](../../../en/images/templates/template-overrides/04-cassiopeia-customisation-logout-override-result.png)
 
 Você deverá ver o formulário de logout mudar cada vez que a página for recarregada. Mas e se mudar de ideia? Ou tiver diferentes opções para diferentes grupos de Usuários? Bem-vindo aos Layouts, o assunto de um artigo separado.
 
@@ -64,7 +71,7 @@ Você deverá ver o formulário de logout mudar cada vez que a página for recar
 
 A aba Criar Substituições do formulário Templates: Personalizar (Cassiopeia) é usada para criar qualquer um dos elementos de saída do Joomla para os quais é possível criar substituições. Os nomes das pastas de substituição geralmente começam com com\_, mod\_ ou plg\_. Note que a segunda parte de uma pasta de substituição de plugin indica o grupo do plugin. Aqui está uma seleção de exemplos de pastas de substituição:
 
-![aba de substituições personalizar templates cassiopeia](../../../en/images/templates/templates-customise-example-override-folder.png)
+![aba de substituições personalizar templates cassiopeia](../../../en/images/templates/template-overrides/05-templates-customise-example-override-folder.png)
 
 ## Substituições de Layout
 

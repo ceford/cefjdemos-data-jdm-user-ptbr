@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Favicons / Display title: Favicons  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Favicons",
+  "title": "Favicons  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Os Favicons do Joomla!
 
@@ -18,7 +25,7 @@ Se você quiser usar seus próprios favicons em vez dos favicons do Joomla, voc�
 
 Favicons às vezes são usados em tamanhos maiores e em locais diferentes da aba do navegador. Por exemplo, esta é uma captura de tela de parte de uma página inicial do Firefox mostrando algumas das localizações favoritas do Usuário:
 
-![exemplos de favicon da página inicial do Firefox](../../../en/images/templates/favicons-firefox-start-collection.png)
+![exemplos de favicon da página inicial do Firefox](../../../en/images/templates/favicons/01-favicons-firefox-start-collection.png)
 
 Todos os navegadores modernos suportam ícones SVG, então você deve priorizar a criação de um ícone SVG.  
 
@@ -26,7 +33,7 @@ Todos os navegadores modernos suportam ícones SVG, então você deve priorizar 
 
 SVG é uma sigla para Scalable Vector Graphics (Gráficos Vetoriais Escaláveis). Um arquivo SVG contém texto em um formato que define as localizações e formas de linhas com cores de linha, cores de preenchimento e assim por diante. A captura de tela a seguir mostra o arquivo *joomla-favicon.svg* aberto em um editor de texto. Os números das linhas são criados pelo editor de texto e não estão presentes no arquivo. As linhas longas representam curvas e estão truncadas aqui para fins de exibição.
 
-![conteúdo do texto do favicon do joomla](../../../en/images/templates/favicons-joomla-favicon-svg-text.png)
+![conteúdo do texto do favicon do joomla](../../../en/images/templates/favicons/02-favicons-joomla-favicon-svg-text.png)
 
 Para criar um arquivo SVG, você precisa usar um aplicativo apropriado, como o Inkscape. Aplicativos de gráficos rasterizados como Photoshop ou GIMP não servirão. Se você prefere desenhar um ícone em um aplicativo de gráficos rasterizados, ou se possui um logotipo gráfico rasterizado existente que pode ser adaptado para um ícone, você pode importar o arquivo PNG resultante no Inkscape e rastreá-lo para produzir um arquivo SVG. A imagem rastreada deve ser excluída após o rastreamento!
 
@@ -40,7 +47,7 @@ Se você quer criar seus próprios favicons, a melhor maneira de fazer isso é c
 
 O Inkscape é uma aplicação gratuita, open source, multiplataforma, para gráficos vetoriais, usada para trabalhar com arquivos SVG. Funciona em Linux, Mac e Windows. Acesse o site do Inkscape (inkscape.org) para baixar uma cópia para sua plataforma. As ilustrações a seguir mostram a tela do Inkscape em meio às instruções abaixo.
 
-![inkscape com favicon em preparação](../../../en/images/templates/favicons-inkscape-favicon.png)
+![inkscape com favicon em preparação](../../../en/images/templates/favicons/03-favicons-inkscape-favicon.png)
 
 ### Criar um SVG
 

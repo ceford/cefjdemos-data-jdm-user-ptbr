@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/List_Field / Display title: Lista de Campo -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Lista de Campo ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Finalidade
 
@@ -12,7 +19,7 @@ As opções especiais dentro deste campo são:
 - **Valores da lista** Adicione itens conforme necessário e use o ícone de arrastar para alterar a ordem deles. Inicie a lista com Texto definido como *- Selecione -* e Valor vazio. Isso fornece um padrão vazio, resultando na ausência desta lista no Artigo.
 - **Classe do Campo** Defina como *w-auto* para que a lista tenha apenas a largura suficiente para seus rótulos.
 
-![Criação de campo de lista](../../../en/images/fields/fields-list-edit.png)
+![Criação de campo de lista](../../../en/images/fields/adding-custom-fields-list-field/01-fields-list-edit.png)
 
 **Nota:** Neste exemplo, a inclusão do tipo de campo no Título é apenas para fins de demonstração. Deixe-o de fora nos seus próprios títulos de campo.
 
@@ -20,7 +27,7 @@ As opções especiais dentro deste campo são:
 
 Simples: basta selecionar um item da lista ou mais itens se *Múltiplo* for *Sim*.
 
-![Inserção de dados em campo de lista](../../../en/images/fields/fields-list-data-entry.png)
+![Inserção de dados em campo de lista](../../../en/images/fields/adding-custom-fields-list-field/02-fields-list-data-entry.png)
 
 ## Exibição de Dados
 
@@ -30,7 +37,7 @@ seu template é responsável pelo design do campo.
 
 A saída é um único item ou uma lista separada por vírgulas.
 
-![exibição do campo de lista do site](../../../en/images/fields/fields-list-site.png)
+![exibição do campo de lista do site](../../../en/images/fields/adding-custom-fields-list-field/03-fields-list-site.png)
 
 *Traduzido por openai.com*
 

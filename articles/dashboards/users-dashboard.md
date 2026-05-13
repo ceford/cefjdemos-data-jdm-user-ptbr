@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Users_Dashboard / Display title: Painel de Usuários   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Users_Dashboard",
+  "title": "Painel de Usuários   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -6,7 +13,7 @@ O Painel de Usuários é acessado através do ícone à direita do item de menu 
 
 ## Captura de Tela
 
-![Painel de usuários](../../../en/images/dashboards/users-dashboard.png)
+![Painel de usuários](../../../en/images/dashboards/users-dashboard/01-users-dashboard.png)
 
 *Traduzido por openai.com*
 

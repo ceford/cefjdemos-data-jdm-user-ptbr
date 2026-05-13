@@ -1,4 +1,11 @@
-<!-- Filename: Visual_Studio_Code_Primer / Display title: Introdução ao Visual Studio Code -->
+<!--
+{
+  "source": "https://docs.joomla.org/Visual_Studio_Code_Primer",
+  "title": "Introdução ao Visual Studio Code ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## VS Code - Um IDE Gratuito Popular
 
@@ -122,7 +129,7 @@ Na Configuração Global do Joomla, defina *Sistema de Depuração* como *Sim* e
 Quando você abre uma página contendo o módulo com erro, você verá um rastreamento
 de pilha indicando onde um erro foi acionado.
 
-![rastreamento de pilha do vscode](../../../en/images/test-installations/vscode-primer-stack-trace.png)
+![rastreamento de pilha do vscode](../../../en/images/test-installations/visual-studio-code-primer/01-vscode-primer-stack-trace.png)
 
 Às vezes, o erro de codificação está na primeira linha do rastreamento de pilha.
 Caso contrário, se o erro for acionado no código da biblioteca, por exemplo, ao
@@ -135,7 +142,7 @@ No VS Code, use o item de menu Arquivo / Abrir Pasta para localizar e abrir a
 pasta que contém sua cópia local do código da extensão *mod_debugme*.
 Você deve ver algo semelhante ao seguinte:
 
-![visualização de pasta no vscode](../../../en/images/test-installations/vscode-primer-screen.png)
+![visualização de pasta no vscode](../../../en/images/test-installations/visual-studio-code-primer/02-vscode-primer-screen.png)
 
 Você pode ser capaz de diagnosticar o problema apenas lendo o código. No
 caso do erro de *Classe "DebugHelper" não encontrada*, você verá que uma
@@ -290,7 +297,7 @@ Alguns problemas não tão óbvios:
 
 Quando tudo estiver corrigido, isso é o que você poderá ver:
 
-![visualização do módulo depurado no vscode](../../../en/images/test-installations/vscode-primer-debugme-fixed.png)
+![visualização do módulo depurado no vscode](../../../en/images/test-installations/visual-studio-code-primer/03-vscode-primer-debugme-fixed.png)
 
 Dias de comemoração?
 

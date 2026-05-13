@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Template_Basics / Display title: Noções Básicas de Modelo  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Template_Basics",
+  "title": "Noções Básicas de Modelo  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -6,7 +13,7 @@ No Joomla!, um template é uma coleção de arquivos que, juntos, definem a apar
 
 Um template de site típico contém arquivos PHP para estruturar o conteúdo e arquivos CSS para estilizar o conteúdo. Muitas vezes, existem arquivos adicionais, como imagens usadas no layout e arquivos JavaScript usados para interagir com recursos do site, como links e botões. A captura de tela a seguir mostra as pastas e arquivos do template Cassiopeia em uma nova instalação do Joomla 4:
 
-![captura de tela da página de personalização de templates cassiopeia](../../../en/images/templates/templates-customise-cassiopeia.png)
+![captura de tela da página de personalização de templates cassiopeia](../../../en/images/templates/template-basics/01-templates-customise-cassiopeia.png)
 
 Note que os arquivos php estão na pasta /templates do site e os arquivos de mídia estão na pasta /media do site.
 
@@ -14,7 +21,7 @@ Note que os arquivos php estão na pasta /templates do site e os arquivos de mí
 
 O template do site define as posições do conteúdo principal, como por exemplo um artigo individual ou um layout de blog com artigos em destaque, e quaisquer módulos a serem exibidos acima, abaixo, à esquerda ou à direita do conteúdo principal. A ilustração a seguir mostra as posições disponíveis no Cassiopeia:
 
-![diagrama das posições do template](../../../en/images/templates/cassiopeia-template-positions.png)
+![diagrama das posições do template](../../../en/images/templates/template-basics/02-cassiopeia-template-positions.png)
 
 Além disso, você pode ver as posições do template em qualquer modelo configurando Pré-visualização das Posições dos Módulos como Habilitado no formulário de Opções do Template e, em seguida, adicionando ?tp=1 à url. Se já houver uma string de consulta anexada à url, então adicione &tp=1 em vez disso.
 
@@ -33,7 +40,7 @@ Além do layout geral definido pelo template do site, cada componente ou módulo
 
 Às vezes, um desses templates de *extensão* não é exatamente do seu agrado. Nesse caso, você pode criar uma sobrescrita de template. Esta é uma cópia do código usado para gerar o layout da extensão para que você possa modificar conforme suas próprias necessidades. A captura de tela a seguir mostra o Template: formulário Personalizar Criar Sobrescritas:
 
-![sobrescritas de template](../../../en/images/templates/cassiopeia-customisation-create-overrides.png)
+![sobrescritas de template](../../../en/images/templates/template-basics/03-cassiopeia-customisation-create-overrides.png)
 
 Cassiopeia já tem algumas sobrescritas instaladas. Isso pode parecer um problema. Se você alterar qualquer um dos arquivos padrão do Cassiopeia, suas alterações serão sobrescritas (e, portanto, perdidas) na próxima atualização do Joomla. A solução é templates filhos.
 

@@ -1,4 +1,11 @@
-<!-- Filename: Purging_expired_cache_files / Display title: Liberar Cache Expirado -->
+<!--
+{
+  "source": "https://docs.joomla.org/Purging_expired_cache_files",
+  "title": "Liberar Cache Expirado ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Arquivos de Cache
 

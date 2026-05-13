@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Menu_Item_Order / Display title: Ordem de Itens do Menu -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Menu_Item_Order",
+  "title": "Ordem de Itens do Menu ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -19,7 +26,7 @@ Começando no menu do Administrador:
 - Selecione e arraste o símbolo do item que deseja mover.
 - Solte o item arrastado em sua nova posição.
 
-![ordem de item de menu arrastar](../../../en/images/menus/menus-menu-item-order-drag.png)
+![ordem de item de menu arrastar](../../../en/images/menus/menu-item-order/01-menus-menu-item-order-drag.png)
 
 Este método pode ser inconveniente se houver itens de menu pai com muitos filhos. Você pode mover um item pai mais facilmente ocultando os filhos:
 
@@ -45,7 +52,7 @@ A partir do menu do Administrador:
   qual você deseja colocar o item que está sendo movido, ou as posições *- Primeiro -*
   ou *- Último -*.
 
-![ordem da lista de itens de menu](../../../en/images/menus/menus-menu-item-order-list.png)
+![ordem da lista de itens de menu](../../../en/images/menus/menu-item-order/02-menus-menu-item-order-list.png)
 
 - **Salvar** ou **Salvar & Fechar**
 

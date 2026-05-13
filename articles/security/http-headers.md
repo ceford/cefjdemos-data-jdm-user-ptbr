@@ -1,4 +1,11 @@
-<!-- Filename: https://magazine.joomla.org/all-issues/may-2022/joomla-new-http-headers-plugin-for-j4 / Display title: Cabeçalhos HTTP -->
+<!--
+{
+  "source": "https://docs.joomla.org/https:",
+  "title": "Cabeçalhos HTTP ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Artigo de Revista
 
@@ -58,7 +65,7 @@ Você pode visualizar os Cabeçalhos HTTP e como eles se referem a objetos HTML 
 
 Você pode ver na imagem abaixo que a imagem destacada está retornando um status HTTP de 200, então o navegador a encontrou. Há também uma gama de outras informações ligadas a esse item, como o tamanho do arquivo e as datas de edição.
 
-![Cabeçalhos http do Joomla 1](../../../en/images/security/http-headers-dev-tools-headers.png)
+![Cabeçalhos http do Joomla 1](../../../en/images/security/http-headers/01-http-headers-dev-tools-headers.png)
 
 Se um dos seus itens HTML falhar em exibir, você também pode obter uma pista sobre o motivo nos cabeçalhos HTTP. Neste exemplo, a segunda imagem falhou em exibir e você pode ver que, a partir das informações exibidas no painel direito, não há informações de Cabeçalho HTTP.
 
@@ -70,11 +77,11 @@ Exceto pela mensagem enigmática:
 
 Assim, quando a imagem é chamada do documento HTML, o navegador a rejeita e ela não é carregada.
 
-![Cabeçalhos http do Joomla 2](../../../en/images/security/http-headers-dev-tools-headers-reject.png)
+![Cabeçalhos http do Joomla 2](../../../en/images/security/http-headers/02-http-headers-dev-tools-headers-reject.png)
 
 O que difere de não ser encontrada e retornar uma mensagem de erro HTTP 404 não encontrado. Nesta situação, ainda está se tentando encontrar a imagem no servidor que a hospeda, mas o navegador não a encontrou.
 
-![Cabeçalhos http do Joomla 3](../../../en/images/security/http-headers-dev-tools-headers-not-found.png)
+![Cabeçalhos http do Joomla 3](../../../en/images/security/http-headers/03-http-headers-dev-tools-headers-not-found.png)
 
 ## O que o Plugin de Cabeçalhos HTTP do Joomla faz
 
@@ -122,7 +129,7 @@ Isso ajudaria a impedir que códigos JavaScript maliciosos fossem executados em 
 
 Você pode encontrar o plugin de Cabeçalhos HTTP do Joomla juntamente com todos os outros plugins do Joomla, e ele é acessado da mesma forma que você está acostumado a fazer.
 
-![Joomla cabeçalhos http 4](../../../en/images/security/http-headers-plugins.png)
+![Joomla cabeçalhos http 4](../../../en/images/security/http-headers/04-http-headers-plugins.png)
 
 ## Usando o Plugin de Cabeçalhos HTTP
 
@@ -140,7 +147,7 @@ Ao abrir o plugin, a primeira aba exibida são as configurações básicas do pl
 
 **Vamos examinar cada um deles em detalhes.**
 
-![Joomla http headers 5](../../../en/images/security/http-headers-plugins-tab-plugin.png)
+![Joomla http headers 5](../../../en/images/security/http-headers/05-http-headers-plugins-tab-plugin.png)
 
 ### Opções X-Frame
 
@@ -150,7 +157,7 @@ Essa opção permite decidir se o conteúdo do seu site pode ser exibido em outr
 
 Quando ativado, uma tag ‘x-frame-options: SAMEORIGIN’ é adicionada aos cabeçalhos do seu site. Essa tag permite que você exiba seu próprio conteúdo em uma tag &lt;frame&gt;, &lt;iframe&gt;, &lt;embed&gt; ou &lt;object&gt; no seu próprio site, mas impede que outros exibam seu conteúdo em um iframe em outro site.
 
-![Joomla http headers 6](../../../en/images/security/http-headers-plugins-headers.png)
+![Joomla http headers 6](../../../en/images/security/http-headers/06-http-headers-plugins-headers.png)
 
 O cabeçalho X-Frame Options ajuda a proteger seu site e usuários contra ataques de **‘Click Jacking’**. Este ataque acontece quando um invasor coloca um &lt;iframe&gt; em seu próprio site com a origem configurada para o seu site e usa várias camadas transparentes para enganar o usuário, fazendo-o clicar em uma camada superior acreditando que está clicando em um link ou botão abaixo.
 
@@ -162,7 +169,7 @@ A maioria dos navegadores modernos suporta as Opções X-Frame, o que é excelen
 
 **A maioria dos navegadores modernos suporta as Opções X-Frame.**
 
-![Suporte de navegador a cabeçalhos HTTP](../../../en/images/security/http-headers-plugins-xframe-browser-support.png)
+![Suporte de navegador a cabeçalhos HTTP](../../../en/images/security/http-headers/07-http-headers-plugins-xframe-browser-support.png)
 
 <div style="background-color: #eeffee; border: 1px solid #009900; padding: 1rem;">
 Dica
@@ -182,7 +189,7 @@ Isso é particularmente relevante se o site permite registros de usuários, cont
 
 Por padrão, a Política de Referenciador do seu site é configurada como ‘strict-origin-when-cross-origin’. Isso não bloqueia nenhum dado de referenciador da página de origem, a menos que seja enviado para uma página http menos segura. Como a maioria das páginas usa https hoje em dia, esse problema se torna maior do que costumava ser.
 
-![Joomla http headers 8](../../../en/images/security/http-headers-plugins-headers-referer-policy.png)
+![Joomla http headers 8](../../../en/images/security/http-headers/08-http-headers-plugins-headers-referer-policy.png)
 
 Existem, claro, muitos usos inofensivos desses dados ‘vazados’ quando uma Política de Referenciador não é estabelecida para seu site. Isso pode incluir a coleta de dados para análise, logs ou caching otimizado.
 
@@ -198,7 +205,7 @@ Devido a esse risco em páginas com dados sensíveis, é bom evitar conteúdo de
 
 O plugin de cabeçalhos HTTP do Joomla permite escolher uma entre 8 Políticas de Referenciador, cada uma com diferentes limites de dados a serem compartilhados.
 
-![Joomla http headers 9](../../../en/images/security/http-headers-plugins-headers-referer-policy-setting.png)
+![Joomla http headers 9](../../../en/images/security/http-headers/09-http-headers-plugins-headers-referer-policy-setting.png)
 
 Vamos examinar essas opções, descritas no site da Mozilla:
 
@@ -230,11 +237,11 @@ Comece configurando para ‘no-referrer’ para uma política de ‘compartilham
 
 A terceira opção da primeira aba é a Política de Abertura entre Origens, um recurso de segurança do navegador que permite desconectar diferentes **‘Grupos de Contexto de Navegação’**.
 
-![Joomla http headers 10](../../../en/images/security/http-headers-plugins-headers-cross-origin-opener-policy.png)
+![Joomla http headers 10](../../../en/images/security/http-headers/10-http-headers-plugins-headers-cross-origin-opener-policy.png)
 
 Um exemplo comum é o uso de pop-ups, onde o contexto original é desconectado de um novo contexto que é exibido no pop-up.
 
-![Joomla http headers 10](../../../en/images/security/http-headers-plugins-headers-cross-origin-opener-popup.png)
+![Joomla http headers 10](../../../en/images/security/http-headers/11-http-headers-plugins-headers-cross-origin-opener-popup.png)
 
 > Essa opção de cabeçalho HTTP é complexa. Veja os links abaixo para entender melhor por que ela deve ser configurada.
 
@@ -267,7 +274,7 @@ Conforme mencionado no início desta seção, alguns recursos avançados depende
 
 A última opção da primeira aba é **Forçar Cabeçalhos HTTP**, que não deve ser confundida com ‘Forçar HTTPS’ nas configurações gerais do Joomla.
 
-![Joomla http headers 11](../../../en/images/security/http-headers-plugins-force-http-headers.png)
+![Joomla http headers 11](../../../en/images/security/http-headers/12-http-headers-plugins-force-http-headers.png)
 
 Esta seção do plugin de Cabeçalhos HTTP do Joomla permite que você adicione, se desejar, uma seleção de cabeçalhos ‘outros’ que não estão detalhados nas abas do plugin, além de forçar a inclusão de alguns dos que estão incluídos.
 
@@ -353,7 +360,7 @@ Se você definir uma série de Cabeçalhos HTTP para seu site e o navegador do u
 
 **A aba de Política de Segurança Estrita de Transporte está desativada por padrão.**
 
-![Joomla http headers 12](../../../en/images/security/http-headers-plugins-headers-strict-transport-security.png)
+![Joomla http headers 12](../../../en/images/security/http-headers/13-http-headers-plugins-headers-strict-transport-security.png)
 
 Eu adoro pesquisar. Porque às vezes você se depara com um verdadeiro momento de "OMG!". Este é um desses momentos.
 
@@ -381,7 +388,7 @@ De acordo com o w3techs.com, cerca de 20% de todos os sites ainda estão rodando
 
 Isso é um problema porque qualquer dado enviado e recebido pelo navegador do usuário está em risco de ser interceptado. Sabemos disso como um **ataque de homem no meio**. Agora, isso pode não parecer uma consideração importante se o seu site é apenas sobre fotos de gatinhos fofos.
 
-![snapshot of cute kittens](../../../en/images/security/http-headers-plugins-headers-kittens.jpg)
+![snapshot of cute kittens](../../../en/images/security/http-headers/14-http-headers-plugins-headers-kittens.jpg)
 
 Mas, mesmo sites simples podem se tornar vítimas de hackers e atacantes que implementarão **click-jacking** e outros ataques de origem cruzada que prejudicarão seus usuários.
 
@@ -391,7 +398,7 @@ Um site que não troca dados do usuário ou informações de login **deve ainda 
 
 Como você já deve saber, o objetivo do HTTPS é introduzir uma conexão segura entre o navegador do usuário e seu servidor. Uma conexão onde qualquer troca de dados acontece em um ambiente seguro que não pode ser interceptado e copiado por um terceiro. Um homem no meio.
 
-![man in the middle attack](../../../en/images/security/http-headers-plugins-headers-man-in-middle.png)
+![man in the middle attack](../../../en/images/security/http-headers/15-http-headers-plugins-headers-man-in-middle.png)
 
 Mas, você sabia que, a menos que seu **Certificado SSL HTTPS** use **TLS**, sua conexão ‘segura’ não é tão segura quanto você esperaria? Conexões HTTPS sem TLS continuam **vulneráveis a ataques de homem no meio**.
 
@@ -401,7 +408,7 @@ Os navegadores adotaram amplamente o TLS.
 
 E o TLS 1.3 não é diretamente compatível com as versões anteriores, a menos que esteja sendo executado no modo de compatibilidade. O que poderia representar um problema para alguns.
 
-![tls certicate information](../../../en/images/security/http-headers-plugins-headers-tls.png)
+![tls certicate information](../../../en/images/security/http-headers/16-http-headers-plugins-headers-tls.png)
 
 Usar o Plugin de Cabeçalho HTTP do Joomla para lidar com Segurança Estrita de Transporte (HSTS) ajuda a mitigar ataques do tipo homem no meio ao forçar o uso de TLS no navegador web de seus visitantes. O TLS garante que toda a comunicação na web ocorra no lado do cliente usando uma camada de transporte segura.
 
@@ -421,7 +428,7 @@ O que adicionará a tag ‘Preload’ ao cabeçalho de resposta.
 
 Nas configurações, há também uma lista de preload de link**. Esta é uma lista que está codificada em muitos navegadores modernos. A lista informa o navegador que a conexão com o example.com deve ser feita apenas via HTTPS. Assim, eliminando a necessidade de fazer a conexão inicial via HTTP.
 
-![hsts preload](../../../en/images/security/http-headers-plugins-headers-enter-domain.png)
+![hsts preload](../../../en/images/security/http-headers/17-http-headers-plugins-headers-enter-domain.png)
 
 Uma vez que o HSTS está configurado no plugin de cabeçalho HTTP do Joomla, todas as tags necessárias são adicionadas ao cabeçalho de resposta HTTP. Isso informa a qualquer navegador de usuário que está tentando se conectar ao seu servidor que todas as conexões **devem ser feitas com HTTPS**, seja especificado em seu HTML ou não.
 
@@ -455,7 +462,7 @@ Por fim, envie seu domínio para a lista de preload do HSTS.
 
 Quando você ativa a Política de Segurança de Conteúdo do Joomla por meio do plugin de Cabeçalhos HTTP, você informa ao navegador do visitante exatamente quais recursos devem ser carregados do servidor do seu site. Essa é uma maneira excelente de garantir que apenas o conteúdo desejado seja entregue.
 
-![aba de política de segurança de conteúdo](../../../en/images/security/http-headers-plugins-headers-csp.png)
+![aba de política de segurança de conteúdo](../../../en/images/security/http-headers/18-http-headers-plugins-headers-csp.png)
 
 Ter uma Política de Segurança de Conteúdo eficaz é uma forma eficaz de impedir ataques de **Cross-Site Scripting (XSS)** e **Click Jacking** que possam se originar no seu site.
 
@@ -483,7 +490,7 @@ Isso é possível porque o plugin de Cabeçalhos HTTP do Joomla entrega a CSP co
 
 O exemplo de ataque acima envolvia o carregamento de um arquivo JavaScript de outra fonte para alterar o HTML renderizado na tela. Isso poderia ser evitado adicionando a diretiva script-src 'self' à CSP do Joomla no plugin.
 
-![diretiva de política self](../../../en/images/security/http-headers-plugins-headers-policy-directive.png)
+![diretiva de política self](../../../en/images/security/http-headers/19-http-headers-plugins-headers-policy-directive.png)
 
 Neste exemplo, o navegador só carregará arquivos JavaScript do domínio do seu site. Todos os outros serão rejeitados, incluindo o do invasor.
 
@@ -493,7 +500,7 @@ script-src 'self' https://cdn.jsdelivr.net
 ```
 Caso tenha dificuldades ao carregar o bootstrap do CDN, tente adicionar a URL completa do arquivo necessário: `script-src 'self' https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js`.
 
-![diretiva de política self](../../../en/images/security/http-headers-plugins-headers-policy-directive-self.png)
+![diretiva de política self](../../../en/images/security/http-headers/20-http-headers-plugins-headers-policy-directive-self.png)
 
 Adicionar essas fontes externas seria mais fácil em um site novo. Mas, se inspecionar o HTML renderizado com as Ferramentas de Desenvolvedor, você deve encontrar todos os arquivos externos e incluí-los na CSP.
 
@@ -592,7 +599,7 @@ Como você pode ver, muitas diretivas permitem que você escolha o que deseja ca
 
 O plugin de Cabeçalhos HTTP do Joomla também oferece a opção de **definir alguns parâmetros globais na aba de Política de Segurança de Conteúdo (CSP)**.
 
-![Joomla http headers 14](../../../en/images/security/http-headers-plugins-headers-csp-global.png)
+![Joomla http headers 14](../../../en/images/security/http-headers/21-http-headers-plugins-headers-csp-global.png)
 
 Você pode escolher aplicar a CSP ao seu site, ao site do administrador ou a ambos com a configuração de cliente.
 
@@ -602,17 +609,17 @@ Em seguida, vem a configuração de ‘Nonce’. Nonce, que significa ‘número
 
 Na imagem abaixo, você pode ver a tag &lt;style&gt; com um atributo nonce rel adicionado aos &lt;styles&gt; CSS incluídos no documento HTML pelo componente Akeeba Backup.
 
-![Joomla http headers 16](../../../en/images/security/http-headers-plugins-headers-akeeba-style.png)
+![Joomla http headers 16](../../../en/images/security/http-headers/22-http-headers-plugins-headers-akeeba-style.png)
 
 Interessantemente, o código JavaScript e CSS do Joomla core que é adicionado ao documento HTML atualmente não inclui uma tag ‘nonce’. Isso ocorre porque **eles fazem parte do ‘core’** em vez de serem adicionados por meio da API do Joomla.
 
 Se você ativar a alternância ‘Nonce’ nas configurações de CSP, esses scripts e estilos inline serão renderizados pelo navegador como ‘seguros’. Você também terá que definir a tag {nonce} do Joomla na sua diretiva de política script-src para script-src 'self' {nonce}. Como alternativa para navegadores mais antigos que não suportam 'nonces', você também pode adicionar {script-hashes} após o marcador {nonce}, como script-src 'self' {nonce} {script-hashes} (atenção ao espaçamento). Mas não se esqueça de ativar **Hashes de Script** primeiro.
 
-![Configurações de nonce do Joomla](../../../en/images/security/http-headers-plugins-headers-nonce-settings.png)
+![Configurações de nonce do Joomla](../../../en/images/security/http-headers/23-http-headers-plugins-headers-nonce-settings.png)
 
 O Joomla gera aleatoriamente a string de texto ‘nonce’ e a adiciona às tags &lt;style&gt; e &lt;script&gt;. Quando você ativa a opção ‘nonce’ nas configurações do plugin, a string de texto é passada para o Cabeçalho HTTP. O navegador então interpreta o Cabeçalho HTTP e processa as tags &lt;script&gt; ou &lt;style&gt; correspondentes. Ao mesmo tempo, ele remove a string de texto Nonce do HTML renderizado no navegador.
 
-![Estilo de nonce do Joomla](../../../en/images/security/http-headers-plugins-headers-nonce-style.png)
+![Estilo de nonce do Joomla](../../../en/images/security/http-headers/24-http-headers-plugins-headers-nonce-style.png)
 
 Isso, por sua vez, impede que o Sr. Hacker consiga sequestrar a string de texto nonce e adicioná-la ao seu próprio código injetado. Mesmo que o Sr. Hacker consiga injetar seu JavaScript malicioso no seu HTML, o navegador o bloqueará.
 
@@ -630,7 +637,7 @@ O plugin de Cabeçalhos HTTP do Joomla coleta automaticamente todos os &lt;style
 
 Para ativar esse recurso do plugin, alterne o botão para **'Habilitado'**. Em seguida, na sua diretiva de política script-src, adicione o valor 'self' {script-hashes}. Se você estiver usando o recurso 'nonce' junto com os 'hashes de script', defina o valor da diretiva conforme o exemplo de nonce acima.
 
-![Hashes de script do Joomla](../../../en/images/security/http-headers-plugins-headers-csp-script-hashes.png)
+![Hashes de script do Joomla](../../../en/images/security/http-headers/25-http-headers-plugins-headers-csp-script-hashes.png)
 
 **Agora, isso é inteligente.**
 
@@ -648,13 +655,13 @@ Passo 2 - Navegue até a página da web com o script. Abra as Ferramentas do Des
 
 Refused to execute inline script because it violates the following Content Security Policy directive: "script-src 'self'". Either the 'unsafe-inline' keyword, a hash ('sha256-0Q1c1CuhLHV7WbNt+ltwJoCf3wF/O+MWqsXetkxWSm0='), or a nonce ('nonce-...') is required to enable inline execution.
 
-![Ferramentas de Desenvolvedor Joomla hashes de script](../../../en/images/security/http-headers-plugins-headers-csp-script-hashes-tools-error.png)
+![Ferramentas de Desenvolvedor Joomla hashes de script](../../../en/images/security/http-headers/26-http-headers-plugins-headers-csp-script-hashes-tools-error.png)
 
 Passo 3 - Agora, basta copiar/colar o hash da mensagem de erro na sua diretiva de JavaScript no plugin e salvar novamente:
 
 script-src 'self' 'sha256-0Q1c1CuhLHV7WbNt+ltwJoCf3wF/O+MWqsXetkxWSm0='
 
-![Diretiva de hashes de script Joomla](../../../en/images/security/http-headers-plugins-headers-csp-script-src-self-hash.png)
+![Diretiva de hashes de script Joomla](../../../en/images/security/http-headers/27-http-headers-plugins-headers-csp-script-src-self-hash.png)
 
 Em seguida, recarregue a página e verifique novamente nas Ferramentas do Desenvolvedor do Google. O erro agora desaparecerá e o navegador carregará seu script na página.
 
@@ -662,7 +669,7 @@ Em seguida, recarregue a página e verifique novamente nas Ferramentas do Desenv
 
 Adicionar hashes ao seu código inline é uma boa forma de incluí-los na lista de permissões do cabeçalho HTTP para que ainda sejam executados, enquanto qualquer código inline que não tenha sido explicitamente hasheado e adicionado ao CSP ainda será bloqueado. Isso impede que o Sr. Hacker tente comprometer seu site.
 
-![Erro de Ferramentas do Desenvolvedor Joomla](../../../en/images/security/http-headers-plugins-headers-csp-script-src-self-hash-tools-error.png)
+![Erro de Ferramentas do Desenvolvedor Joomla](../../../en/images/security/http-headers/28-http-headers-plugins-headers-csp-script-src-self-hash-tools-error.png)
 
 **Observação:**
 
@@ -678,7 +685,7 @@ Se você ativar a opção Strict Dynamic em seu CSP, isso tomará a autoridade e
 
 O Hash de Estilo do CSP funciona exatamente como os hashes de JavaScript descritos acima, mas use-o se adicionar blocos CSS &lt;style&gt; no corpo do seu HTML. Assim como usar **Hashes de Script** ativa o recurso de plugin e define uma Diretiva de Política style-src para referenciá-lo com o valor 'self' {style-hashes}.
 
-![Hash de estilo do Joomla](../../../en/images/security/http-headers-plugins-headers-csp-style-hash.png)
+![Hash de estilo do Joomla](../../../en/images/security/http-headers/29-http-headers-plugins-headers-csp-style-hash.png)
 
 **Observação:**
 
@@ -692,7 +699,7 @@ Esta opção
 
 Se você quiser permitir explicitamente que outro site enquadre seu conteúdo, poderá configurar uma diretiva específica ‘frame-src’.
 
-![Frame Ancestors Joomla](../../../en/images/security/http-headers-plugins-headers-csp-style-hash-frame-src.png)
+![Frame Ancestors Joomla](../../../en/images/security/http-headers/30-http-headers-plugins-headers-csp-style-hash-frame-src.png)
 
 <div style="background-color: #eeffee; border: 1px solid #009900; padding: 1rem; ">
 Resumo

@@ -1,10 +1,17 @@
-<!-- Filename: J4.x:Administrator_Modules / Display title: Módulos do Administrador  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Administrator_Modules",
+  "title": "Módulos do Administrador  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
 O template do Administrador Atum é fornecido com um conjunto completo de módulos de Administração instalados e configurados para uso diário. A ilustração a seguir mostra as posições do Painel Inicial para indicar onde os módulos estão localizados.
 
-![posições do painel inicial do atum](../../../en/images/modules/atum-template-positions.png)
+![posições do painel inicial do atum](../../../en/images/modules/administrator-modules/01-atum-template-positions.png)
 
 Na ilustração acima, os painéis são instâncias do módulo Ícone Rápido vinculadas a plugins quickicon.
 
@@ -42,11 +49,11 @@ Posições do template Atum por nome
 
 Você pode querer adicionar um módulo personalizado para avisar os administradores sobre algum problema no sistema. Selecione **Conteúdo → Módulos do Administrador** no menu do administrador. A lista de módulos instalados é bastante longa:
 
-![lista de módulos do administrador atum](../../../en/images/modules/atum-admin-modules-list.png)
+![lista de módulos do administrador atum](../../../en/images/modules/administrator-modules/02-atum-admin-modules-list.png)
 
 Selecione o botão Novo e, em seguida, o módulo Personalizado. No formulário de edição de Módulos: Personalizado, insira um Título, uma Mensagem Personalizada e selecione uma Posição para o módulo. No exemplo abaixo, foi selecionada a posição Superior. Além disso, na guia Avançado, no campo Classe do Módulo, alguns estilos foram inseridos para centralizar o texto e adicionar algum espaçamento: **alert alert-warning text-center**. Salve para ver o resultado. Feche para ver o resultado na página da lista de Módulos.
 
-![mensagem do sistema de edição de módulo personalizado atum](../../../en/images/modules/atum-admin-module-system-message.png)
+![mensagem do sistema de edição de módulo personalizado atum](../../../en/images/modules/administrator-modules/03-atum-admin-module-system-message.png)
 
 Quando você terminar com a mensagem, basta selecionar o botão de Status na lista de módulos para Despublicar o módulo.
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Cassiopeia_templateDetails.xml / Display title: Cassiopeia templateDetails.xml  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Cassiopeia_templateDetails.xml",
+  "title": "Cassiopeia templateDetails.xml  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Localização e Propósito
 
@@ -40,11 +47,11 @@ A primeira seção dos dados do template geralmente define informações sobre o
 
 Note que um template que pode ter templates filhos tem o valor de "ineritable" definido como 1. Templates filhos têm este valor definido como 0. Esses dados são usados na listagem Templates: Templates (Site), como mostrado abaixo.
 
-![lista de templates do site](../../../en/images/templates/templates-list.png)
+![lista de templates do site](../../../en/images/templates/cassiopeia-templatedetails-xml/01-templates-list.png)
 
 A descrição contém uma chave de idioma e não a string de texto real da descrição. A chave é substituída pelo texto obtido de um arquivo de idioma em tempo de execução. Os arquivos de idioma são definidos na seção de idioma do `templateDetails.xml`.
 
-![formulário de edição de estilo de templates](../../../en/images/templates/templates-edit-style.png)
+![formulário de edição de estilo de templates](../../../en/images/templates/cassiopeia-templatedetails-xml/02-templates-edit-style.png)
 
 ### Pastas e Arquivos
 
@@ -70,7 +77,7 @@ Pastas e arquivos para o template Cassiopeia são armazenados em dois locais sep
 
 Este é o padrão visto em todos os templates Joomla 4 e 5 modernos. A estrutura pode ser vista no formulário Templates: Customise (Cassiopeia):
 
-![personalização da página do template cassiopeia](../../../en/images/templates/templates-customise-cassiopeia.png)
+![personalização da página do template cassiopeia](../../../en/images/templates/cassiopeia-templatedetails-xml/03-templates-customise-cassiopeia.png)
 
 ### Posições de Módulos
 
@@ -101,11 +108,11 @@ Cada tag cria uma posição de módulo que está disponível na lista de posiç�
 
 Cassiopeia tem posições de template suficientes! Se você acha que precisa de uma extra, provavelmente está errado. Lembre-se de que qualquer número de módulos pode ser atribuído a uma única posição e ordenados na página de lista de Módulos. Posições disponíveis:
 
-![diagrama de posições do template Cassiopeia](../../../en/images/templates/cassiopeia-template-positions.png)
+![diagrama de posições do template Cassiopeia](../../../en/images/templates/cassiopeia-templatedetails-xml/04-cassiopeia-template-positions.png)
 
 Você também pode ver as posições dos módulos em qualquer template: de **Sistema → Templates de Site** selecione o botão Opções na Barra de Ferramentas. No formulário de Opções, defina o campo de visualização de Posições de Módulo para Habilitado. Salve e Feche. Vá para o seu site e adicione ?tp=1 ao final de qualquer url (ou &tp=1 se já houver um ? na url). O Joomla exibirá todas as posições de template disponíveis, mesmo aquelas que não foram usadas:
 
-![posições de templates Cassiopeia](../../../en/images/templates/templates-template-positions-by-tp.png)
+![posições de templates Cassiopeia](../../../en/images/templates/cassiopeia-templatedetails-xml/05-templates-template-positions-by-tp.png)
 
 ### Idiomas
 
@@ -124,7 +131,7 @@ Os arquivos de idioma para o idioma padrão Inglês GB são armazenados em site/
 
 Um template pode oferecer opções de exibição que podem ser escolhidas pelo Administrador no formulário Template: Editar Estilo. Por exemplo, a aba Avançado do template Cassiopeia permite a um Administrador alterar a Marca, adicionar um Logotipo, selecionar um Esquema de Fontes e mais.
 
-![formulário de edição de estilo de templates aba avançada](../../../en/images/templates/templates-edit-style-advanced.png)
+![formulário de edição de estilo de templates aba avançada](../../../en/images/templates/cassiopeia-templatedetails-xml/06-templates-edit-style-advanced.png)
 
 As opções do template são definidas dentro de uma estrutura que cria campos dentro de conjuntos de campos (fieldsets). Cada conjunto de campos aparece como uma aba no formulário de edição. Esta é a estrutura que cria a aba Avançado vista acima.
 

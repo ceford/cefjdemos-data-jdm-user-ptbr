@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Adding_a_New_Article / Display title: Artigo: Editar - Conteúdo -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Adding_a_New_Article",
+  "title": "Artigo: Editar - Conteúdo ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introdução
 
@@ -6,7 +13,7 @@
 
 A captura de tela a seguir mostra o formulário de edição com um artigo que já foi salvo.
 
-![O formulário de edição de conteúdo](../../../en/images/articles/articles-edit-content.png)
+![O formulário de edição de conteúdo](../../../en/images/articles/article-content/01-articles-edit-content.png)
 
 ## Entrada de Dados
 
