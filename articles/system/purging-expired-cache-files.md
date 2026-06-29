@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Purging_expired_cache_files",
-  "title": "Liberar Cache Expirado ",
+  "title": "Liberar Cache Expirado",
   "description": "", 
   "author": ""
 }

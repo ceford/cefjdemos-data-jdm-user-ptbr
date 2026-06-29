@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Media:_Options",
-  "title": "Mídia: Opções   ",
+  "title": "Mídia: Opções  ",
   "description": "", 
   "author": ""
 }

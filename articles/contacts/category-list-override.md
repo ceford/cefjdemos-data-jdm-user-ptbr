@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/category-list-override.md",
-  "title": "Substituição da Lista de Categorias  ",
+  "title": "Substituição da Lista de Categorias ",
   "description": "", 
   "author": ""
 }

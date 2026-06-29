@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Smart_Search_on_large_sites",
-  "title": "Pesquisa Inteligente em Sites Grandes ",
+  "title": "Pesquisa Inteligente em Sites Grandes",
   "description": "", 
   "author": ""
 }

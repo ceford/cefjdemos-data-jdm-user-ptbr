@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Site_Offline",
-  "title": "Site Fora do Ar ",
+  "title": "Site Fora do Ar",
   "description": "", 
   "author": ""
 }

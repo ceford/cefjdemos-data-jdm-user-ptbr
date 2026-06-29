@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J5.x:Schema_org",
-  "title": "Introdução aos Esquemas ",
+  "title": "Introdução aos Esquemas",
   "description": "", 
   "author": ""
 }

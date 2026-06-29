@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J6.x:_Article_Options",
-  "title": "Artigo: Editar - Opções ",
+  "title": "Artigo: Editar - Opções",
   "description": "", 
   "author": ""
 }

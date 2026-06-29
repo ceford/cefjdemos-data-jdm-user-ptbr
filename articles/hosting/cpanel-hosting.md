@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Hosting_Setup",
-  "title": "Hospedagem cPanel ",
+  "title": "Hospedagem cPanel",
   "description": "", 
   "author": ""
 }

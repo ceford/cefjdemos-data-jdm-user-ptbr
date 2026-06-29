@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Components_Dashboard",
-  "title": "Painel de Componentes ",
+  "title": "Painel de Componentes",
   "description": "", 
   "author": ""
 }

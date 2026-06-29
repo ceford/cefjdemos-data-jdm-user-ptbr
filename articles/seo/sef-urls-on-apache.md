@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Enabling_Search_Engine_Friendly_(SEF)_URLs_on_Apache",
-  "title": "URLs Amigáveis no Apache ",
+  "title": "URLs Amigáveis no Apache",
   "description": "", 
   "author": ""
 }

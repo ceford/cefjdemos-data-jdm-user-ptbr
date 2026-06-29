@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/How_do_you_password_protect_directories_using_htaccess%3F",
-  "title": "Proteger Diretórios com Senha ",
+  "title": "Proteger Diretórios com Senha",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=plugins&filename=about-plugins.md",
-  "title": "Sobre Plugins ",
+  "title": "Sobre Plugins",
   "description": "", 
   "author": ""
 }

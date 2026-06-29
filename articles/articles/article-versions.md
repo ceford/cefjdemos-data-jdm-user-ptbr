@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Help4.x:Components_Version_History",
-  "title": "Artigo: Versões  ",
+  "title": "Artigo: Versões ",
   "description": "", 
   "author": ""
 }

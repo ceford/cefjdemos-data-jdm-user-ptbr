@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/How_to_build_your_free_Joomla_Website",
-  "title": "Hospedagem Gratuita ",
+  "title": "Hospedagem Gratuita",
   "description": "", 
   "author": ""
 }

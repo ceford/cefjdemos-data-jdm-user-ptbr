@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/What_are_web_standards%3F",
-  "title": "O que são padrões web? ",
+  "title": "O que são padrões web?",
   "description": "", 
   "author": ""
 }

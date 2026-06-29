@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Managing_404_Errors",
-  "title": "Gerenciando Erros 404  ",
+  "title": "Gerenciando Erros 404 ",
   "description": "", 
   "author": ""
 }

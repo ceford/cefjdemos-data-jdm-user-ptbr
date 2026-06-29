@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
-  "title": "Lista de Campos de Imagens  ",
+  "title": "Lista de Campos de Imagens ",
   "description": "", 
   "author": ""
 }

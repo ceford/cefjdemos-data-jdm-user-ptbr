@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Multiple_Domains_and_Web_Sites_in_a_single_Joomla!_installation",
-  "title": "Múltiplos Domínios e Sites em uma única instalação do Joomla! ",
+  "title": "Múltiplos Domínios e Sites em uma única instalação do Joomla!",
   "description": "", 
   "author": ""
 }

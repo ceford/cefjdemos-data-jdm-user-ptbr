@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Hosting_Setup",
-  "title": "Configuração de Hospedagem ",
+  "title": "Configuração de Hospedagem",
   "description": "", 
   "author": ""
 }

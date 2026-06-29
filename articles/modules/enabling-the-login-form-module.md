@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Enabling_the_Login_Form_module",
-  "title": "Formulário de Login   ",
+  "title": "Formulário de Login  ",
   "description": "", 
   "author": ""
 }

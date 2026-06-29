@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J5.x:Schema_org",
-  "title": "Schema.org - Organização ",
+  "title": "Schema.org - Organização",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Cassiopeia_Template_Customisation",
-  "title": "Personalização Cassiopeia ",
+  "title": "Personalização Cassiopeia",
   "description": "", 
   "author": ""
 }

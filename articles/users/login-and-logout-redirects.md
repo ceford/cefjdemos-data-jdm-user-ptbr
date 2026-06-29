@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Login_and_Logout_Redirects",
-  "title": "Redirecionamentos de Login e Logout ",
+  "title": "Redirecionamentos de Login e Logout",
   "description": "", 
   "author": ""
 }

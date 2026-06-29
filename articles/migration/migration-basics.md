@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=migration&filename=migration-basics.md",
-  "title": "Noções Básicas de Migração   ",
+  "title": "Noções Básicas de Migração  ",
   "description": "", 
   "author": ""
 }

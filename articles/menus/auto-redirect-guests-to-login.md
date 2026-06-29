@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Auto_redirect_guests_to_login",
-  "title": "Redirecionar automaticamente os convidados para o login ",
+  "title": "Redirecionar automaticamente os convidados para o login",
   "description": "", 
   "author": ""
 }

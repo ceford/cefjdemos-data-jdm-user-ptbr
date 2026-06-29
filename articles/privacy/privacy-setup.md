@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Privacy_Setup",
-  "title": "Configuração de Privacidade ",
+  "title": "Configuração de Privacidade",
   "description": "", 
   "author": ""
 }

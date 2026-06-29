@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J6.x:Access_Control",
-  "title": "Artigo: Editar - Permissões   ",
+  "title": "Artigo: Editar - Permissões  ",
   "description": "", 
   "author": ""
 }

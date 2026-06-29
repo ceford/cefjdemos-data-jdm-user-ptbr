@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J3.x:Plugin_Joomla_Update_Notification",
-  "title": "Notificação de Atualização do Joomla! ",
+  "title": "Notificação de Atualização do Joomla!",
   "description": "", 
   "author": ""
 }

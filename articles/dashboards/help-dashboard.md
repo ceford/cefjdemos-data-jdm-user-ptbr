@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Help",
-  "title": "Painel de Ajuda  ",
+  "title": "Painel de Ajuda ",
   "description": "", 
   "author": ""
 }

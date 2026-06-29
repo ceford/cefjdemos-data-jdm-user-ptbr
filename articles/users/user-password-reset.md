@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:User_Password_Reset",
-  "title": "Redefinição de Senha do Usuário ",
+  "title": "Redefinição de Senha do Usuário",
   "description": "", 
   "author": ""
 }

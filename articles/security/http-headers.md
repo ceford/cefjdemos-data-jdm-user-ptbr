@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/https:",
-  "title": "Cabeçalhos HTTP ",
+  "title": "Cabeçalhos HTTP",
   "description": "", 
   "author": ""
 }

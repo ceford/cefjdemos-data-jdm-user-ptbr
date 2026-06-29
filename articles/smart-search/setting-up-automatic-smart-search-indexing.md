@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Setting_up_automatic_Smart_Search_indexing",
-  "title": "Indexação de Busca Inteligente ",
+  "title": "Indexação de Busca Inteligente",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Get_locally_hosted_Joomla!_website_e-mail_functions_to_work",
-  "title": "Email do Host Local ",
+  "title": "Email do Host Local",
   "description": "", 
   "author": ""
 }

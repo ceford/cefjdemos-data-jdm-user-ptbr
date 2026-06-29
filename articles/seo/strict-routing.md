@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J5.x:Improving_SEO_with_Strict_Routing_and_SEF_URLs",
-  "title": "SEO Roteamento Estrito ",
+  "title": "SEO Roteamento Estrito",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Article_Tables",
-  "title": "Artigo: Edição - Tabelas  ",
+  "title": "Artigo: Edição - Tabelas ",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J6.x:Media_File_Locations",
-  "title": "Locais de Arquivos de Mídia ",
+  "title": "Locais de Arquivos de Mídia",
   "description": "", 
   "author": ""
 }

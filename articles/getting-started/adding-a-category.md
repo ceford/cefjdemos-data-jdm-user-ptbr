@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Category",
-  "title": "Adicionando uma Categoria ",
+  "title": "Adicionando uma Categoria",
   "description": "", 
   "author": ""
 }

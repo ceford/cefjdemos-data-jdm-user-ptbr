@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Enabling_Search_Engine_Friendly_(SEF)_URLs_on_Nginx",
-  "title": "URLs Amigáveis no Nginx ",
+  "title": "URLs Amigáveis no Nginx",
   "description": "", 
   "author": ""
 }

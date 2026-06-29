@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Debugging_a_translation",
-  "title": "Depurando uma Tradução   ",
+  "title": "Depurando uma Tradução  ",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Guest_Access",
-  "title": "Acesso de Convidado  ",
+  "title": "Acesso de Convidado ",
   "description": "", 
   "author": ""
 }

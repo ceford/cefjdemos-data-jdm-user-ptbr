@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=performance&filename=accessibility-checker.md",
-  "title": "Verificador de Acessibilidade  ",
+  "title": "Verificador de Acessibilidade ",
   "description": "", 
   "author": ""
 }
