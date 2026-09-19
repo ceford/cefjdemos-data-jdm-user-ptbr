@@ -56,11 +56,11 @@ Exatamente a mesma entrada de dados que o Link A.
 
 A captura de tela abaixo mostra um layout de blog de categoria com a *Imagem de Introdução*. Poderia ter sido melhor usar uma imagem panorâmica com a mesma altura, mas com uma largura muito maior para ocupar o espaço branco vazio.
 
-![Página de blog da categoria Anfíbios](../../../en/images/articles/article-images-and-links/02-articles-site-amphibians-blog.png)
+![Exemplo de imagem de introdução na página de categoria do blog](../../../en/images/articles/article-images-and-links/02-site-intro-image.png)
 
 A captura de tela abaixo mostra a página de artigo único com a *Imagem do Artigo Completo* e o Link A. A imagem foi alinhada à direita e a legenda visível diz algo para complementar o que a Descrição diz, de modo que soe lógico para leitores de tela.
 
-![Página de artigo único de Sapos](../../../en/images/articles/article-images-and-links/03-articles-site-amphibians-frogs.png)
+![Exemplo de imagem completa do artigo na página do artigo individual](../../../en/images/articles/article-images-and-links/03-site-full-article-image.png)
 
 *Traduzido por openai.com*
 

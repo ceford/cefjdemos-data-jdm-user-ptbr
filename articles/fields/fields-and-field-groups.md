@@ -21,7 +21,7 @@ Se um campo não for atribuído a um grupo, ele aparecerá no formulário de Edi
 
 Para artigos sobre a Natureza, a categoria do artigo e as subcategorias para cada ramo do mundo vivo podem aparecer como no exemplo a seguir:
 
-![Categorias de artigos sobre a natureza](../../../en/images/fields/fields-and-field-groups/01-fields-articles-categories-list.png)
+![Categorias de artigos sobre a natureza](../../../en/images/fields/fields-and-field-groups/01-categories-list.png)
 
 Algumas características óbvias da Natureza a serem observadas:
 
@@ -44,7 +44,7 @@ Criar Grupos de Campos para Artigos é muito simples:
 - Insira uma **Descrição**. Esta aparece abaixo do campo no formulário de edição do artigo quando *Alternar Ajuda Inline* é selecionado.
 - Selecione **Salvar & Fechar** na barra de ferramentas.
 
-![Lista de grupos de campos de conteúdo](../../../en/images/fields/fields-and-field-groups/02-fields-field-groups-list.png)
+![Lista de grupos de campos de conteúdo](../../../en/images/fields/fields-and-field-groups/02-field-groups-list.png)
 
 ### Ordenação
 
@@ -62,7 +62,7 @@ Note que na captura de tela abaixo este campo foi atribuído ao grupo de campos 
 e à categoria Natureza. Isso garante que ele sempre apareça em 
 artigos na categoria Natureza e em qualquer subcategoria.
 
-![Campo de texto - nome latim no grupo natureza](../../../en/images/fields/fields-and-field-groups/03-fields-latin-name.png)
+![Campo de texto - nome latim no grupo natureza](../../../en/images/fields/fields-and-field-groups/03-latin-name.png)
 
 ### Caixas de seleção - Estação de Floração
 
@@ -74,14 +74,14 @@ Estação de Floração: Primavera, Verão.
 Note que nesta captura de tela o Campo foi atribuído ao grupo Flores
 e à Categoria Flores. Isso deve garantir que o campo esteja presente apenas em artigos sobre flores.
 
-![Campo de caixa de seleção - estação de floração](../../../en/images/fields/fields-and-field-groups/04-fields-flowering-season.png)
+![Campo de caixa de seleção - estação de floração](../../../en/images/fields/fields-and-field-groups/04-propagation.png)
 
 ### Cor - Cor
 
 Só para confundir, o nome do tipo de campo é Color (Ortografia dos EUA)
 mas o rótulo na documentação é Colour (Ortografia Britânica).
 
-![Campo de cor](../../../en/images/fields/fields-and-field-groups/05-fields-colour.png)
+![Campo de cor](../../../en/images/fields/fields-and-field-groups/05-colour.png)
 
 O campo Cor é atribuído ao grupo de campos Natureza e à categoria Natureza
 pois não é exclusivo para flores.
@@ -94,7 +94,7 @@ há campo para número real, então comprimento e largura podem ser inteiros com
 na aba *Opções*. Se não houver um limite superior óbvio, deixe o campo *Último:*
 vazio.
 
-![Campo de resistência](../../../en/images/fields/fields-and-field-groups/06-fields-hardiness.png)
+![Campo de resistência](../../../en/images/fields/fields-and-field-groups/06-hardiness.png)
 
 RHS Resistência é uma propriedade geralmente aplicada a flores!
 
