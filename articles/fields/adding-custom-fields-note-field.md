@@ -50,4 +50,6 @@ No formulário de entrada de dados, o campo de nota aparece entre os outros camp
 
 Se *Exibir no frontend* estiver definido como *Sim*, o campo de nota aparecerá entre os outros campos no frontend. Ele pode conter algumas informações gerais comuns a um grupo de artigos.
 
+![Note field site display](../../../en/images/fields/adding-custom-fields-note-field/03-fields-note-site.png)
+
 *Traduzido por openai.com*
