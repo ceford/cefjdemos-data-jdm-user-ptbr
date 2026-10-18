@@ -19,7 +19,7 @@ Outros artigos descreveram como incorporar imagens e links no conteúdo de um ar
 
 Para este artigo, começando com uma imagem de uma perereca verde com 1024 pixels de largura, foram feitas duas imagens menores com 128 e 256 pixels de largura. Nota: é melhor preparar as imagens na sua ferramenta de processamento de imagens favorita, como o *Gimp*. As imagens em tamanhos pequeno e médio foram usadas para criar as capturas de tela a seguir.
 
-![Formulário de edição do artigo, aba de imagens e links](../../../en/images/articles/article-images-and-links/01-articles-edit-images-and-links-tab.png)
+![Formulário de edição do artigo, aba de imagens e links](../../../ptbr/images/articles/article-images-and-links/01-articles-edit-images-and-links-tab.png)
 
 ## Campos de Formulário
 
@@ -56,11 +56,11 @@ Exatamente a mesma entrada de dados que o Link A.
 
 A captura de tela abaixo mostra um layout de blog de categoria com a *Imagem de Introdução*. Poderia ter sido melhor usar uma imagem panorâmica com a mesma altura, mas com uma largura muito maior para ocupar o espaço branco vazio.
 
-![Exemplo de imagem de introdução na página de categoria do blog](../../../en/images/articles/article-images-and-links/02-site-intro-image.png)
+![Exemplo de imagem de introdução na página de categoria do blog](../../../ptbr/images/articles/article-images-and-links/02-site-intro-image.png)
 
 A captura de tela abaixo mostra a página de artigo único com a *Imagem do Artigo Completo* e o Link A. A imagem foi alinhada à direita e a legenda visível diz algo para complementar o que a Descrição diz, de modo que soe lógico para leitores de tela.
 
-![Exemplo de imagem completa do artigo na página do artigo individual](../../../en/images/articles/article-images-and-links/03-site-full-article-image.png)
+![Exemplo de imagem completa do artigo na página do artigo individual](../../../ptbr/images/articles/article-images-and-links/03-site-full-article-image.png)
 
 *Traduzido por openai.com*
 

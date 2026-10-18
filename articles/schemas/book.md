@@ -32,7 +32,7 @@ A seção *Campo Genérico* permite que pares de *Título* e *Valor* sejam inser
 
 Abaixo está um exemplo de um esquema de Livro em um formulário de edição de Artigo.
 
-![A book schema edit form](../../../en/images/schemas/book/01-edit-schema-book.png)
+![A book schema edit form](../../../ptbr/images/schemas/book/01-edit-schema-book.png)
 
 *Traduzido por openai.com*
 

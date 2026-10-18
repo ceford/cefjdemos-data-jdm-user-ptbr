@@ -27,7 +27,7 @@ Nos dois primeiros casos, o componente de Mídia aparece em uma tela normal de c
 
 A imagem a seguir mostra a página de Mídia logo após a instalação do Joomla, mas com a pasta cassiopeia/sampledata selecionada. Uma pasta *files* foi adicionada para armazenar arquivos que não são imagens, e uma pasta extra chamada *garbage* foi adicionada para ilustrar a exclusão de pastas:
 
-![Página de Mídia mostrando dados de exemplo cassiopeia](../../../en/images/media/managing-media/01-media-sample-data-cassiopeia.png)
+![Página de Mídia mostrando dados de exemplo cassiopeia](../../../ptbr/images/media/managing-media/01-media-sample-data-cassiopeia.png)
 
 ## Gerenciando Pastas
 

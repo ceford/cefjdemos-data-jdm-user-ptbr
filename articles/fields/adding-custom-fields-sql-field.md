@@ -25,7 +25,7 @@ FROM `#__countrybase_countries`
 WHERE `state` = 1
 ORDER BY `title` ASC
 ```
-![Criação de Campo SQL](../../../en/images/fields/adding-custom-fields-sql-field/01-fields-sql-edit.png)
+![Criação de Campo SQL](../../../ptbr/images/fields/adding-custom-fields-sql-field/01-fields-sql-edit.png)
 
 **Nota:** Neste exemplo, a inclusão do tipo de campo no Título é apenas para fins de demonstração. Deixe-o de fora dos seus próprios títulos de campo.
 
@@ -33,7 +33,7 @@ ORDER BY `title` ASC
 
 Simples - selecione da lista.
 
-![Entrada de dados de campo SQL](../../../en/images/fields/adding-custom-fields-sql-field/02-fields-sql-data-entry.png)
+![Entrada de dados de campo SQL](../../../ptbr/images/fields/adding-custom-fields-sql-field/02-fields-sql-data-entry.png)
 
 
 ## Exibição de Dados
@@ -42,7 +42,7 @@ A captura de tela do site a seguir mostra o campo exibido em um artigo. A
 opção *Exibição automática* é responsável pela posição do campo e
 seu modelo é responsável pelo design do campo.
 
-![Exibição de campo SQL no site](../../../en/images/fields/adding-custom-fields-sql-field/03-fields-sql-site.png)
+![Exibição de campo SQL no site](../../../ptbr/images/fields/adding-custom-fields-sql-field/03-fields-sql-site.png)
 
 A saída é um único item ou uma lista de itens separados por vírgulas (nomes de países)
 seguindo o rótulo do campo (País de Origem).

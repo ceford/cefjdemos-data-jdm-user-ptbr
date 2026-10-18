@@ -13,7 +13,7 @@ Para abrir o Painel de Componentes, selecione o ícone do painel à direita do i
 
 ## Captura de Tela
 
-![Painel de componentes](../../../en/images/dashboards/components-dashboard/01-components-dashboard.png)
+![Painel de componentes](../../../ptbr/images/dashboards/components-dashboard/01-components-dashboard.png)
 
 *Traduzido por openai.com*
 

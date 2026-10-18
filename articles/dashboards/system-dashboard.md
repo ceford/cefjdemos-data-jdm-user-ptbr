@@ -24,7 +24,7 @@ Itens individuais são abordados em outros tutoriais.
 
 ## Captura de Tela
 
-![Painel do sistema](../../../en/images/dashboards/system-dashboard/01-system-dashboard.png)
+![Painel do sistema](../../../ptbr/images/dashboards/system-dashboard/01-system-dashboard.png)
 
 *Traduzido por openai.com*
 

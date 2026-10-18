@@ -15,7 +15,7 @@ O campo numérico fornece um método para inserir um número real com a opção 
 
 ### Aba Geral
 
-![Criação do campo numérico](../../../en/images/fields/adding-custom-fields-number-field/01-fields-number-edit.png)
+![Criação do campo numérico](../../../ptbr/images/fields/adding-custom-fields-number-field/01-fields-number-edit.png)
 
 - **Tipo** Número, que não pode ser alterado após a seleção.
 - **Nome** O nome exclusivo do campo.
@@ -70,7 +70,7 @@ O conteúdo dessas abas é autoexplicativo e é abordado em outra parte.
 
 Entrada de dados: basta digitar o valor desejado. Este exemplo é o ponto de ebulição do argônio:
 
-![Entrada de dados do campo numérico](../../../en/images/fields/adding-custom-fields-number-field/02-fields-number-data-entry.png)
+![Entrada de dados do campo numérico](../../../ptbr/images/fields/adding-custom-fields-number-field/02-fields-number-data-entry.png)
 
 **Atenção:** se o número inserido estiver fora do intervalo mínimo e máximo definido nas opções de criação do campo, um rótulo flutuante do navegador informará isso, mas as informações fornecidas não serão aplicadas. Você pode inserir um número fora do intervalo, e ele será aceito.
 
@@ -78,6 +78,6 @@ Entrada de dados: basta digitar o valor desejado. Este exemplo é o ponto de ebu
 
 A imagem a seguir mostra a exibição de um item com um valor negativo:
 
-![Exibição do campo numérico no site](../../../en/images/fields/adding-custom-fields-number-field/03-fields-number-site.png)
+![Exibição do campo numérico no site](../../../ptbr/images/fields/adding-custom-fields-number-field/03-fields-number-site.png)
 
 *Traduzido por openai.com*

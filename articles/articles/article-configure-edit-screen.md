@@ -13,7 +13,7 @@ As telas de edição de artigos têm layouts diferentes no back-end e no front-e
 
 ## Captura de Tela
 
-![A guia de edição de configuração da tela](../../../en/images/articles/article-configure-edit-screen/01-articles-edit-configure-edit-screen-tab.png)
+![A guia de edição de configuração da tela](../../../ptbr/images/articles/article-configure-edit-screen/01-articles-edit-configure-edit-screen-tab.png)
 
 ## Configurar painel de edição de tela
 

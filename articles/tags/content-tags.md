@@ -36,7 +36,7 @@ apenas usuários específicos possam adicionar novas tags.
 A captura de tela a seguir mostra tags usadas em um site que contém artigos sobre
 Sítios do Patrimônio Mundial da UNESCO. Nesse caso, cada tag tem uma cor distinta.
 
-![a página da lista de tags](../../../en/images/tags/content-tags/01-tags-example.png)
+![a página da lista de tags](../../../ptbr/images/tags/content-tags/01-tags-example.png)
 
 Quando as tags são criadas, elas serão exibidas como links nos itens marcados.
 Os estilos e as posições das tags são definidos pelo template do site. Elas geralmente
@@ -54,7 +54,7 @@ Esta captura de tela mostra tags em uma estrutura usada em um site multilíngue.
 Cada idioma tem uma lista de tags com uma tag de idioma como pai.
 A tag pai é usada nos módulos *Tags populares* e *Tags semelhantes*.
 
-![a página da lista de tags](../../../en/images/tags/content-tags/02-tags-list.png)
+![a página da lista de tags](../../../ptbr/images/tags/content-tags/02-tags-list.png)
 
 Independentemente de como as tags são criadas, elas podem ser encontradas nesta lista.
 
@@ -63,7 +63,7 @@ Independentemente de como as tags são criadas, elas podem ser encontradas nesta
 
 ### A aba Detalhes da tag
 
-![aba de opções do formulário de edição de tag mostrando classes CSS do Bootstrap](../../../en/images/tags/content-tags/03-edit-tag-details-tab.png)
+![aba de opções do formulário de edição de tag mostrando classes CSS do Bootstrap](../../../ptbr/images/tags/content-tags/03-edit-tag-details-tab.png)
 
 - **Título** Este é o único campo *obrigatório*.
 - **Apelido** Ele é criado a partir do Título ao salvar.
@@ -83,7 +83,7 @@ Independentemente de como as tags são criadas, elas podem ser encontradas nesta
 - **Classe CSS para o link da tag** Por padrão, as tags são exibidas como um botão azul. Você pode inserir declarações de classe aqui para personalizar a aparência das tags e dar cores diferentes a tags diferentes. Exemplo: `bg-danger-subtle border border-danger` são classes do Bootstrap que produzem um botão rosa com uma borda vermelha.
 - **Imagem de chamada e imagem completa** Defina imagens para a tag — uma imagem de chamada para a lista de tags e/ou uma imagem completa para a página da tag.
 
-![aba de opções do formulário de edição de tag mostrando classes CSS do Bootstrap](../../../en/images/tags/content-tags/04-edit-tag-options-tab.png)
+![aba de opções do formulário de edição de tag mostrando classes CSS do Bootstrap](../../../ptbr/images/tags/content-tags/04-edit-tag-options-tab.png)
 
 ### A aba Publicação
 
@@ -135,12 +135,12 @@ Você pode manipular a lista de várias maneiras:
 
 Depois que as etiquetas forem criadas em seu site, elas estarão disponíveis para uso no conteúdo e em módulos como **Etiquetas populares** e **Etiquetas semelhantes**. Os exemplos a seguir mostram como elas podem aparecer em um site que usa o template padrão **Cassiopeia**.
 
-![etiquetas exibidas em um artigo e nos módulos de etiquetas populares e etiquetas semelhantes](../../../en/images/tags/content-tags/05-tag-modules-site-view.png)
+![etiquetas exibidas em um artigo e nos módulos de etiquetas populares e etiquetas semelhantes](../../../ptbr/images/tags/content-tags/05-tag-modules-site-view.png)
 
 Ao selecionar uma das etiquetas, você será levado a uma página que lista
 todos os itens atribuídos àquela etiqueta específica:
 
-![exemplo de uso de etiquetas no site com labrador preto](../../../en/images/tags/content-tags/06-items-with-cultural-site-tag.png)
+![exemplo de uso de etiquetas no site com labrador preto](../../../ptbr/images/tags/content-tags/06-items-with-cultural-site-tag.png)
 
 A lista de itens é uma lista filtrada do conteúdo do site com a etiqueta selecionada.
 Uma caixa de filtro é fornecida para facilitar a localização de itens à medida que a lista cresce.

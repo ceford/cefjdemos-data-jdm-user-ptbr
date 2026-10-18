@@ -37,7 +37,7 @@ A seção *Generic Field* permite inserir pares de *Title* e *Value* além dos c
 
 Abaixo está um exemplo de um esquema de Receita em um formulário de edição de Artigo.
 
-![A recipe schema edit form](../../../en/images/schemas/recipe/01-edit-schema-recipe.png)
+![A recipe schema edit form](../../../ptbr/images/schemas/recipe/01-edit-schema-recipe.png)
 
 *Traduzido por openai.com*
 

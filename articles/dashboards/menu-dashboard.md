@@ -15,7 +15,7 @@ Você pode ter quantos menus de Site e Administrador quiser, em praticamente qua
 
 ## Captura de Tela
 
-![Menu do painel](../../../en/images/dashboards/menu-dashboard/01-menus-dashboard.png)
+![Menu do painel](../../../ptbr/images/dashboards/menu-dashboard/01-menus-dashboard.png)
 
 *Traduzido por openai.com*  
 

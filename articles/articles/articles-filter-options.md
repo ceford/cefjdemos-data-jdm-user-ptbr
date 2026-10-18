@@ -15,7 +15,7 @@ A captura de tela a seguir mostra os artigos usados para preparar este conjunto 
 
 As *Opções de Filtro* foram abertas para mostrar os filtros disponíveis.
 
-![Lista de artigos](../../../en/images/articles/articles-filter-options/01-articles-filter-options.png)
+![Lista de artigos](../../../ptbr/images/articles/articles-filter-options/01-articles-filter-options.png)
 
 Esta lista contém mais de 20 artigos criados a partir da instalação dos *Dados de Amostra Multilíngues* e alguns outros artigos adicionados posteriormente.
 

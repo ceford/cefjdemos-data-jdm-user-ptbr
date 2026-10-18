@@ -13,7 +13,7 @@ Um módulo de menu pode ser usado para exibir um menu horizontal (geralmente no 
 
 No entanto, em um menu vertical (na barra lateral), geralmente é desejável deixar um submenu aberto quando ele contém o item de menu ativo. No Joomla 6.0, uma nova classe CSS, `nav-active-open`, foi introduzida especificamente para permitir o controle sobre se os submenus devem ser abertos automaticamente ao carregar a página para o item de menu ativo. Definir essa classe agora torna isso possível. A classe é definida no módulo por meio do painel administrativo.
 
-![configuração da classe do menu no painel administrativo para nav-active-open para manter a alternância aberta no menu ativo](../../../en/images/menus/keep-submenus-open/01-menu-class-setting.png)
+![configuração da classe do menu no painel administrativo para nav-active-open para manter a alternância aberta no menu ativo](../../../ptbr/images/menus/keep-submenus-open/01-menu-class-setting.png)
 
 ## Como criar um menu de barra lateral sem alternância suspensa
 
@@ -25,7 +25,7 @@ Veja como essa substituição específica de template é feita:
 
 2. Alterne para a aba Criar substituições e selecione mod_menu:
 
-![seleção da substituição do template do módulo de menu](../../../en/images/menus/keep-submenus-open/02-create-override-select-mod-menu.png)
+![seleção da substituição do template do módulo de menu](../../../ptbr/images/menus/keep-submenus-open/02-create-override-select-mod-menu.png)
 
 Isso copiará todos os arquivos de layout do menu do módulo de menu para a substituição. Em seguida, você retornará à aba Editor.
 
@@ -33,7 +33,7 @@ Isso copiará todos os arquivos de layout do menu do módulo de menu para a subs
 
 4. Crie um novo arquivo na pasta html → mod_menu. Ele deve ter um nome que não inclua um sublinhado. Neste exemplo, o novo arquivo se chama `treedefault.php`. Isso permite selecionar o layout de menu padrão ou esse layout de menu alternativo em qualquer um dos seus módulos de menu. Na lista de arquivos de substituição a seguir, o original está contornado em vermelho e a nova alternativa está contornada em verde.
 
-![aba de edição da substituição de mod_menu - abrir default.php](../../../en/images/menus/keep-submenus-open/03-edit-mod-menu.png)
+![aba de edição da substituição de mod_menu - abrir default.php](../../../ptbr/images/menus/keep-submenus-open/03-edit-mod-menu.png)
 
 4. Edite o novo arquivo de layout. As etapas a seguir estão listadas na ordem inversa para
 preservar os números das linhas durante o processo de edição:
@@ -187,6 +187,6 @@ $startLevel = (int) $params->get('startLevel', 1);
 
 O resultado é uma lista simples, sem a funcionalidade de alternância para o módulo de menu lateral, ilustrada aqui à esquerda:
 
-![resultado com substituição de template - lista simples sem botões e funcionalidade de alternância](../../../en/images/menus/keep-submenus-open/05-site-result.png)
+![resultado com substituição de template - lista simples sem botões e funcionalidade de alternância](../../../ptbr/images/menus/keep-submenus-open/05-site-result.png)
 
 *Traduzido por openai.com*

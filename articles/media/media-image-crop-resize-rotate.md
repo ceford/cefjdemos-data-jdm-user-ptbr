@@ -19,7 +19,7 @@ Esses são os problemas que o componente de Mídia pode resolver.
 
 Como exemplo, a imagem a seguir mostra um grupo de animais que está um pouco grande demais para o seu propósito pretendido. A imagem pode ser cortada ou redimensionada.
 
-![Imagem de animais](../../../en/images/media/media-image-crop-resize-rotate/01-media-crop-serengeti.png)
+![Imagem de animais](../../../ptbr/images/media/media-image-crop-resize-rotate/01-media-crop-serengeti.png)
 
 ## Recortar
 

@@ -77,7 +77,7 @@ A nova chave agora pode ser traduzida para cada idioma. As traduções serão sa
 - Salve & Feche o formulário.
 - Repita o processo de tradução para cada idioma.
 
-![formulário de substituição de idioma editar](../../../en/images/languages/language-overrides/01-language-overrides-edit.png)
+![formulário de substituição de idioma editar](../../../ptbr/images/languages/language-overrides/01-language-overrides-edit.png)
 
 Finalmente, verifique se a tradução foi implementada.
 

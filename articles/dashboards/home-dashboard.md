@@ -24,7 +24,7 @@ A maioria dos itens são links autoexplicativos que duplicam aqueles no menu Adm
 
 ## Captura de Tela
 
-![Painel inicial](../../../en/images/dashboards/home-dashboard/01-home-dashboard.png)
+![Painel inicial](../../../ptbr/images/dashboards/home-dashboard/01-home-dashboard.png)
 
 *Traduzido por openai.com*
 

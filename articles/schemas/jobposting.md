@@ -36,7 +36,7 @@ A seção *Campo Genérico* permite que pares de *Título* e *Valor* sejam inser
 
 Abaixo está um exemplo de um esquema de JobPosting em um formulário de edição de Artigo.
 
-![A jobposting schema edit form](../../../en/images/schemas/jobposting/01-edit-schema-jobposting.png)
+![A jobposting schema edit form](../../../ptbr/images/schemas/jobposting/01-edit-schema-jobposting.png)
 
 *Traduzido por openai.com*
 

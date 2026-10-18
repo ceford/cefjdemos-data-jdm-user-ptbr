@@ -23,7 +23,7 @@ a serem listados. Somente imagens de um único diretório podem ser selecionadas
 limita a largura de cada imagem a 25% do seu contêiner e adiciona 1 unidade de
 preenchimento.
 
-![criação do campo de lista de imagens](../../../en/images/fields/adding-custom-fields-images-list-field/01-fields-images-list-edit.png)
+![criação do campo de lista de imagens](../../../ptbr/images/fields/adding-custom-fields-images-list-field/01-fields-images-list-edit.png)
 
 **Observação:** Neste exemplo, a inclusão do tipo de campo no Título serve apenas para
 fins de demonstração. Não o inclua nos títulos dos seus próprios campos.
@@ -32,7 +32,7 @@ fins de demonstração. Não o inclua nos títulos dos seus próprios campos.
 
 Simples: selecione uma ou mais imagens da lista.
 
-![entrada de dados do campo de lista de imagens](../../../en/images/fields/adding-custom-fields-images-list-field/02-fields-images-list-data-entry.png)
+![entrada de dados do campo de lista de imagens](../../../ptbr/images/fields/adding-custom-fields-images-list-field/02-fields-images-list-data-entry.png)
 
 ## Exibição de Dados
 
@@ -40,6 +40,6 @@ A captura de tela a seguir do site mostra o campo exibido em um artigo. A
 opção *Exibição automática* é responsável pela posição do campo, e seu
 template é responsável pelo design do campo.
 
-![exibição do site da lista de imagens](../../../en/images/fields/adding-custom-fields-images-list-field/03-fields-images-list-site.png)
+![exibição do site da lista de imagens](../../../ptbr/images/fields/adding-custom-fields-images-list-field/03-fields-images-list-site.png)
 
 *Traduzido por openai.com*

@@ -13,7 +13,7 @@
 
 A captura de tela a seguir mostra o formulário de edição com um artigo que já foi salvo.
 
-![O formulário de edição de conteúdo](../../../en/images/articles/article-content/01-articles-edit-content.png)
+![O formulário de edição de conteúdo](../../../ptbr/images/articles/article-content/01-articles-edit-content.png)
 
 ## Entrada de Dados
 

@@ -40,7 +40,7 @@ Três estilos estão disponíveis:
 O botão de seta para baixo à direita do ícone da lista de marcadores abre um pequeno painel
 permitindo a seleção do estilo preferido para um item de lista selecionado:
 
-![Ferramentas de manipulação de lista com marcadores](../../../en/images/articles/article-lists/01-articles-edit-list-bullets.png)
+![Ferramentas de manipulação de lista com marcadores](../../../ptbr/images/articles/article-lists/01-articles-edit-list-bullets.png)
 
 O ícone de lista funciona como um interruptor. Se o cursor estiver em um parágrafo e um marcador
 for selecionado, o parágrafo se torna um item de lista. Se o marcador for selecionado novamente,
@@ -71,7 +71,7 @@ Seis estilos estão disponíveis
 - Letras maiúsculas: A, B, C ...
 - Números romanos em maiúscula: I, II, III ...
 
-![Ferramentas de manipulação de lista numerada](../../../en/images/articles/article-lists/02-articles-edit-list-numbers.png)
+![Ferramentas de manipulação de lista numerada](../../../ptbr/images/articles/article-lists/02-articles-edit-list-numbers.png)
 
 Listas numeradas funcionam de forma um pouco diferente. Quando um item de lista é recuado, ele assume
 o primeiro valor numérico e os números no restante da lista mudam para que a lista esteja sempre na ordem numérica correta.

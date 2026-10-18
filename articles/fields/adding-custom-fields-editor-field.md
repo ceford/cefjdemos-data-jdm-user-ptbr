@@ -22,7 +22,7 @@ Opções especiais dentro deste campo são
 - **Altura** O valor para a altura define a altura (em pixels) do editor WYSIWYG. O valor padrão para isso é 250px. O valor pode ser representado como uma fração da altura da janela de visualização, por exemplo, 50vh.
 - **Filtro** Permita que o sistema salve certas tags HTML ou dados brutos.
 
-![Criação de campo do editor](../../../en/images/fields/adding-custom-fields-editor-field/01-fields-editor-edit.png)
+![Criação de campo do editor](../../../ptbr/images/fields/adding-custom-fields-editor-field/01-fields-editor-edit.png)
 
 **Nota:** Neste exemplo, a inclusão do tipo de campo no Título é apenas para fins de demonstração. Deixe isso de fora nos seus próprios títulos de campo.
 
@@ -30,7 +30,7 @@ Opções especiais dentro deste campo são
 
 No formulário de edição de Artigo, o campo do Editor suplementar é semelhante ao campo do Editor de conteúdo principal.
 
-![entrada de dados no campo do editor](../../../en/images/fields/adding-custom-fields-editor-field/02-fields-editor-data-entry.png)
+![entrada de dados no campo do editor](../../../ptbr/images/fields/adding-custom-fields-editor-field/02-fields-editor-data-entry.png)
 
 ## Exibição de Dados
 
@@ -43,7 +43,7 @@ lista com marcadores para aquele item de campo.
 
 Procure o item **Notas de Cultivo**.
 
-![exibição do campo do editor do site](../../../en/images/fields/adding-custom-fields-editor-field/03-fields-editor-site.png) 
+![exibição do campo do editor do site](../../../ptbr/images/fields/adding-custom-fields-editor-field/03-fields-editor-site.png) 
 
 *Traduzido por openai.com*
 

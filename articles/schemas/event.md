@@ -28,7 +28,7 @@ A seção *Campo Genérico* permite que pares de *Título* e *Valor* sejam inser
 
 Abaixo está um exemplo de um esquema de Evento em um formulário de edição de Artigo.
 
-![An event schema edit form](../../../en/images/schemas/event/01-edit-schema-event.png)
+![An event schema edit form](../../../ptbr/images/schemas/event/01-edit-schema-event.png)
 
 *Traduzido por openai.com*
 

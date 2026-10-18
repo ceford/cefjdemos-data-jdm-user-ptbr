@@ -15,7 +15,7 @@ O tipo de campo de formulário de nota possibilita criar títulos, textos, descr
 
 ### Aba Geral
 
-![Criação do campo de nota](../../../en/images/fields/adding-custom-fields-note-field/01-fields-note-edit.png)
+![Criação do campo de nota](../../../ptbr/images/fields/adding-custom-fields-note-field/01-fields-note-edit.png)
 
 - **Tipo** Número, que não pode ser alterado após a seleção.
 - **Nome** O nome exclusivo do campo.
@@ -42,7 +42,7 @@ O tipo de campo de formulário de nota possibilita criar títulos, textos, descr
 
 No formulário de entrada de dados, o campo de nota aparece entre os outros campos como texto estilizado de acordo com as opções de estilo definidas no campo. Ele pode conter instruções ou informações.
 
-![Entrada de dados do campo Número](../../../en/images/fields/adding-custom-fields-note-field/02-fields-note-data-entry.png)
+![Entrada de dados do campo Número](../../../ptbr/images/fields/adding-custom-fields-note-field/02-fields-note-data-entry.png)
 
 **Dica:** Use o mecanismo de ordenação de campos para ordenar a posição da nota entre os outros campos. Você pode ter vários campos de nota diferentes para fornecer estrutura e informações aos seus campos.
 
@@ -50,6 +50,6 @@ No formulário de entrada de dados, o campo de nota aparece entre os outros camp
 
 Se *Exibir no frontend* estiver definido como *Sim*, o campo de nota aparecerá entre os outros campos no frontend. Ele pode conter algumas informações gerais comuns a um grupo de artigos.
 
-![Note field site display](../../../en/images/fields/adding-custom-fields-note-field/03-fields-note-site.png)
+![Note field site display](../../../ptbr/images/fields/adding-custom-fields-note-field/03-fields-note-site.png)
 
 *Traduzido por openai.com*

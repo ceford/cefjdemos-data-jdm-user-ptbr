@@ -25,7 +25,7 @@ O Joomla possui um verificador de acessibilidade integrado. Ele está disponíve
 
 ## Captura de Tela
 
-![Verificação de Acessibilidade](../../../en/images/articles/article-accessibility-check/01-articles-accessibility-check.png)
+![Verificação de Acessibilidade](../../../ptbr/images/articles/article-accessibility-check/01-articles-accessibility-check.png)
 
 A ferramenta de verificação é operada com o ícone de círculo azul no canto inferior direito da tela. Selecione-o para abrir ou fechar um relatório. Selecione a marca de seleção verde (ou o xis amarelo) para examinar cada elemento que foi testado.
 

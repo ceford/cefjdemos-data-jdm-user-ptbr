@@ -27,11 +27,11 @@ Para visualizar as posições dos módulos, você precisa adicionar ?tp=1 ou &tp
 
 ### Posições do Template do Administrador Atum
 
-![posições de template atum](../../../en/images/modules/module-positions/01-template-positions-templates-page.png)
+![posições de template atum](../../../ptbr/images/modules/module-positions/01-template-positions-templates-page.png)
 
 ### Posições do Template do Site Cassiopeia
 
-![posições de template cassiopeia](../../../en/images/modules/module-positions/02-template-positions-site-page.png)
+![posições de template cassiopeia](../../../ptbr/images/modules/module-positions/02-template-positions-site-page.png)
 
 Você também pode achar este diagrama das posições do módulo útil:
 

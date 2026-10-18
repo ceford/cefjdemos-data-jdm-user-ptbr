@@ -66,7 +66,7 @@ Um botão **Entrar com chave de acesso** estará presente nas telas de login
 padrão do Joomla 4 e posteriores, conforme ilustrado na tela de login do
 Administrador:
 
-![formulário de login seguro do administrador](../../../en/images/users/passkey-login/02-login-form.png)
+![formulário de login seguro do administrador](../../../ptbr/images/users/passkey-login/02-login-form.png)
 
 ## Configuração do usuário
 
@@ -94,7 +94,7 @@ combinação dos métodos acima, dependendo do seu autenticador — a mensagem
 desaparecerá, o autenticador será registrado e a tela aparecerá da seguinte
 forma:
 
-![autenticador registrado no login seguro do administrador](../../../en/images/users/passkey-login/04-registered-authenticator.png)
+![autenticador registrado no login seguro do administrador](../../../ptbr/images/users/passkey-login/04-registered-authenticator.png)
 
 É muito importante observar que você só pode registrar ou remover
 autenticadores da sua própria conta de usuário. Por motivos de segurança,

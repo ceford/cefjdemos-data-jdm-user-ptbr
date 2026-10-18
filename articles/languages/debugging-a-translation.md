@@ -59,7 +59,7 @@ Este plugin do sistema controla o que é exibido quando o modo de depuração é
 
 Na aba **Idioma**:
 
-![plugin do sistema de depuração](../../../en/images/languages/debugging-a-translation/01-languages-debug-plugin.png)
+![plugin do sistema de depuração](../../../ptbr/images/languages/debugging-a-translation/01-languages-debug-plugin.png)
 
 * **Erros Ao Analisar Arquivos de Idioma** Exibe um erro se um arquivo de idioma falhar ao carregar.
 
